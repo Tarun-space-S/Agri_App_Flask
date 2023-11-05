@@ -1,0 +1,20 @@
+software{
+    1:{
+        Name: selenium,
+        Version: 3.141.0
+    },
+    2:{
+        Name: msedge-selenium-tools,
+        Version: 3.141.4
+    },
+    3:{
+        Name: lxml,
+        Version: 4.9.3
+    },
+    4:{
+        Name: goto-statement,
+        Version: 1.2,
+    }
+
+}
+

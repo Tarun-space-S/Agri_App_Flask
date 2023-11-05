@@ -3,7 +3,7 @@ from io import StringIO
 from routes.crop import response_data
 import requests
 import csv
-
+import time
 
 location=Blueprint('location',__name__)
 
@@ -15,6 +15,7 @@ def weather():
 @location.route('/get_location', methods=['POST', 'GET'])
 def get_location():
     # Retrieve latitude and longitude from the JSON data
+    status=0
     data = request.get_json()
     latitude = data.get('latitude')
     longitude = data.get('longitude')
@@ -64,5 +65,10 @@ def get_location():
         print(f"Error: Unable to retrieve weather data. Status code: {response.status_code}")
     # Process the data (e.g., store it in a database, perform computations, etc.)
     # Return a response (optional)
+
+    
+
     response_data.update({'message': 'Location data received', 'latitude': latitude, 'longitude': longitude,'address':address})
-    return jsonify(response_data)
+    time.sleep(5)
+    status=1
+    return jsonify(response_data,status)

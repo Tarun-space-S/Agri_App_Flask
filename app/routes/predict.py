@@ -3,6 +3,8 @@ from routes.crop import response_data
 import numpy as np
 import pickle
 
+
+
 final_model = pickle.load(open('models/model_to_put_to_app.pkl','rb'))
 ss  = pickle.load(open('models/standscaler.pkl','rb'))
 ms = pickle.load(open('models/minmaxscaler.pkl','rb'))
@@ -33,7 +35,7 @@ def predict():
 
     if N<0 or N > 10000 or P<0 or P>5000 or K>10000 or K<0 or ph<1 or ph>14 or temp < -90 or temp>55 or humidity<0 or humidity>100 or rainfall<0 or  rainfall>11000:
         result = "Sorry, we could not determine the best crop to be cultivated with the provided data."
-        return render_template('index.html',result = result)
+        
     
 
     features = np.array([[N,P,K,temp,humidity,ph,rainfall]])
@@ -59,4 +61,6 @@ def predict():
     else:   
         result = "Sorry, we could not determine the best crop to be cultivated with the provided data."
     response_data.update({'main_crop':crop,'result':result})
+
+    
     return render_template('index.html',response_data=response_data)
