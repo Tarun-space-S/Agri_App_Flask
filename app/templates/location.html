@@ -15,7 +15,7 @@
         const button = document.querySelector("#myButton");
         const locationDataDiv = document.getElementById("locationData"); // Get the location data div
         const weatherDataDiv = document.getElementById("weatherData"); // Get the weather data div
-
+        const status=0;
         button.addEventListener("click", () => {
             navigator.geolocation.getCurrentPosition(position => {
                 const latitude = position.coords.latitude;
@@ -41,19 +41,15 @@
                             body: JSON.stringify({ latitude, longitude,address })
                         })
                             .then(response => response.json())
-                            // .then(data => {
-                            //     if (data.error) {
-                            //         weatherDataDiv.textContent = data.error;
-                            //     } else {
-                            //         const weatherLocation = data.location;
-                            //         const weatherInfo = data.weather_data.map(item => `${item.date}: Max Temp ${item.temp_max}°C, Min Temp ${item.temp_min}°C`).join('<br>');
-                            //         weatherDataDiv.innerHTML = `<strong>Weather for ${weatherLocation}:</strong><br>${weatherInfo}`;
-                            //     }
-                            // })
-                            // .catch(() => {
-                            //     weatherDataDiv.textContent = "Error fetching weather data";
-                            // });
-                    })
+                            .then(data => {
+                                document.getElementById("res").innerHTML = data.message;
+                                if(data.status=='1'){
+                                    const button = document.getElementById("proceedButton");
+                                    button.innerHTML = "Proceed";
+                                    button.href = "/weather";
+                                }
+                            })
+                            })
                     .catch(() => {
                         locationDataDiv.textContent = "Error fetching data from API";
                     });
@@ -61,10 +57,12 @@
                 locationDataDiv.textContent = "Error getting location data";
             });
         });
+        
     </script>
-    <div class="container">
+    <div class="container" id="result">
         <!-- <button class="btn btn-primary" onclick="location.href='/';">Home</button> -->
-        <button class="btn btn-primary" onclick="location.href='/weather';">Proceed</button>
+        <h1 id="res"></h1>
+        <button class="btn btn-primary" id="proceedButton"></button>
     </div>
 </body>
 </html>

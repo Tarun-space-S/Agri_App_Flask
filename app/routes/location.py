@@ -69,6 +69,5 @@ def get_location():
     
 
     response_data.update({'message': 'Location data received', 'latitude': latitude, 'longitude': longitude,'address':address})
-    time.sleep(5)
     status=1
-    return jsonify(response_data,status)
+    return jsonify(message='done',status='1')
