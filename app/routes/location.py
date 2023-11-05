@@ -70,4 +70,4 @@ def get_location():
 
     response_data.update({'message': 'Location data received', 'latitude': latitude, 'longitude': longitude,'address':address})
     status=1
-    return jsonify(message='done',status='1')
+    return jsonify(message='Weather data retrieved',status='1')

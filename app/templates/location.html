@@ -46,7 +46,9 @@
                                 if(data.status=='1'){
                                     const button = document.getElementById("proceedButton");
                                     button.innerHTML = "Proceed";
-                                    button.href = "/weather";
+                                    button.onclick = function() {
+                                        location.href='/weather';
+                                    };
                                 }
                             })
                             })
@@ -59,10 +61,10 @@
         });
         
     </script>
-    <div class="container" id="result">
+    <h1 id="res" style="text-decoration-color: chartreuse;align-self: center;"></h1>
+    <div  id="result" class="container">
         <!-- <button class="btn btn-primary" onclick="location.href='/';">Home</button> -->
-        <h1 id="res"></h1>
-        <button class="btn btn-primary" id="proceedButton"></button>
+        <button style="align-self: center;" class="btn btn-primary" id="proceedButton"></button>
     </div>
 </body>
 </html>
