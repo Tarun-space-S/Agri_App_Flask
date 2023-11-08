@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, request
+from flask import Blueprint, render_template, request,jsonify
 from routes.crop import response_data
 import os
 import time
@@ -9,18 +9,33 @@ from msedge.selenium_tools import Edge, EdgeOptions
 from routes.crop import response_data
 # from routes.crop import response_data
 
+dataset_message='Please wait while we are fetching the dataset for you'
+
+
 marketdata = Blueprint('marketdata', __name__)
+
+
+
+@marketdata.route('/market', methods=['POST', 'GET'])
+def market():
+    return render_template("dataset.html",response_data=response_data)
+
 
 @marketdata.route('/marketdata',methods=['POST','GET'])
 def market_data():
     dataset_message='Please wait while we are fetching the dataset for you'
-    render_template("dataset.html",response_data=response_data,dataset_message=dataset_message)
+    
+    
     maincrop=response_data['main_crop']
     df=pd.read_csv("dataset/output.csv")
     result=df[df['name']==maincrop]
     result=result.to_dict('records')
-    value=result['value']
-    commodity_value=result#banana
+    value=result[0]['value']
+    print(value)
+
+
+
+    commodity_value=value#banana
     state="UP"#Uttar Pradesh
     no_of_years=2
 
@@ -132,4 +147,12 @@ def market_data():
     response_data.update({'dataset_status':dataset_message,'dataset_loc':target_directory+"/"+data_name_format})
     dataset_message='Done'
     dataset_message="Dataset retrived successfully for "+state+" "+str(commodity_value)+" "+d1+" "+d2+" as csv with name"+data_name_format
-    render_template("dataset.html",response_data=response_data,dataset_message=dataset_message)
+    
+    # return render_template("dataset.html",dataset_message=dataset_message,response_data=response_data)
+    return jsonify(message=dataset_message)
+
+
+
+@marketdata.route('/get_status', methods=['POST', 'GET'])
+def get_status():
+    return jsonify(message="hh")

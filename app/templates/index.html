@@ -132,7 +132,9 @@
 		</div>
 	   {% endif %}
   </div>
+  {%if response_data['main_crop'] %}
   <button><a href="/subcrops">Get Sub Crops</a></button>
+  {% endif %}
   {% if response_data['sub_crops'] %}
   <table>
 	<h3>The Best Sub_crops compatible with {{response_data['main_crop']}} are</h3>
@@ -147,7 +149,7 @@
 
 
   {% if response_data['sub_crops']%}
-  <button><a href="/marketdata">Proceed to market</a></button>
+  <button><a href="/market">Proceed to market</a></button>
   {% endif %}
 
 
