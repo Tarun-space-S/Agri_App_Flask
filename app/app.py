@@ -16,3 +16,7 @@ app.register_blueprint(subcrop)
 @app.route('/', methods=['GET', 'POST'])
 def index():
     return render_template("hello.html")
+
+@app.route('/about', methods=['GET', 'POST'])
+def about():
+    return render_template("aboutus.html")
