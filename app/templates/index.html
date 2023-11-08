@@ -1,126 +1,139 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  </head>
-  <style>
-		h1 {
-			color: mediumseagreen;
-			text-align: center;
-		}
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/ashwathy.css') }}">
+</head>
+<script>
+function checkPhValue() {
+    var pHInput = document.getElementById("Ph");
+    var pHAlert = document.getElementById("phAlert");
+    var pHValue = parseFloat(pHInput.value);
+    var getRecommendationButton = document.getElementById("getRecommendationButton");
 
-		.warning {
-			color: red;
-			font-weight: bold;
-			text-align: center;
-		}
-		.card{
-		margin-left:410px;
-		margin-top: 20px;
-		color: white;
-		}
-		.container{
-		background:#edf2f7;
-		font-weight: bold;
-		padding-bottom:10px;
-		border-radius: 15px;
-		}
-	</style>
+    if (isNaN(pHValue)) {
+        pHAlert.textContent = "Please enter a valid pH value.";
+        getRecommendationButton.disabled = true; // Disable the button
+    } else if (pHValue < 0 || pHValue > 14) {
+        pHAlert.textContent = "pH value must be between 0 and 14.";
+        getRecommendationButton.disabled = true; // Disable the button
+    } else {
+        pHAlert.textContent = ""; // Clear the alert message
+        getRecommendationButton.disabled = false; // Enable the button
+    }
+}
+function checkPotassiumValue() {
+    var PotInput = document.getElementById("Potassium");
+    var PotAlert = document.getElementById("PotAlert");
+    var PotValue = parseFloat(PotInput.value);
+    var getRecommendationButton = document.getElementById("getRecommendationButton");
 
+    if (isNaN(PotValue)) {
+        PotAlert.textContent = "Please enter a valid potassium value.";
+        getRecommendationButton.disabled = true; // Disable the button
+    } else if (PotValue < 0 || PotValue > 10000) {
+        PotAlert.textContent = "Potassium value must be between 0 and 10000.";
+        getRecommendationButton.disabled = true; // Disable the button
+    } else {
+        PotAlert.textContent = ""; // Clear the alert message
+        getRecommendationButton.disabled = false; // Enable the button
+    }
+}
+function checkNitrogenValue() {
+        var NitrogenInput = document.getElementById("Nitrogen");
+        var NitrogenAlert = document.getElementById("NitrogenAlert");
+        var NitrogenValue = parseFloat(NitrogenInput.value);
+        var getRecommendationButton = document.getElementById("getRecommendationButton");
 
+        if (isNaN(NitrogenValue)) {
+            NitrogenAlert.textContent = "Please enter a valid nitrogen value.";
+            getRecommendationButton.disabled = true;
+        } else if (NitrogenValue < 0 || NitrogenValue > 10000) {
+            NitrogenAlert.textContent = "Nitrogen value must be between 0 and 10000.";
+            getRecommendationButton.disabled = true;
+        } else {
+            NitrogenAlert.textContent = "";
+            getRecommendationButton.disabled = false;
+        }
+    }
 
+    function checkPhosphorusValue() {
+        var PhosphorusInput = document.getElementById("Phosphorus");
+        var PhosphorusAlert = document.getElementById("PhosphorusAlert");
+        var PhosphorusValue = parseFloat(PhosphorusInput.value);
+        var getRecommendationButton = document.getElementById("getRecommendationButton");
 
-  <body style="background:#BCBBB8">
-  <!--=======================navbar=====================================================-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">Crop Recommendation</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">About</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+        if (isNaN(PhosphorusValue)) {
+            PhosphorusAlert.textContent = "Please enter a valid phosphorus value.";
+            getRecommendationButton.disabled = true;
+        } else if (PhosphorusValue < 0 || PhosphorusValue > 5000) {
+            PhosphorusAlert.textContent = "Phosphorus value must be between 0 and 5000.";
+            getRecommendationButton.disabled = true;
+        } else {
+            PhosphorusAlert.textContent = "";
+            getRecommendationButton.disabled = false;
+        }
+    }
+</script>
+<body style="background:#BCBBB8">
+<section id="header">
+    <a href="#"><img src="images\logo_f1.png" class="logo" alt="" height="100" width="150"></a>
+    <div>
+        <ul id="navbar">
+            <li>SOIL PULSE</li>
+            <li><a class="active" href="index.html">HOME</a></li>
+            <li><a href="crop.html">ABOUT US</a></li>
+            <li><a href="blog.html">OUR SOLUTION<i class="fa-sharp fa-light fa-seedling"></i></a></li>
+        </ul>
     </div>
-  </div>
-</nav>
-<!--==========================================================================================-->
-  <div class="container my-3 mt-3">
-      <h1 class="text-success">Crop Recommendation System <span class="text-success">🌱</span></h1>
-
-<!--      adding form-->
-	
-	<label for="address">Address</label>
-	<p id="Address" class="form-control" style="border: 1px solid #ced4da; padding: 0.375rem 0.75rem; border-radius: 0.25rem;">{{response_data['address']}}</p>
-  	
-
-      <form action="/predict" method="POST">
-          <div class="row">
-              <div class="col-md-4">
-					<label for="Nitrogen">Nitrogen</label>
-					<input type="number" id="Nitrogen" name="Nitrogen" placeholder="Enter Nitrogen" class="form-control" required step="0">
-				</div>
-               <div class="col-md-4">
-					<label for="Phosporus">Phosphorus</label>
-					<input type="number" id="Phosphorus" name="Phosphorus" placeholder="Enter Phosphorus" class="form-control" required step="00">
-				</div>
-				<div class="col-md-4">
-					<label for="Potassium">Potassium</label>
-					<input type="number" id="Potassium" name="Potassium" placeholder="Enter Potassium" class="form-control" required step="0">
-				</div>
-          </div>
-
-          <!-- <div class="row mt-4">
-				<div class="col-md-4">
-					<label for="Temperature">Temperature</label>
-					<input type="number" step="0.01" id="Temperature" name="Temperature" placeholder="Enter Temperature in °C" class="form-control" required step="0">
-				</div>
-         -->
-				<!-- <div class="col-md-4">
-					<label for="Humidity">Humidity</label>
-					<input type="number" step="0.01" id="Humidity" name="Humidity" placeholder="Enter Humidity in %" class="form-control" required step="0">
-				</div> -->
-				<div class="col-md-4">
-					<label for="pH">pH</label>
-					<input type="number" step="0.01" id="Ph" name="Ph" placeholder="Enter pH value" class="form-control" required step="0">
-				</div>
-			  </div>
-
-      <!-- <div class="row mt-4">
-				<div class="col-md-4">
-					<label for="Rainfall">Rainfall</label>
-					<input type="number" step="0.01" id="Rainfall" name="Rainfall" placeholder="Enter Rainfall in mm" class="form-control" required>
-				</div>
-			</div> -->
+</section>
+<div id="Ibody">
+    <div class="Icontainer my-3 mt-3">
+        <h1 class="text-success">Crop Recommendation System <span class="text-success">🌱</span></h1>
+        <label for="address">Address</label>
+        <p id="Address" class="form-control"
+           style="border: 1px solid #ced4da; padding: 0.375rem 0.75rem; border-radius: 0.25rem;">{{response_data['address']}}</p>
 
 
+        <form action="/predict" method="POST">
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="Nitrogen">Nitrogen</label>
+                    <input type="number" id="Nitrogen" name="Nitrogen" placeholder="Enter Nitrogen"
+                           class="form-control" required step="0" onblur="checkNitrogenValue()">
+						   <p id="NitrogenAlert" style="color:red;"></p>
+                </div>
+                <div class="col-md-4">
+                    <label for="Phosporus">Phosphorus</label>
+                    <input type="number" id="Phosphorus" name="Phosphorus" placeholder="Enter Phosphorus"
+                           class="form-control" required step="00"  onblur="checkPhosphorusValue()">
+						   <p id="PhosphorusAlert" style="color:red;"></p>
+                </div>
+                <div class="col-md-4">
+                    <label for="Potassium">Potassium</label>
+                    <input type="number" id="Potassium" name="Potassium" placeholder="Enter Potassium"
+                           class="form-control" required step="0" onblur="checkPotassiumValue()">
+						   <p id="PotAlert" style="color:red;"></p>
+						   
 
-
-           <div class="row mt-4">
-
-           <div class="col-md-12 text-center">
-				<button type="submit" class="btn btn-primary btn-lg">Get Recommendation</button>
-			</div>
-			</div>
-      </form>
-
-
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="pH">pH</label>
+                <input type="number" step="0.01" id="Ph" name="Ph" placeholder="Enter pH value"
+                       class="form-control" required step="0" onblur="checkPhValue()">
+					   <p id="phAlert" style="color:red;"></p>
+            </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                    <button type="submit" class="Iprimary" id="getRecommendationButton">Get Recommendation</button>
+                </div>
+            </div>
+        </form>
 
        {% if response_data['result'] %}
 		<div class="card bg-dark" style="width: 18rem;">
@@ -132,8 +145,10 @@
 		</div>
 	   {% endif %}
   </div>
+
+  
   {%if response_data['main_crop'] %}
-  <button><a href="/subcrops">Get Sub Crops</a></button>
+  <button class="Iprimary" onclick="window.location.href='/subcrops';">Get Sub Crops</button>
   {% endif %}
   {% if response_data['sub_crops'] %}
   <table>
@@ -149,7 +164,7 @@
 
 
   {% if response_data['sub_crops']%}
-  <button><a href="/market">Proceed to market</a></button>
+  <button class="Iprimary" onclick="window.location.href='/market';">Proceed To Market</button>
   {% endif %}
 
 
