@@ -14,6 +14,9 @@ dataset_message='Please wait while we are fetching the dataset for you'
 
 marketdata = Blueprint('marketdata', __name__)
 
+@marketdata.route('/get_status', methods=['POST', 'GET'])
+def get_status():
+    return jsonify(status="hh")
 
 
 @marketdata.route('/market', methods=['POST', 'GET'])
@@ -153,6 +156,3 @@ def market_data():
 
 
 
-@marketdata.route('/get_status', methods=['POST', 'GET'])
-def get_status():
-    return jsonify(message="hh")
