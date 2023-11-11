@@ -3,7 +3,14 @@ from routes.crop import response_data
 import numpy as np
 import pickle
 
-
+# import os
+# curr_dir=os.curdir
+# main_model=os.path.join(curr_dir,'app','models','model_to_put_to_app.pkl')
+# sscaler=os.path.join(curr_dir,'app','models','standscaler.pkl')
+# mscaler=os.path.join(curr_dir,'app','models','minmaxscaler.pkl')
+# final_model = pickle.load(open(main_model,'rb'))
+# ss  = pickle.load(open(sscaler,'rb'))
+# ms = pickle.load(open(mscaler,'rb'))
 
 final_model = pickle.load(open('models/model_to_put_to_app.pkl','rb'))
 ss  = pickle.load(open('models/standscaler.pkl','rb'))
