@@ -393,8 +393,14 @@ tr:hover {
 .text-success {
   color: mediumseagreen;
   text-align: center;
-  margin-top: 20px; /* Add margin to the top for spacing */
+  margin-top: 20px;
+  font-family: 'YourCustomFont', sans-serif; /* Replace 'YourCustomFont' with the desired font family */
 }
+
+.text-success span {
+  font-size: 1.2em; /* Adjust the font size of the emoji */
+}
+
 .Icard {
   margin: 20px auto;
   color: white;
@@ -412,7 +418,49 @@ tr:hover {
   margin-top: 20px;
   text-align: center; /* Center-align the content */
 }
+/****/
+.custom-container {
+  background: #edf2f7;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  text-align: center;
+  max-width: 60%; /* Adjust the maximum width */
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
 
+.custom-card {
+  background: #343a40;
+  width: 18rem;
+  margin: 0 auto;
+}
+
+.custom-card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.custom-card-body {
+  color: white;
+}
+
+.custom-card-title {
+  color: #5cb85c; /* Green color for better visibility */
+  font-size: 1.5em; /* Increase font size for emphasis */
+}
+
+.custom-card-text {
+  color: white;
+  font-size: 1.2em; /* Increase font size for emphasis */
+  margin-top: 10px; /* Add space between title and text */
+  font-weight: bold; /* Make the text bold for emphasis */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+}
+
+/****/
 .Icontainer p {
   margin-bottom: 0;
 }
@@ -451,4 +499,19 @@ label {
 .Iprimary:hover {
   box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
   transform: scale(1.05) rotate(-1deg);
+}
+#h3s
+{
+  color: #2E8B57; /* Dark green color */
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5em; /* Adjust font size as needed */
+  font-weight: bold;
+}
+#h3s::after {
+  content: '';
+  display: block;
+  width: 40px;
+  margin: 8px auto;
+  border-bottom: 2px solid #2E8B57; /* Dark green color */
 }
