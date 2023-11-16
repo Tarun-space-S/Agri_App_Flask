@@ -94,48 +94,42 @@ function checkNitrogenValue() {
 </section>
 <div id="Ibody">
     <div class="Icontainer my-3 mt-3">
-        <h1 class="text-success">Crop Recommendation System <span class="text-success">🌱</span></h1>
-        <label for="address">Address</label>
-        <p id="Address" class="form-control"
-           style="border: 1px solid #ced4da; padding: 0.375rem 0.75rem; border-radius: 0.25rem;">{{response_data['address']}}</p>
-
-
         <form action="/predict" method="POST">
-            <div class="row">
-                <div class="col-md-4">
-                    <label for="Nitrogen">Nitrogen</label>
-                    <input type="number" id="Nitrogen" name="Nitrogen" placeholder="Enter Nitrogen"
-                           class="form-control" required step="0" onblur="checkNitrogenValue()">
-						   <p id="NitrogenAlert" style="color:red;"></p>
-                </div>
-                <div class="col-md-4">
-                    <label for="Phosporus">Phosphorus</label>
-                    <input type="number" id="Phosphorus" name="Phosphorus" placeholder="Enter Phosphorus"
-                           class="form-control" required step="00"  onblur="checkPhosphorusValue()">
-						   <p id="PhosphorusAlert" style="color:red;"></p>
-                </div>
-                <div class="col-md-4">
-                    <label for="Potassium">Potassium</label>
-                    <input type="number" id="Potassium" name="Potassium" placeholder="Enter Potassium"
-                           class="form-control" required step="0" onblur="checkPotassiumValue()">
-						   <p id="PotAlert" style="color:red;"></p>
-						   
-
-                </div>
+           
+            <div class="form-group">
+                <label for="Nitrogen" class="form-label">Nitrogen</label>
+                <input type="number" id="Nitrogen" name="Nitrogen" placeholder="Enter Nitrogen" class="form-control" required step="0" onblur="checkNitrogenValue()">
+                <p id="NitrogenAlert" class="alert-message"></p>
             </div>
-            <div class="col-md-4">
-                <label for="pH">pH</label>
-                <input type="number" step="0.01" id="Ph" name="Ph" placeholder="Enter pH value"
-                       class="form-control" required step="0" onblur="checkPhValue()">
-					   <p id="phAlert" style="color:red;"></p>
+    
+            <div class="form-group">
+                <label for="Phosphorus" class="form-label">Phosphorus</label>
+                <input type="number" id="Phosphorus" name="Phosphorus" placeholder="Enter Phosphorus" class="form-control" required step="0" onblur="checkPhosphorusValue()">
+                <p id="PhosphorusAlert" class="alert-message"></p>
             </div>
+    
+            <div class="form-group">
+                <label for="Potassium" class="form-label">Potassium</label>
+                <input type="number" id="Potassium" name="Potassium" placeholder="Enter Potassium" class="form-control" required step="0" onblur="checkPotassiumValue()">
+                <p id="PotAlert" class="alert-message"></p>
             </div>
-            <div class="row mt-4">
-                <div class="col-md-12 text-center">
-                    <button type="submit" class="Iprimary" id="getRecommendationButton">Get Recommendation</button>
-                </div>
+    
+            <div class="form-group">
+                <label for="Ph" class="form-label">pH</label>
+                <input type="number" step="0.01" id="Ph" name="Ph" placeholder="Enter pH value" class="form-control" required step="0" onblur="checkPhValue()">
+                <p id="phAlert" class="alert-message"></p>
+            </div>
+            <div class="form-group">
+                <label for="address" class="form-label">Address</label>
+                <p id="Address" class="form-control">{{response_data['address']}}</p>
+            </div>
+    
+            <div class="form-group">
+                <button type="submit" class="Iprimary" id="getRecommendationButton">Get Recommendation</button>
             </div>
         </form>
+    </div>
+    
 
         {% if response_data['result'] %}
         <br>
