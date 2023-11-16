@@ -425,30 +425,27 @@ label {
   background: #BCBBB8;
 }
 
-/* Updated .Iprimary button styles */
 .Iprimary {
-  background-color: #c2fbd7;
-  border-radius: 100px;
-  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
-  color: green;
-  cursor: pointer;
-  display: inline-block;
-  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
-  padding: 7px 20px;
-  text-align: center;
-  text-decoration: none;
-  transition: all 250ms;
-  border: 0;
+  background-color: transparent;
+  border: 2px solid green;
+  padding: 5px 10px;
   font-size: 16px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  margin: 0 auto; /* Center horizontally */
-  display: block; /* Make the buttons block-level elements */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin: 0 auto;
+  display: block;
+  width: 50%; /* Reduce the width to 50% to make the buttons shorter */
 }
 
-/* Hover state */
 .Iprimary:hover {
-  box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
-  transform: scale(1.05) rotate(-1deg);
+  background-color: rgba(0, 128, 0, 0.7);
+}
+
+.Iprimary:active {
+  transform: scale(0.95);
+}
+
+.Iprimary {
+  border-color: rgba(0, 128, 0, 0.7);
+  color: whitesmoke;
 }
