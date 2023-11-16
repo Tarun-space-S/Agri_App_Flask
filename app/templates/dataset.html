@@ -1,74 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-
-/* Add some basic styling for the table */
-table {
-  border-collapse: collapse;
-  width: 80%; /* Adjust the width as needed */
-  margin: 20px auto; /* Center the table on the page */
-}
-
-th, td {
-  border: 1px solid #dddddd;
-  padding: 8px;
-  text-align: left;
-}
-
-/* Add some background and text color to the table header */
-
-th {
-  background-color: #f2f2f2;
-  color: #333;
-}
-
-/* Style alternating rows with background color */
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-/* Hover effect for rows */
-tr:hover {
-  background-color: #ddd;
-}
-
-/* Style table caption (if needed) */
-caption {
-  font-weight: bold;
-  font-size: 1.2em;
-  margin-bottom: 10px;
-  text-align: center;
-  color: #555;
-}
-</style>
-<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/weather_style.css')}}">
-</head>
-<body style="background-image: url('../static/images/weather1.jpg');">
-
-<h1 style="text-align: center;">market Data</h1>
-<h1 id="result" style="text-decoration-color: chartreuse;align-self: center;"></h1>
-<button id="get data" href="/marketdata">Get Data</button>
-<button id="gets">get status</button>
-<div id="baa"></div>
-
+  <title>Dataset</title>
+</html>
+<body>
+  <button id="get_data">get Data</button>
+  <button id="get_status">Status</button>
+  <h2 id="status"></h2>
+</body> 
 <script>
-  const sbutton = document.getElementById("gets")
-  const gbutton = document.querySelector("#get data");
-  const result = document.querySelector("#result");
-  var mes='we are one for all';
-  
-  sbutton.addEventListener("click",()=>{
-    
-  })
+  // when i click the status button, i want to get the status of the dataset which is variable in the flask app which can be fetched using the /get_status route in the flask app
+  // and now this status message should be displayed in the html page and refreshed every 5 seconds
+  const button = document.querySelector("#get_status");
+  const status = document.getElementById("status"); // Get the status div
+  button.addEventListener("click", () => {
+    fetch('/get_status', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    })
+    .then(response => response.json())
+    .then(data => {
+      status.textContent = 'damn';
+      status.textContent = data.status;
+    })
+    .catch(() => {
+      status.textContent = "Error fetching data from API";
+    });
+  });
 </script>
 
-
-{%if dataset_message%}
-<h1 style="text-align: center;">{{dataset_message}}</h1>
-{%endif%}
-
-<button><a href="/">Go to Home</a></button>
 
 </body>
 </html>
