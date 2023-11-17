@@ -4,33 +4,87 @@
   <title>Dataset</title>
 </html>
 <body>
+  <form action="/market" method="post">
+    <label for="state">Select State</label>
+    <select id="state" name="state" >
+      <option value="{{response_data['state_code']}}">{{response_data['state']}}</option>
+      <option value="AP">Andhra Pradesh</option>
+      <option value="AR">Arunachal Pradesh</option>
+      <option value="AS">Assam</option>
+<!-- pls continue this -->
+    </select>
+  </form>
   <button id="get_data">get Data</button>
   <button id="get_status">Status</button>
   <h2 id="status"></h2>
+
 </body> 
 <script>
   // when i click the status button, i want to get the status of the dataset which is variable in the flask app which can be fetched using the /get_status route in the flask app
   // and now this status message should be displayed in the html page and refreshed every 5 seconds
   const button = document.querySelector("#get_status");
   const status = document.getElementById("status"); // Get the status div
-  button.addEventListener("click", () => {
-    fetch('/get_status', {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json'
-      }
-    })
-    .then(response => response.json())
-    .then(data => {
-      status.textContent = 'damn';
-      status.textContent = data.status;
-    })
-    .catch(() => {
-      status.textContent = "Error fetching data from API";
-    });
-  });
-</script>
+  const getdata = document.querySelector("#get_data");
+  const data_t = document.getElementById("data");
+  let intervalId; // To store the interval ID
 
+  button.addEventListener("click", () => {
+    // Clear the previous interval, if any
+    clearInterval(intervalId);
+
+    // Run the function immediately
+    fetchDataAndUpdateStatus();
+
+    // Set a new interval to run the function every 5 seconds
+    intervalId = setInterval(fetchDataAndUpdateStatus, 500);
+  });
+
+  function fetchDataAndUpdateStatus() {
+    fetch('/get_status', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      })
+      .then(response => response.json())
+      .then(data => {
+        status.textContent = data.status;
+
+        if (data.complete === 1) {
+      // Stop periodic calls by clearing the interval
+        clearInterval(intervalId);
+        }
+      })
+      .catch(() => {
+        status.textContent = "Error fetching data from API";
+      });
+  };
+
+  getdata.addEventListener("click", () => {
+    fetch('/marketdata', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      })
+      .then(response => response.json())
+      .then(data => {
+        data_t.textContent = data.message;
+      })
+      .catch(() => {
+        console.error("Error fetching market data from API");
+      });
+  
+  });
+
+
+
+
+</script>
+  <h2 id="data"></h2>
+  {%if complete == 1 %}
+    <button href="/display">Train Model</button>
+  {% endif %}
 
 </body>
 </html>
