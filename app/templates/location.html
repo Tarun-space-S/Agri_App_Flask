@@ -5,9 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geolocation App</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/loc.css') }}">
-
 </head>
 <body style="background-image: url('../static/images/img2.jpg');">
+    <section id="header">
+        <a href="#"><img src="../static/images/hello/logo_f1.png" class="logo" alt="" height="100" width="150"></a>
+        <div>
+            <ul id="navbar">
+                <li>SOIL PULSE</li>
+                <li><a  href="/">HOME</a></li>
+                <li><a href="/about">ABOUT US</a></li>
+                <li><a class="active" href="/model">OUR SOLUTION<i class="fa-sharp fa-light fa-seedling"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <div id="locbody">
     <button id="myButton">Get Location</button>
     <div id="locationData"></div> 
     <div id="weatherData"></div> 
@@ -66,5 +77,67 @@
         <!-- <button class="btn btn-primary" onclick="location.href='/';">Home</button> -->
         <button style="align-self: center;" class="btn btn-primary" id="proceedButton"></button>
     </div>
+</div>
+<section id="hope">
+        
+    <footer  class="section-p1">
+      
+      <div class="col" id="lmc1" style="margin-left:25px;">
+          <!--<img class="logo" src="images/logo3.png" alt="" height="10x" width="20px">-->
+          <h4 style="color:aliceblue;">Contact</h4>
+          <p><strong>Location:</strong>Bangalore,Karntaka</p>
+          <p><strong>Phone:</strong>+91 9686765971 / 080 42001110</p>
+          <p><strong>Hours</strong>10:00 - 18:00, Mon-Fri</p>
+
+          <div class="follow">
+              <h4>follow us</h4>
+          </div>
+          <div class="icon">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-pinterest"></i>
+              <i class="fab fa-youtube"></i>
+          </div>
+      </div>
+
+
+      <div class="col">
+          <h4>About</h4>
+          <a href="#">About us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms and Conditions</a>
+          <a href="#">Delivery</a>
+          <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+          <h4>My account</h4>
+          <a href="#">Sign In</a>
+          <a href="#">View cart</a>
+          <a href="#">My wishlist</a>
+          <a href="#">Track my order</a>
+          <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+          <h4>Install App</h4>
+          <p>From App Store or Google Play</p>
+          <div class="row">
+              <img src="images/app.jpg" alt="">
+              <img src="images/play.jpg" alt="">
+          </div>
+          <p>secured Payment Gatewyas</p>
+          <img src="images/pay.png" alt="">
+          <p></p>
+      </div>
+
+      <div class="copyright">
+      <p>© 2023 ,The Resin House -All rights Reserved</p>
+      </div>
+    
+  </footer>
+
+</section>
 </body>
 </html>

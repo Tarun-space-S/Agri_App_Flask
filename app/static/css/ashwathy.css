@@ -539,3 +539,74 @@ label {
   margin: 8px auto;
   border-bottom: 2px solid #2E8B57; /* Dark green color */
 }
+/*FOOTER*/
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #0C2C04;
+  padding: 20px 0;
+  margin: 0;
+  color: white;
+}
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer logo {
+  margin-bottom: 30px;
+}
+
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 10px; /* Reduced padding */
+}
+
+footer p {
+  font-size: 13px;
+  padding-bottom: 10px; /* Reduced padding */
+  margin: 0;
+  color: lightgreen;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 8px; /* Reduced margin */
+}
+
+footer .follow {
+  margin-top: 20px;
+}
+
+footer .follow i {
+  padding-right: 8px; /* Slightly increased padding */
+  cursor: pointer;
+}
+
+footer .install .row img {
+  border: 1px solid lightgreen;
+  border-radius: 4px;
+}
+
+footer .install img {
+  margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: lightgreen;
+}
+
+footer .copyright {
+  width: 100%;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  margin: 20px 0;
+}
