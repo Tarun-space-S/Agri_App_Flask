@@ -125,10 +125,6 @@ img {vertical-align: middle;}
   transition: background-color 0.1s ease;
 }
 
-.active {
-  background-color: #717171;
-}
-
 /* Fading animation */
 .fade {
   animation-name: fade;
