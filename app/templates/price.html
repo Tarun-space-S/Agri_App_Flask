@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dataset</title>
+</html>
+<body>
+
+    <button id="train_data">Start Train</button>
+    <h3 id="status"></h3>
+
+
+  <form action="/" method="post">
+    <label for="district">Select District</label>
+    <select id="district" name="district" >
+      <option value="{{response_data['state_code']}}">{{response_data['state']}}</option>
+      <option value="AP">Andhra Pradesh</option>
+      <option value="AR">Arunachal Pradesh</option>
+      <option value="AS">Assam</option>
+<!-- pls continue this -->
+    </select>
+    <label for="market">Select Market</label>
+    <select id="market" name="market" >
+      <option value="{{response_data['state_code']}}">{{response_data['state']}}</option>
+      <option value="AP">Andhra Pradesh</option>
+      <option value="AR">Arunachal Pradesh</option>
+      <option value="AS">Assam</option>
+
+    </select>
+    <label for="Commodity">Select Commodity</label>
+    <select id="Commodity" name="Commodity" >
+      <option value="{{response_data['state_code']}}">{{response_data['state']}}</option>
+      <option value="AP">Andhra Pradesh</option>
+      <option value="AR">Arunachal Pradesh</option>
+      <option value="AS">Assam</option>
+    </select>
+
+    <label for="Variety">Select Variety</label>
+    <select id="Variety" name="Variety" >
+      <option value="{{response_data['state_code']}}">{{response_data['state']}}</option>
+      <option value="AP">Andhra Pradesh</option>
+      <option value="AR">Arunachal Pradesh</option>
+      <option value="AS">Assam</option> 
+    </select>
+    <label for="Grade">Select Grade</label>
+    <select id="Grade" name="Grade" >
+      <option value="{{response_data['state_code']}}">{{response_data['state']}}</option>
+      <option value="AP">Andhra Pradesh</option>
+      <option value="AR">Arunachal Pradesh</option>
+      <option value="AS">Assam</option>
+    </select>
+
+
+  </form>
+  <script>
+        const button = document.querySelector("#train_data");
+        const status = document.getElementById("status"); // Get the status div
+        const comp = "{{complete}}";
+        button.addEventListener("click", () => {
+          // Clear the previous interval, if any
+          clearInterval(intervalId);
+
+          // Run the function immediately
+          fetchDataAndUpdateStatus();
+
+          // Set a new interval to run the function every 5 seconds
+          intervalId = setInterval(fetchDataAndUpdateStatus, 500);
+        });
+
+        function fetchDataAndUpdateStatus(){
+            status.textContent = "{{message}}";
+
+            if (comp === "1"){
+                clearInterval(intervalId);
+            }
+        }
+
+
+  </script>
+
+</body>
+</html>
