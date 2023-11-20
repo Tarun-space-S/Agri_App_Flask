@@ -37,7 +37,7 @@ h6 {
 
 body {
     width: 100%;
-    background-color:rgb(80, 200, 120);
+    
   }
 #header {
     display:flex;
@@ -326,66 +326,76 @@ img {vertical-align: middle;}
     width: 100%;
 }
 /*WEATHER*/
-#Wbody {
-    font-family: 'Arial', sans-serif;
-    background: url('img2.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: #4a4a4a; /* Earthy text color */
-    font-size: 18px; /* Increased font size */
+
+#wbody {
+  font-family: 'Arial', sans-serif;
+  background: url('../images/weather1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
 }
 
 /* Table Styles */
 table {
-    border-collapse: collapse;
-    width: 80%;
-    margin: 20px auto;
-    background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.8); /* Slight white background to enhance readability */
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2); /* subtle shadow for depth */
 }
 
 th, td {
-    border: 1px solid #8a8a8a;
-    padding: 15px; /* Adjusted padding for increased font size */
-    text-align: left;
+  border: 1px solid #8a8a8a;
+  padding: 12px;
+  text-align: left;
 }
 
 th {
-    background-color: #cfd8dc;
-    color: #2e7d32;
+  background-color: #cfd8dc; /* Subtle green/blue tone representing foliage and sky */
+  color: #2e7d32; /* Dark green text for headers */
 }
 
 tr:nth-child(even) {
-    background-color: #e8f5e9;
+  background-color: #e8f5e9; /* Light green representing fresh leaves */
 }
 
 tr:hover {
-    background-color: #a5d6a7;
+  background-color: #a5d6a7; /* A different shade of green on hover */
 }
+
+caption {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #4a4a4a;
+}
+
 /* Button Styles */
-#Wbutton {
-    background-color: transparent;
-    border: 2px solid green;
-    padding: 10px 20px;
-    font-size: 20px; /* Increased font size for buttons */
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
-    margin: 0 10px; /* Horizontal margin to space out buttons */
+.wbutton {
+  background-color: #388e3c; /* Agricultural green */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #ffffff; /* White text on buttons */
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s;
 }
 
-#Wbutton:hover {
-    background-color: rgba(0, 128, 0, 0.7);
+.wbutton:hover {
+  background-color: #2e7d32; /* Darker green on hover */
 }
 
-#Wbutton:active {
-    transform: scale(0.95);
+a {
+  text-decoration: none;
+  color: #ffffff; /* White text for links */
 }
 
-#Wbutton {
-    border-color: rgba(0, 128, 0, 0.7);
-}
+
 /*INDEX*/
 
 #Ibody {
