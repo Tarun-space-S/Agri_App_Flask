@@ -21,8 +21,8 @@ def subcrops():
     
     usr_input=response_data['main_crop']
 
-    sd=pd.read_csv('dataset/subdata.csv')
-    md=pd.read_csv('dataset/maindata.csv')
+    sd=pd.read_csv('dataset/sys/subdata.csv')
+    md=pd.read_csv('dataset/sys/maindata.csv')
     sd=pd.DataFrame(sd)
     md=pd.DataFrame(md)
     md.set_index('Crop',inplace=True)
