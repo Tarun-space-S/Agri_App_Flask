@@ -2,10 +2,11 @@
 <html>
 <head>
   <title>Dataset</title>
-</html>
+  
+</head>
 <body>
 
-    <button id="train_data">Start Train</button>
+    <button id="train_data" class="Mprimary">Start Train</button>
     <h3 id="status"></h3>
 
 
@@ -54,6 +55,7 @@
   <script>
         const button = document.querySelector("#train_data");
         const status = document.getElementById("status"); // Get the status div
+        
         const comp = "{{complete}}";
         button.addEventListener("click", () => {
           // Clear the previous interval, if any

@@ -2,8 +2,30 @@
 <html>
 <head>
   <title>Dataset</title>
-</html>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/market.css') }}">
+  <style>
+  #get_status,
+  #get_data {
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px;
+  }
+</style>
+  
+</head>
 <body>
+  <section id="header">
+    <a href="#"><img src="../static/images/hello/logo_f1.png" class="logo" alt="" height="100" width="150"></a>
+    <div>
+        <ul id="navbar">
+            
+            <li><a  href="/">HOME</a></li>
+            <li><a href="/about">ABOUT US</a></li>
+            <li><a class="active" href="/model">OUR SOLUTION<i class="fa-sharp fa-light fa-seedling"></i></a></li>
+        </ul>
+    </div>
+</section>
+    <div id="mbody">
   <form action="/market" method="post">
     <label for="state">Select State</label>
     <select id="state" name="state" >
@@ -14,77 +36,133 @@
 <!-- pls continue this -->
     </select>
   </form>
-  <button id="get_data">get Data</button>
-  <button id="get_status">Status</button>
-  <h2 id="status"></h2>
+  <button id="get_status" class="Mprimary">Status</button>
+  <!-- Initially hide the "Get Data" button -->
+  <button id="get_data" class="Mprimary" style="display: none;">Get Data</button>
+ <br>
+ <br>
+  <h2 id="status" style="text-align: center;"></h2>
+</div>
 
-</body> 
-<script>
-  // when i click the status button, i want to get the status of the dataset which is variable in the flask app which can be fetched using the /get_status route in the flask app
-  // and now this status message should be displayed in the html page and refreshed every 5 seconds
-  const button = document.querySelector("#get_status");
-  const status = document.getElementById("status"); // Get the status div
-  const getdata = document.querySelector("#get_data");
-  const data_t = document.getElementById("data");
-  let intervalId; // To store the interval ID
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<section id="hope">
+    
+    <footer  class="section-p1">
+      
+      <div class="col" id="lmc1" style="margin-left:25px;">
+          <!--<img class="logo" src="images/logo3.png" alt="" height="10x" width="20px">-->
+          <h4 style="color:aliceblue;">Contact</h4>
+          <p><strong>Location:</strong>Bangalore,Karntaka</p>
+          <p><strong>Phone:</strong>+91 9686765971 / 080 42001110</p>
+          <p><strong>Hours</strong>10:00 - 18:00, Mon-Fri</p>
 
-  button.addEventListener("click", () => {
-    // Clear the previous interval, if any
-    clearInterval(intervalId);
+          <div class="follow">
+              <h4 style="color:aliceblue;">follow us</h4>
+          </div>
+          <div class="icon">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-pinterest"></i>
+              <i class="fab fa-youtube"></i>
+          </div>
+      </div>
 
-    // Run the function immediately
-    fetchDataAndUpdateStatus();
 
-    // Set a new interval to run the function every 5 seconds
-    intervalId = setInterval(fetchDataAndUpdateStatus, 500);
-  });
+      <div class="col">
+          <h4 style="color:aliceblue;">About</h4>
+          <a href="#">About us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms and Conditions</a>
+          <a href="#">Delivery</a>
+          <a href="#">Contact Us</a>
+      </div>
 
-  function fetchDataAndUpdateStatus() {
-    fetch('/get_status', {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      })
-      .then(response => response.json())
-      .then(data => {
-        status.textContent = data.status;
+      <div class="col">
+          <h4 style="color:aliceblue;">My account</h4>
+          <a href="#">Sign In</a>
+          <a href="#">View cart</a>
+          <a href="#">My wishlist</a>
+          <a href="#">Track my order</a>
+          <a href="#">Help</a>
+      </div>
 
-        if (data.complete === 1) {
-      // Stop periodic calls by clearing the interval
-        clearInterval(intervalId);
-        }
-      })
-      .catch(() => {
-        status.textContent = "Error fetching data from API";
-      });
-  };
+      <div class="col install">
+          <h4 style="color:aliceblue;">Install App</h4>
+          <p>From App Store or Google Play</p>
+          <div class="row">
+              <img src="images/app.jpg" alt="">
+              <img src="images/play.jpg" alt="">
+          </div>
+          <p>secured Payment Gatewyas</p>
+          <img src="images/pay.png" alt="">
+          <p></p>
+      </div>
 
-  getdata.addEventListener("click", () => {
-    fetch('/marketdata', {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      })
-      .then(response => response.json())
-      .then(data => {
-        data_t.textContent = data.message;
-      })
-      .catch(() => {
-        console.error("Error fetching market data from API");
-      });
+      <div class="copyright">
+      <p>© 2023 ,The Resin House -All rights Reserved</p>
+      </div>
+    
+  </footer>
+
+</section>
+<h2 id="data"></h2>
   
-  });
-
-
-
-
-</script>
-  <h2 id="data"></h2>
-  {%if complete == 1 %}
-    <button href="/display">Train Model</button>
+  {% if complete == 1 %}
+    <!-- Show the "Train Model" button when the condition is met -->
+    <a href="/display"><button>Train Model</button></a>
   {% endif %}
 
+  <script>
+    const button = document.querySelector("#get_status");
+    const status = document.getElementById("status");
+    const getdata = document.querySelector("#get_data");
+    let intervalId;
+
+    button.addEventListener("click", () => {
+      clearInterval(intervalId);
+      fetchDataAndUpdateStatus();
+      intervalId = setInterval(fetchDataAndUpdateStatus, 500);
+      
+      // Show the "Get Data" button when the "Status" button is clicked
+      getdata.style.display = "inline-block";
+    });
+
+    function fetchDataAndUpdateStatus() {
+      fetch('/get_status', {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        })
+        .then(response => response.json())
+        .then(data => {
+          status.textContent = data.status;
+
+          if (data.complete === 1) {
+            clearInterval(intervalId);
+          }
+        })
+        .catch(() => {
+          status.textContent = "Error fetching data from API";
+        });
+    };
+
+    getdata.addEventListener("click", () => {
+      fetch('/marketdata', {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        })
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById("data").textContent = data.message;
+        })
+        .catch(() => {
+          console.error("Error fetching market data from API");
+        });
+    });
+  </script>
 </body>
 </html>
