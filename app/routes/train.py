@@ -17,6 +17,7 @@ train = Blueprint('train', __name__)
 
 @train.route('/display', methods=['POST', 'GET'])
 def display():
+    # get the dataset ready
     return render_template("price.html",message=message,complete=complete)
 
 @train.route('/train', methods=['POST', 'GET'])
@@ -127,6 +128,8 @@ def train_model():
     y1_mod=RF2.predict(X_test_mod)
     message='Third Model Trained'
     complete=1
+    
+    
     return jsonify({'message':"SUCCESSFUL"})
 # @train.route('/price', methods=['POST', 'GET'])
 # def price():
