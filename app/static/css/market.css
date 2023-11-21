@@ -75,17 +75,13 @@ body {
 
 
 /**/
-#loader {
-    display: none; /* Initially hide the loader */
-    text-align: center;
-}
+
 #mbody {
     font-family: 'Arial', sans-serif;
     text-align: center;
-    margin: 50px auto; /* Adjust the top and bottom margin as needed */
+    margin: 50px auto;
     align-items: center;
 }
-
 
 form {
     max-width: 400px;
@@ -95,17 +91,27 @@ form {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(44, 187, 99, 0.35);
     margin-bottom: 20px;
+    transition: transform 0.3s ease; /* Add a transition for a smooth effect */
+}
+
+form:hover {
+    transform: scale(1.05); /* Scale up the form on hover */
 }
 
 label {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 12px; /* Increased margin for better spacing */
     color: #495057;
+    transition: color 0.3s ease; /* Add a transition for color change */
+}
+
+label:hover {
+    color: #47c976; /* Change label color on hover */
 }
 
 select {
     width: 100%;
-    padding: 10px;
+    padding: 12px; /* Increased padding for better spacing */
     margin-bottom: 16px;
     box-sizing: border-box;
     border: 1px solid #ced4da;
@@ -128,7 +134,7 @@ select:hover option:hover {
     cursor: pointer;
     display: inline-block;
     font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
-    padding: 7px 20px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     transition: all 250ms;
@@ -139,7 +145,8 @@ select:hover option:hover {
     touch-action: manipulation;
     margin: 0 auto;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 20px; /* Increased margin for better spacing */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transitions for smooth effects */
 }
 
 .Mprimary:hover,
@@ -149,7 +156,6 @@ select:hover option:hover {
         rgba(44, 187, 99, 0.25) 0 16px 32px;
     transform: scale(1.05) rotate(-1deg);
 }
-
 /*FOOTER*/
 footer {
     display: flex;
