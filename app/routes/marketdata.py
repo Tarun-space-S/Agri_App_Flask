@@ -95,8 +95,7 @@ def market_data():
     data_name_format=state+"_"+str(commodity_value)+"_"+d1+"_"+d2+".csv"
     # time.sleep(2)
     close = driver.find_element_by_css_selector("a.close")
-    if close.is_displayed():
-        close.click()
+    close.click()
     # time.sleep(5)
     # Price/Arrivals we select price
     pa=Select(driver.find_element_by_name("ddlArrivalPrice"))

@@ -10,20 +10,45 @@ from sklearn.ensemble import RandomForestRegressor
 
 message='Please Click the Train Button'
 complete=0
-
+pre={}
 
 train = Blueprint('train', __name__)
 
 
 @train.route('/display', methods=['POST', 'GET'])
 def display():
+    global message
+    global complete
+    global pre
     # get the dataset ready
-    return render_template("price.html",message=message,complete=complete)
+    dir = response_data['dataset_loc']
+    df=pd.read_csv(dir)
+
+    # get a list of all unique of all the columns
+    district_list = df['District Name'].unique().tolist()
+    market_list = df['Market Name'].unique().tolist()
+    commodity_list = df['Commodity'].unique().tolist()
+    variety_list = df['Variety'].unique().tolist()
+    grade_list = df['Grade'].unique().tolist()
+
+
+
+    return render_template("price.html",message=message,complete=complete,district_list=district_list,market_list=market_list,commodity_list=commodity_list,variety_list=variety_list,grade_list=grade_list)
+
+
+@train.route('/train_status', methods=['POST', 'GET'])
+def get_status():
+    global message
+    global complete
+    global pre
+    return jsonify(status=message,complete=complete,pre=pre)
 
 @train.route('/train', methods=['POST', 'GET'])
 def train_model():
     global message
     global complete
+    global pre
+    
 
     message='Please wait while we are training the model for you'
     dir = response_data['dataset_loc'] 
@@ -130,8 +155,25 @@ def train_model():
     complete=1
     
     
-    return jsonify({'message':"SUCCESSFUL"})
+    return jsonify(message="SUCCESSFUL",complete=complete)
 # @train.route('/price', methods=['POST', 'GET'])
 # def price():
 
 #     return render_template("price.html")
+@train.route('/predict_price', methods=['POST', 'GET'])
+def predict_price():
+    global message
+    global complete
+    global pre
+
+    # get values from the from 
+    district = request.form['district']
+    market = request.form['market']
+    commodity = request.form['commodity']
+    variety = request.form['variety']
+    grade = request.form['grade']
+
+
+    complete=0
+    message='Please wait while we are predicting the price for you'
+    
