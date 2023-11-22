@@ -4,11 +4,11 @@ import os
 import time
 import pandas as pd
 from datetime import date
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.edge.options import Options
 from selenium.webdriver.support.ui import Select
-from msedge.selenium_tools import Edge, EdgeOptions
-from selenium.webdriver.support.ui import WebDriverWait
-# from routes.crop import response_data
-# from routes.crop import response_data
+
 
 dataset_message='Please Click the Get Data Button'
 select='none'
@@ -75,92 +75,74 @@ def market_data():
     print(state,frame)
 
 
-    options = EdgeOptions()
+    options = Options()
     options.use_chromium = True
-    options.add_experimental_option("prefs", {"download.default_directory": target_directory,
-    "download.prompt_for_download": False,
-    "download.directory_upgrade": True,
-    "safebrowsing.enabled": True})
+    options.add_experimental_option('prefs', {
+        'download': {
+            'default_directory': target_directory,
+        }
+    })
 
-    # driver_path=r"C:\Users\tarbo\Downloads\msedgedriver.exe"
+    driver = webdriver.Edge(options=options)
+    dataset_message = 'driver initiated successfully'
 
-    driver = Edge(executable_path=driver_path,options=options)
-    dataset_message='driver initiated successfully'
-    driver.minimize_window()
-
-    # get required data for searching in web
     driver.get(url)
-    dataset_message='opened agmarknet.gov.in successfully'
+    dataset_message = 'opened agmarknet.gov.in successfully'
 
-    data_name_format=state+"_"+str(commodity_value)+"_"+d1+"_"+d2+".csv"
-    # time.sleep(2)
-    close = driver.find_element_by_css_selector("a.close")
+    data_name_format = state + "_" + str(commodity_value) + "_" + d1 + "_" + d2 + ".csv"
+
+    close = driver.find_element(By.CSS_SELECTOR, "a.close")
     close.click()
-    # time.sleep(5)
-    # Price/Arrivals we select price
-    pa=Select(driver.find_element_by_name("ddlArrivalPrice"))
-    pa.select_by_value ("0")
 
-    pa=Select(driver.find_element_by_id("ddlCommodity"))
-    pa.select_by_value (str(commodity_value))
+    price_dropdown = Select(driver.find_element(By.NAME, "ddlArrivalPrice"))
+    price_dropdown.select_by_value("0")
 
-    pa=Select(driver.find_element_by_id("ddlState"))
-    pa.select_by_value (state)
+    commodity_dropdown = Select(driver.find_element(By.ID, "ddlCommodity"))
+    commodity_dropdown.select_by_value(str(commodity_value))
 
-    #select district
-    pa=Select(driver.find_element_by_id("ddlDistrict"))
-    pa.select_by_value("0")
+    state_dropdown = Select(driver.find_element(By.ID, "ddlState"))
+    state_dropdown.select_by_value(state)
 
-    #select market
-    pa=Select(driver.find_element_by_id("ddlMarket"))
-    pa.select_by_value("0")
+    district_dropdown = Select(driver.find_element(By.ID, "ddlDistrict"))
+    district_dropdown.select_by_value("0")
 
-    # pa=driver.find_element_by_id("txtDateTo")
-    # pa.clear()
-    # pa.send_keys(d2)
+    market_dropdown = Select(driver.find_element(By.ID, "ddlMarket"))
+    market_dropdown.select_by_value("0")
 
-    pa=driver.find_element_by_id("txtDate")
-    pa.clear()
-    pa.send_keys(d1)
+    date_field = driver.find_element(By.ID, "txtDate")
+    date_field.clear()
+    date_field.send_keys(d1)
 
-    dataset_message='values entered successfully'
+    go_button = driver.find_element(By.ID, "btnGo")
+    go_button.click()
 
-    #click on go button
-    button = driver.find_element_by_id("btnGo")
-    button.click()
-    
-    # wait for 10 sec
     time.sleep(5)
 
-    #click on export to excel
-    pa=driver.find_element_by_id("cphBody_ButtonExcel")
-    pa.click()
-    dataset_message='accessed data successfully'
-    # wait for 10 sec
-    time.sleep(10)
-    
-    dataset_message='data downloaded successfully'
-    #close the browser
-    driver.minimize_window()
-    
+    export_button = driver.find_element(By.ID, "cphBody_ButtonExcel")
+    export_button.click()
 
-    xls_file=target_directory+"\Agmarknet_Price_Report.xls"
-    raw=pd.read_html(xls_file)
-    final=raw[0]
-    final=final.to_csv(target_directory+f"\{data_name_format}",index=False)
-    dataset_message='data saved successfully to csv file'
+    time.sleep(10)
+
+    driver.close()
+
+    xls_file = target_directory + "\Agmarknet_Price_Report.xls"
+    raw = pd.read_html(xls_file)
+    final = raw[0]
+    final = final.to_csv(target_directory + f"\{data_name_format}", index=False)
+    dataset_message = 'data saved successfully to csv file'
+
     file_path = xls_file
+
     # Check if the file exists before attempting to delete it
     if os.path.exists(file_path):
         os.remove(file_path)
         print(f"File '{file_path}' has been deleted.")
     else:
         print(f"File '{file_path}' does not exist.")
-    response_data.update({'dataset_status':dataset_message,'dataset_loc':target_directory+f"\{data_name_format}"})
-    complete=1
-    dataset_message="Dataset retrived successfully for "+state+" "+str(commodity_value)+" "+d1+" "+d2+" as csv with name"+data_name_format
-    
-    # return render_template("dataset.html",dataset_message=dataset_message,response_data=response_data)
+
+    complete = 1
+    dataset_message = "Dataset retrived successfully for " + state + " " + str(commodity_value) + " " + d1 + " " + d2 + " as csv with name" + data_name_format
+        # return render_template("dataset.html",dataset_message=dataset_message,response_data=response_data)
     return jsonify(message="SUCCESSFUL",response_data=response_data)
 
 
