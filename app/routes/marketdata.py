@@ -56,7 +56,7 @@ def market_data():
         state=str(select)
     else:
         state=response_data['state_code']
-    no_of_years=1
+    
 
 
 
@@ -87,6 +87,7 @@ def market_data():
     dataset_message = 'driver initiated successfully'
 
     driver.get(url)
+    driver.minimize_window()
     dataset_message = 'opened agmarknet.gov.in successfully'
 
     data_name_format = state + "_" + str(commodity_value) + "_" + d1 + "_" + d2 + ".csv"
