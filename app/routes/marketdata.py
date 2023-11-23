@@ -94,7 +94,7 @@ def market_data():
 
     close = driver.find_element(By.CSS_SELECTOR, "a.close")
     close.click()
-
+    dataset_message ='Pushing Values'
     price_dropdown = Select(driver.find_element(By.NAME, "ddlArrivalPrice"))
     price_dropdown.select_by_value("0")
 
@@ -114,18 +114,22 @@ def market_data():
     date_field.clear()
     date_field.send_keys(d1)
 
+    
+
     go_button = driver.find_element(By.ID, "btnGo")
     go_button.click()
 
+    dataset_message = 'Submitting values'
     time.sleep(5)
+
 
     export_button = driver.find_element(By.ID, "cphBody_ButtonExcel")
     export_button.click()
-
+    dataset_message = 'Dataset Aquired set to Download'
     time.sleep(10)
 
     driver.close()
-
+    dataset_message = 'Driver Teminated'
     xls_file = target_directory + "\Agmarknet_Price_Report.xls"
     raw = pd.read_html(xls_file)
     final = raw[0]
