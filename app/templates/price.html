@@ -8,15 +8,15 @@
 <div id="pbody">
     <button id="train_data" class="Mprimary">Start Train</button>
     <h3 id="status"></h3>
-
+    <button id="predict" class="Mprimary">Get Data</button>
+    <h2 id="data"></h2>
 
   <form action="/" method="post">
     <label for="district">Select District</label>
     <select id="district" name="district" >
-      <option value="{{response_data['state_code']}}">{{response_data['state']}}</option>
-      <option value="AP">Andhra Pradesh</option>
-      <option value="AR">Arunachal Pradesh</option>
-      <option value="AS">Assam</option>
+      {% for district in district_list %}
+      <option value="{{district}}">{{district}}</option>
+      {% endfor %}
 <!-- pls continue this -->
     </select>
     <label for="market">Select Market</label>
@@ -50,34 +50,58 @@
       <option value="AS">Assam</option>
     </select>
 
-
   </form>
 </div>
   <script>
-        const button = document.querySelector("#train_data");
-        const status = document.getElementById("status"); // Get the status div
-        
-        const comp = "{{complete}}";
-        button.addEventListener("click", () => {
-          // Clear the previous interval, if any
-          clearInterval(intervalId);
+  const predict = document.querySelector("#predict");
+  const button = document.querySelector("#train_data");
+  const status = document.getElementById("status"); // Get the status div
+  let intervalId;
 
-          // Run the function immediately
-          fetchDataAndUpdateStatus();
+  button.addEventListener("click", () => {
+    clearInterval(intervalId);
+    fetchDataAndUpdateStatus();
+    intervalId = setInterval(fetchDataAndUpdateStatus, 500);
+    
+    // Show the "Get Data" button when the "Status" button is clicked
+    getdata.style.display = "inline-block";
+  });
 
-          // Set a new interval to run the function every 5 seconds
-          intervalId = setInterval(fetchDataAndUpdateStatus, 500);
-        });
-
-        function fetchDataAndUpdateStatus(){
-            status.textContent = "{{message}}";
-
-            if (comp === "1"){
-                clearInterval(intervalId);
-            }
+  function fetchDataAndUpdateStatus() {
+    fetch('/train_status', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json'
         }
+      })
+      .then(response => response.json())
+      .then(data => {
+        status.textContent = data.status;
 
+        if (data.complete === 1) {
+          clearInterval(intervalId);
+        }
+      })
+      .catch(() => {
+        status.textContent = "Error fetching data from API";
+      });
+  };
 
+  predict.addEventListener("click", () => {
+    fetch('/train', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      })
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById("data").textContent = data.message;
+      })
+      .catch(() => {
+        console.error("Error fetching market data from API");
+      });
+      });
   </script>
 
 </body>

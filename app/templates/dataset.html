@@ -23,6 +23,7 @@
       <option value="AP">Andhra Pradesh</option>
       <option value="AR">Arunachal Pradesh</option>
       <option value="AS">Assam</option>
+<<<<<<< HEAD
       <option value="BR">Bihar</option>
 <option value="CH">Chandigarh</option>
 <option value="CT">Chhattisgarh</option>
@@ -57,22 +58,95 @@
 <option value="WB">West Bengal</option>
 
 <!-- pls continue this -->
+=======
+      <!-- pls continue this -->
+>>>>>>> 11f9dc5c986405e85e50e37173d5c393b5d87720
     </select>
   </form>
   <button id="get_status" class="Mprimary">Status</button>
   <!-- Initially hide the "Get Data" button -->
   <button id="get_data" class="Mprimary" style="display: none;">Get Data</button>
- <br>
- <br>
+  <br>
+  <br>
   <h2 id="status" style="text-align: center;"></h2>
+  <h2 id="data"></h2>
+    
+    {% if complete == 1 %}
+      <button href="/display">Proceed To Train</button>
+    {% endif %}
 </div>
 
+<<<<<<< HEAD
 <h2 id="data"></h2>
   
   {% if complete == 1 %}
     <!-- Show the "Train Model" button when the condition is met -->
     <a href="/display"><button>Train Model</button></a>
   {% endif %}
+=======
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<section id="hope">
+    
+    <footer  class="section-p1">
+      
+      <div class="col" id="lmc1" style="margin-left:25px;">
+          <!--<img class="logo" src="images/logo3.png" alt="" height="10x" width="20px">-->
+          <h4 style="color:aliceblue;">Contact</h4>
+          <p><strong>Location:</strong>Bangalore,Karntaka</p>
+          <p><strong>Phone:</strong>+91 9686765971 / 080 42001110</p>
+          <p><strong>Hours</strong>10:00 - 18:00, Mon-Fri</p>
+
+          <div class="follow">
+              <h4 style="color:aliceblue;">follow us</h4>
+          </div>
+          <div class="icon">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-pinterest"></i>
+              <i class="fab fa-youtube"></i>
+          </div>
+      </div>
+
+
+      <div class="col">
+          <h4 style="color:aliceblue;">About</h4>
+          <a href="#">About us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms and Conditions</a>
+          <a href="#">Delivery</a>
+          <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+          <h4 style="color:aliceblue;">My account</h4>
+          <a href="#">Sign In</a>
+          <a href="#">View cart</a>
+          <a href="#">My wishlist</a>
+          <a href="#">Track my order</a>
+          <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+          <h4 style="color:aliceblue;">Install App</h4>
+          <p>From App Store or Google Play</p>
+          <div class="row">
+              <img src="images/app.jpg" alt="">
+              <img src="images/play.jpg" alt="">
+          </div>
+          <p>secured Payment Gatewyas</p>
+          <img src="images/pay.png" alt="">
+          <p></p>
+      </div>
+
+      <div class="copyright">
+      <p>© 2023. The Soil Pulse</p>
+      </div>
+    
+  </footer>
+
+</section>
+>>>>>>> 11f9dc5c986405e85e50e37173d5c393b5d87720
 
   <script>
     const button = document.querySelector("#get_status");
@@ -102,6 +176,16 @@
 
           if (data.complete === 1) {
             clearInterval(intervalId);
+            const myButton = document.createElement('a');
+
+            // Set the href attribute to "/hello"
+            myButton.href = "/display";
+    
+            // Set the button text
+            myButton.textContent = "Proceed to Train";
+    
+            // Append the button to the body or any other container
+            document.body.appendChild(myButton);
           }
         })
         .catch(() => {
