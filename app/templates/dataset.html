@@ -11,20 +11,10 @@
       margin-top: 10px;
   }
 </style>
-  
 </head>
+{% extends 'base.html' %}
+{% block content %}
 <body>
-  <section id="header">
-    <a href="#"><img src="../static/images/hello/logo_f1.png" class="logo" alt="" height="100" width="150"></a>
-    <div>
-        <ul id="navbar">
-            
-            <li><a  href="/">HOME</a></li>
-            <li><a href="/about">ABOUT US</a></li>
-            <li><a class="active" href="/model">OUR SOLUTION<i class="fa-sharp fa-light fa-seedling"></i></a></li>
-        </ul>
-    </div>
-</section>
     <div id="mbody">
   <form action="/market" method="post">
     <label for="state">Select State</label>
@@ -33,6 +23,39 @@
       <option value="AP">Andhra Pradesh</option>
       <option value="AR">Arunachal Pradesh</option>
       <option value="AS">Assam</option>
+      <option value="BR">Bihar</option>
+<option value="CH">Chandigarh</option>
+<option value="CT">Chhattisgarh</option>
+<option value="DN">Dadra and Nagar Haveli</option>
+<option value="DD">Daman and Diu</option>
+<option value="GA">Goa</option>
+<option value="GJ">Gujarat</option>
+<option value="HR">Haryana</option>
+<option value="HP">Himachal Pradesh</option>
+<option value="JK">Jammu and Kashmir</option>
+<option value="JH">Jharkhand</option>
+<option value="KA">Karnataka</option>
+<option value="KL">Kerala</option>
+<option value="LD">Lakshadweep</option>
+<option value="MP">Madhya Pradesh</option>
+<option value="MH">Maharashtra</option>
+<option value="MN">Manipur</option>
+<option value="ML">Meghalaya</option>
+<option value="MZ">Mizoram</option>
+<option value="NL">Nagaland</option>
+<option value="DL">NCT of Delhi</option>
+<option value="OR">Odisha</option>
+<option value="PY">Pondicherry</option>
+<option value="PB">Punjab</option>
+<option value="RJ">Rajasthan</option>
+<option value="SK">Sikkim</option>
+<option value="TN">Tamil Nadu</option>
+<option value="TG">Telangana</option>
+<option value="TR">Tripura</option>
+<option value="UP">Uttar Pradesh</option>
+<option value="UK">Uttarakhand</option>
+<option value="WB">West Bengal</option>
+
 <!-- pls continue this -->
     </select>
   </form>
@@ -44,68 +67,6 @@
   <h2 id="status" style="text-align: center;"></h2>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-<section id="hope">
-    
-    <footer  class="section-p1">
-      
-      <div class="col" id="lmc1" style="margin-left:25px;">
-          <!--<img class="logo" src="images/logo3.png" alt="" height="10x" width="20px">-->
-          <h4 style="color:aliceblue;">Contact</h4>
-          <p><strong>Location:</strong>Bangalore,Karntaka</p>
-          <p><strong>Phone:</strong>+91 9686765971 / 080 42001110</p>
-          <p><strong>Hours</strong>10:00 - 18:00, Mon-Fri</p>
-
-          <div class="follow">
-              <h4 style="color:aliceblue;">follow us</h4>
-          </div>
-          <div class="icon">
-              <i class="fab fa-facebook"></i>
-              <i class="fab fa-twitter"></i>
-              <i class="fab fa-instagram"></i>
-              <i class="fab fa-pinterest"></i>
-              <i class="fab fa-youtube"></i>
-          </div>
-      </div>
-
-
-      <div class="col">
-          <h4 style="color:aliceblue;">About</h4>
-          <a href="#">About us</a>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms and Conditions</a>
-          <a href="#">Delivery</a>
-          <a href="#">Contact Us</a>
-      </div>
-
-      <div class="col">
-          <h4 style="color:aliceblue;">My account</h4>
-          <a href="#">Sign In</a>
-          <a href="#">View cart</a>
-          <a href="#">My wishlist</a>
-          <a href="#">Track my order</a>
-          <a href="#">Help</a>
-      </div>
-
-      <div class="col install">
-          <h4 style="color:aliceblue;">Install App</h4>
-          <p>From App Store or Google Play</p>
-          <div class="row">
-              <img src="images/app.jpg" alt="">
-              <img src="images/play.jpg" alt="">
-          </div>
-          <p>secured Payment Gatewyas</p>
-          <img src="images/pay.png" alt="">
-          <p></p>
-      </div>
-
-      <div class="copyright">
-      <p>© 2023 ,The Resin House -All rights Reserved</p>
-      </div>
-    
-  </footer>
-
-</section>
 <h2 id="data"></h2>
   
   {% if complete == 1 %}
@@ -165,4 +126,5 @@
     });
   </script>
 </body>
+{% endblock %}
 </html>

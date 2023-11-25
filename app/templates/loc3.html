@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pincode to Location</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Pincode to Location</h2>
+    <form id="pincodeForm">
+        <label for="pincode">Enter Pincode:</label>
+        <input type="text" id="pincode" name="pincode" required>
+        <button type="button" onclick="getLocationDetails()">Get Location Details</button>
+    </form>
+    <div id="result"></div>
+</div>
+
+<script>
+    function getLocationDetails() {
+        const pincode = document.getElementById("pincode").value;
+        const resultDiv = document.getElementById("result");
+
+        // Add your OpenCage API key here
+        const apiKey = 'e0020e8a39f64f6eaf50f342473b0a6d';
+
+        const url = `https://api.opencagedata.com/geocode/v1/json?q=${pincode}&key=${apiKey}`;
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                const results = data.results[0];
+                const { geometry, components } = results;
+
+                const latitude = geometry.lat;
+                const longitude = geometry.lng;
+                const state = components.state;
+                const country = components.country;
+
+                const locationDetails = `
+                    <p>Latitude: ${latitude}</p>
+                    <p>Longitude: ${longitude}</p>
+                    <p>State: ${state}</p>
+                    <p>Country: ${country}</p>
+                `;
+
+                resultDiv.innerHTML = locationDetails;
+            })
+            .catch(error => {
+                console.error("Error fetching location details:", error);
+                resultDiv.innerHTML = "<p>Error fetching location details. Please try again.</p>";
+            });
+    }
+</script>
+
+</body>
+</html>

@@ -18,6 +18,11 @@ app.register_blueprint(marketdata)
 def index():
     return render_template("hello.html")
 
+
 @app.route('/about', methods=['GET', 'POST'])
 def about():
     return render_template("aboutus.html")
+
+@app.route('/loc2')
+def loc2():
+    return render_template('loc2.html')

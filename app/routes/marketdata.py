@@ -28,10 +28,7 @@ def market():
     if request.method == 'POST':
         select=request.form['state']
     
-
     return render_template("dataset.html",response_data=response_data,dataset_message=dataset_message)
-
-
 @marketdata.route('/marketdata',methods=['POST','GET'])
 def market_data():
 

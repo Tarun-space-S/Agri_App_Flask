@@ -15,6 +15,7 @@ complete=0
 train = Blueprint('train', __name__)
 
 
+
 @train.route('/display', methods=['POST', 'GET'])
 def display():
     # get the dataset ready

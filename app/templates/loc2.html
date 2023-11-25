@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="latitude">Latitude:</label>
+        <input type="text" id="latitude" name="latitude" placeholder="Enter latitude">
+        <label for="longitude">Longitude:</label>
+        <input type="text" id="longitude" name="longitude" placeholder="Enter longitude">
+        <button type="button" id="myButton">Get Location</button>
+    </form>
+    <script>
+        const button = document.querySelector("#myButton");
+
+        button.addEventListener("click", () => {
+            const latitude = document.getElementById("latitude").value;
+            const longitude = document.getElementById("longitude").value;
+
+            fetch('/get_location2', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ latitude, longitude })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("res").innerHTML = data.message;
+
+                if (data.status === '1') {
+                    const proceedButton = document.getElementById("proceedButton");
+                    proceedButton.innerHTML = "Proceed";
+                    proceedButton.onclick = function() {
+                        location.href = '/weather';
+                    };
+                }
+            })
+            .catch(() => {
+                document.getElementById("res").textContent = "Error fetching data from API";
+            });
+        });
+    </script>
+    <h1 id="res" style="text-decoration-color: chartreuse; align-self: center;"></h1>
+    <div id="result" class="container">
+        <!-- <button class="btn btn-primary" onclick="location.href='/';">Home</button> -->
+        <button style="align-self: center;" class="btn btn-primary" id="proceedButton"></button>
+    </div>
+</body>
+</html>

@@ -2,10 +2,10 @@
 <html>
 <head>
   <title>Dataset</title>
-  
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/price.css') }}">
 </head>
-<body>
-
+<body >
+<div id="pbody">
     <button id="train_data" class="Mprimary">Start Train</button>
     <h3 id="status"></h3>
 
@@ -52,6 +52,7 @@
 
 
   </form>
+</div>
   <script>
         const button = document.querySelector("#train_data");
         const status = document.getElementById("status"); // Get the status div
