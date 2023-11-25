@@ -71,9 +71,6 @@
   <h2 id="status" style="text-align: center;"></h2>
   <h2 id="data"></h2>
     
-    {% if complete == 1 %}
-      <button href="/display">Proceed To Train</button>
-    {% endif %}
 </div>
 
 <<<<<<< HEAD
@@ -183,9 +180,9 @@
     
             // Set the button text
             myButton.textContent = "Proceed to Train";
-    
+            const bd=document.getElementById("mbody");
             // Append the button to the body or any other container
-            document.body.appendChild(myButton);
+            bd.appendChild(myButton);
           }
         })
         .catch(() => {
