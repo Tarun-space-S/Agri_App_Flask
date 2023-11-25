@@ -5,13 +5,11 @@ import requests
 import csv
 import pandas as pd
 
-location=Blueprint('location',__name__)
+location=Blueprint('loc3',__name__)
 
-@location.route('/location', methods=['GET', 'POST'])
+@location.route('/loc3', methods=['GET', 'POST'])
 def weather():
-    return render_template("location.html")
-
-
+    return render_template("loc3.html")
 @location.route('/get_location', methods=['POST', 'GET'])
 def get_location():
     # Retrieve latitude and longitude from the JSON data

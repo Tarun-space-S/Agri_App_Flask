@@ -5,22 +5,22 @@ import requests
 import csv
 import pandas as pd
 
-location=Blueprint('location2',__name__)
+location=Blueprint('location',__name__)
 
-@location.route('/location2', methods=['GET', 'POST'])
+@location.route('/loc3', methods=['GET', 'POST'])
 def weather():
-    return render_template("loc2.html")
+    return render_template("loc3.html")
 
 
 @location.route('/get_location2', methods=['POST', 'GET'])
-def get_location():
+def get_location2():
     # Retrieve latitude and longitude from the JSON data
     status=0
     data = request.get_json()
     latitude = data.get('latitude')
     longitude = data.get('longitude')
-    
-   
+    address=data.get('address')
+    # api_key = 'ANG7KD72UDXLEX2RJJZFZ4J4R'
     
     api_key = 'B4M75WHYNBJLHJMNCBEBMDHGQ'
 
@@ -61,15 +61,23 @@ def get_location():
             monthly_rainfall = round(total_rainfall,2)
             response_data.update({'average_temperature':average_temperature,'average_humidity':average_humidity,'monthly_rainfall':monthly_rainfall}) 
 
-         
+            # print(f"Average Temperature: {average_temperature}°C")
+            # print(f"Average Humidity: {average_humidity}%")
+            # print(f"Monthly Rainfall: {monthly_rainfall} mm")
         else:
             print("No data available for the last 30 days.")
     else:
         print(f"Error: Unable to retrieve weather data. Status code: {response.status_code}")
-   
-    
-    
+    # Process the data (e.g., store it in a database, perform computations, etc.)
+    # Return a response (optional)
+    city=address.split(',')[-6]
+    state=address.split(',')[-3]
+    country=address.split(',')[-1]
+    state=state.strip()
+    df = pd.read_csv("dataset/sys/state.csv")
+    df = df[df['state'] == state]
+    code = df['code'].values[0]
 
-    response_data.update({'latitude': latitude, 'longitude': longitude})
+    response_data.update({'latitude': latitude, 'longitude': longitude,'city':city,'state':state,'state_code':code,'country':country,'address':address})
     status=1
     return jsonify(message='Weather data retrieved',status='1')
