@@ -1,0 +1,1975 @@
+Sl no.,District Name,Market Name,Commodity,Variety,Grade,Min Price (Rs./Quintal),Max Price (Rs./Quintal),Modal Price (Rs./Quintal),Price Date
+1,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,28 Nov 2023
+2,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,7500,12500,10000,27 Nov 2023
+3,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,6500,10500,8500,24 Nov 2023
+4,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,7500,12500,10000,23 Nov 2023
+5,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,22 Nov 2023
+6,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,21 Nov 2023
+7,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,20 Nov 2023
+8,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,18 Nov 2023
+9,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,17 Nov 2023
+10,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,16 Nov 2023
+11,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,7500,12500,10000,15 Nov 2023
+12,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,13 Nov 2023
+13,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,10 Nov 2023
+14,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,09 Nov 2023
+15,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,08 Nov 2023
+16,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,07 Nov 2023
+17,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,06 Nov 2023
+18,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,04 Nov 2023
+19,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,03 Nov 2023
+20,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,02 Nov 2023
+21,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,31 Oct 2023
+22,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,7500,12500,10000,30 Oct 2023
+23,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,27 Oct 2023
+24,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,26 Oct 2023
+25,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,8000,12000,10000,25 Oct 2023
+26,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,21 Oct 2023
+27,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,20 Oct 2023
+28,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,8000,12000,10000,19 Oct 2023
+29,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,18 Oct 2023
+30,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,8000,12000,10000,17 Oct 2023
+31,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,7500,12500,10000,16 Oct 2023
+32,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,8000,14000,11000,13 Oct 2023
+33,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,8000,12000,10000,12 Oct 2023
+34,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,11 Oct 2023
+35,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16500,14500,10 Oct 2023
+36,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,09 Oct 2023
+37,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,07 Oct 2023
+38,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,10000,16000,13000,06 Oct 2023
+39,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,05 Oct 2023
+40,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,2500,5000,3500,04 Oct 2023
+41,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,03 Oct 2023
+42,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,02 Oct 2023
+43,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,30 Sep 2023
+44,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,29 Sep 2023
+45,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,28 Sep 2023
+46,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,27 Sep 2023
+47,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,26 Sep 2023
+48,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,25 Sep 2023
+49,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,23 Sep 2023
+50,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,22 Sep 2023
+51,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,8000,12000,10000,21 Sep 2023
+52,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,8000,12000,10000,20 Sep 2023
+53,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,19 Sep 2023
+54,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,16 Sep 2023
+55,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,8000,12000,10000,15 Sep 2023
+56,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,14 Sep 2023
+57,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,13 Sep 2023
+58,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,8000,12000,10000,12 Sep 2023
+59,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,10000,14000,12000,11 Sep 2023
+60,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,8000,12000,10000,08 Sep 2023
+61,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,06 Sep 2023
+62,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,8000,12000,10000,05 Sep 2023
+63,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,04 Sep 2023
+64,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,10000,14000,12000,02 Sep 2023
+65,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,8500,12500,10500,01 Sep 2023
+66,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,8000,12000,10000,31 Aug 2023
+67,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,30 Aug 2023
+68,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,29 Aug 2023
+69,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,28 Aug 2023
+70,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,8000,12000,10000,25 Aug 2023
+71,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,7500,12500,10000,24 Aug 2023
+72,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,8000,12000,10000,23 Aug 2023
+73,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,10000,14000,12000,22 Aug 2023
+74,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,21 Aug 2023
+75,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,14500,13500,19 Aug 2023
+76,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,13500,18 Aug 2023
+77,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,17 Aug 2023
+78,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,14 Aug 2023
+79,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,11 Aug 2023
+80,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,10 Aug 2023
+81,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,09 Aug 2023
+82,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,13500,08 Aug 2023
+83,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,07 Aug 2023
+84,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,05 Aug 2023
+85,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,04 Aug 2023
+86,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,03 Aug 2023
+87,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,02 Aug 2023
+88,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,01 Aug 2023
+89,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,31 Jul 2023
+90,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,28 Jul 2023
+91,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,27 Jul 2023
+92,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,26 Jul 2023
+93,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,13500,25 Jul 2023
+94,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,8000,12000,10000,24 Jul 2023
+95,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,21 Jul 2023
+96,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,20 Jul 2023
+97,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,14500,13500,19 Jul 2023
+98,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,18 Jul 2023
+99,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,13500,17 Jul 2023
+100,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10500,14500,12500,15 Jul 2023
+101,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,14 Jul 2023
+102,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16500,14500,13 Jul 2023
+103,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16500,14500,12 Jul 2023
+104,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,13500,11 Jul 2023
+105,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,10 Jul 2023
+106,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,07 Jul 2023
+107,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,13500,06 Jul 2023
+108,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,05 Jul 2023
+109,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,10000,15000,12500,04 Jul 2023
+110,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12500,15000,13500,03 Jul 2023
+111,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,1000,2000,1500,01 Jul 2023
+112,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,30 Jun 2023
+113,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,28 Jun 2023
+114,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,17500,15000,27 Jun 2023
+115,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,26 Jun 2023
+116,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,1000,2000,1500,23 Jun 2023
+117,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,22 Jun 2023
+118,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,21 Jun 2023
+119,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,20 Jun 2023
+120,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,13500,19 Jun 2023
+121,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,17 Jun 2023
+122,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,16 Jun 2023
+123,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,15 Jun 2023
+124,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,13500,14 Jun 2023
+125,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,13 Jun 2023
+126,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,12 Jun 2023
+127,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,09 Jun 2023
+128,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,08 Jun 2023
+129,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,07 Jun 2023
+130,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,1500,2500,2000,06 Jun 2023
+131,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,1500,2500,2000,06 Jun 2023
+132,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,13500,05 Jun 2023
+133,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,03 Jun 2023
+134,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,02 Jun 2023
+135,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,10000,14000,12000,01 Jun 2023
+136,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,31 May 2023
+137,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,30 May 2023
+138,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10500,14500,12500,29 May 2023
+139,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,13500,26 May 2023
+140,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12500,14500,13500,25 May 2023
+141,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,9500,13500,11500,24 May 2023
+142,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,23 May 2023
+143,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,22 May 2023
+144,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,13500,20 May 2023
+145,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12500,15000,13500,19 May 2023
+146,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,18 May 2023
+147,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,14500,13500,17 May 2023
+148,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,16 May 2023
+149,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,13500,15 May 2023
+150,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12500,15000,13500,12 May 2023
+151,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,11 May 2023
+152,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,14000,16000,15000,09 May 2023
+153,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,08 May 2023
+154,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,05 May 2023
+155,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,04 May 2023
+156,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,13500,03 May 2023
+157,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,02 May 2023
+158,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,29 Apr 2023
+159,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,13500,28 Apr 2023
+160,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,27 Apr 2023
+161,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,26 Apr 2023
+162,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,25 Apr 2023
+163,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,24 Apr 2023
+164,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,21 Apr 2023
+165,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,20 Apr 2023
+166,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,19 Apr 2023
+167,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,18 Apr 2023
+168,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,17 Apr 2023
+169,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,15 Apr 2023
+170,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,13 Apr 2023
+171,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,8000,12000,10000,12 Apr 2023
+172,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,11 Apr 2023
+173,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,10 Apr 2023
+174,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,06 Apr 2023
+175,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,05 Apr 2023
+176,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12500,15000,13500,03 Apr 2023
+177,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,01 Apr 2023
+178,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,13500,31 Mar 2023
+179,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,30 Mar 2023
+180,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,4000,8000,6000,29 Mar 2023
+181,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,28 Mar 2023
+182,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,27 Mar 2023
+183,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,24 Mar 2023
+184,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,23 Mar 2023
+185,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,21 Mar 2023
+186,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,16000,13500,20 Mar 2023
+187,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,18 Mar 2023
+188,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,17 Mar 2023
+189,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,16 Mar 2023
+190,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,15 Mar 2023
+191,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,14 Mar 2023
+192,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,13 Mar 2023
+193,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,10 Mar 2023
+194,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,11000,15000,13000,10 Mar 2023
+195,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,09 Mar 2023
+196,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,08 Mar 2023
+197,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12000,16000,14000,07 Mar 2023
+198,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,06 Mar 2023
+199,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,04 Mar 2023
+200,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,13000,17000,15000,03 Mar 2023
+201,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,14000,16000,15000,02 Mar 2023
+202,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,01 Mar 2023
+203,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,28 Feb 2023
+204,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16500,14500,27 Feb 2023
+205,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,14000,16000,15000,24 Feb 2023
+206,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,23 Feb 2023
+207,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,22 Feb 2023
+208,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,14000,17000,15500,21 Feb 2023
+209,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,20 Feb 2023
+210,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,17 Feb 2023
+211,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,16 Feb 2023
+212,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,15 Feb 2023
+213,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,14 Feb 2023
+214,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,13 Feb 2023
+215,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,10 Feb 2023
+216,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,09 Feb 2023
+217,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,08 Feb 2023
+218,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,07 Feb 2023
+219,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,14000,18000,16000,06 Feb 2023
+220,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,04 Feb 2023
+221,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,03 Feb 2023
+222,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,02 Feb 2023
+223,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,01 Feb 2023
+224,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,31 Jan 2023
+225,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,30 Jan 2023
+226,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,27 Jan 2023
+227,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,25 Jan 2023
+228,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,24 Jan 2023
+229,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,23 Jan 2023
+230,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,21 Jan 2023
+231,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,14000,18000,16000,20 Jan 2023
+232,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,19 Jan 2023
+233,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,13000,17000,15000,18 Jan 2023
+234,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,17 Jan 2023
+235,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,15000,13500,16 Jan 2023
+236,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,14000,18000,16000,13 Jan 2023
+237,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12000,16000,14000,12 Jan 2023
+238,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,11 Jan 2023
+239,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,10 Jan 2023
+240,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,15000,13500,09 Jan 2023
+241,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,14000,18000,16000,07 Jan 2023
+242,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,06 Jan 2023
+243,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,05 Jan 2023
+244,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,04 Jan 2023
+245,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,03 Jan 2023
+246,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,02 Jan 2023
+247,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,31 Dec 2022
+248,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,8000,12000,10000,30 Dec 2022
+249,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,29 Dec 2022
+250,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,28 Dec 2022
+251,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,8000,12000,10000,27 Dec 2022
+252,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,26 Dec 2022
+253,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,23 Dec 2022
+254,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,22 Dec 2022
+255,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,21 Dec 2022
+256,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,20 Dec 2022
+257,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,19 Dec 2022
+258,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,17 Dec 2022
+259,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,13500,16 Dec 2022
+260,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,15 Dec 2022
+261,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,14 Dec 2022
+262,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,13 Dec 2022
+263,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,12500,11500,12 Dec 2022
+264,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,09 Dec 2022
+265,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,08 Dec 2022
+266,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,14000,16000,15000,07 Dec 2022
+267,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,06 Dec 2022
+268,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16500,14500,05 Dec 2022
+269,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,03 Dec 2022
+270,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,02 Dec 2022
+271,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,01 Dec 2022
+272,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,30 Nov 2022
+273,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,29 Nov 2022
+274,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,28 Nov 2022
+275,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,9000,14000,12000,25 Nov 2022
+276,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,24 Nov 2022
+277,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,23 Nov 2022
+278,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,22 Nov 2022
+279,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,21 Nov 2022
+280,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,19 Nov 2022
+281,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,15000,13500,18 Nov 2022
+282,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,1200,1600,1400,17 Nov 2022
+283,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,16 Nov 2022
+284,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,15 Nov 2022
+285,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,14 Nov 2022
+286,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,10 Nov 2022
+287,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,17500,15000,09 Nov 2022
+288,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,08 Nov 2022
+289,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,07 Nov 2022
+290,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,15000,20000,17500,05 Nov 2022
+291,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,18000,15000,04 Nov 2022
+292,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,18000,15000,03 Nov 2022
+293,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,18000,15000,02 Nov 2022
+294,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,18000,15000,31 Oct 2022
+295,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,17500,15000,29 Oct 2022
+296,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,18000,15000,28 Oct 2022
+297,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,27 Oct 2022
+298,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,25 Oct 2022
+299,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,21 Oct 2022
+300,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,20 Oct 2022
+301,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,19 Oct 2022
+302,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,18 Oct 2022
+303,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10500,14500,12500,17 Oct 2022
+304,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,15 Oct 2022
+305,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,14 Oct 2022
+306,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,7500,12500,10000,13 Oct 2022
+307,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,12 Oct 2022
+308,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,11 Oct 2022
+309,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16500,14500,10 Oct 2022
+310,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,07 Oct 2022
+311,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,06 Oct 2022
+312,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,03 Oct 2022
+313,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,01 Oct 2022
+314,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,30 Sep 2022
+315,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,29 Sep 2022
+316,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,28 Sep 2022
+317,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,7500,12500,10000,27 Sep 2022
+318,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,17500,15000,26 Sep 2022
+319,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,17500,15000,23 Sep 2022
+320,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,17500,15000,22 Sep 2022
+321,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16500,14500,21 Sep 2022
+322,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,20 Sep 2022
+323,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,7000,11000,9000,19 Sep 2022
+324,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,17 Sep 2022
+325,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,16 Sep 2022
+326,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,15 Sep 2022
+327,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,14 Sep 2022
+328,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,13 Sep 2022
+329,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,12 Sep 2022
+330,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,09 Sep 2022
+331,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,08 Sep 2022
+332,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16500,14500,07 Sep 2022
+333,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,06 Sep 2022
+334,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,05 Sep 2022
+335,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,03 Sep 2022
+336,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,02 Sep 2022
+337,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,01 Sep 2022
+338,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,30 Aug 2022
+339,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,13000,17000,15000,29 Aug 2022
+340,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16500,14500,26 Aug 2022
+341,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10500,14500,12500,25 Aug 2022
+342,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16500,14500,24 Aug 2022
+343,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,10500,14500,12500,23 Aug 2022
+344,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12500,16500,14500,22 Aug 2022
+345,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,20 Aug 2022
+346,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,19 Aug 2022
+347,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15500,14000,18 Aug 2022
+348,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,17 Aug 2022
+349,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,13500,16 Aug 2022
+350,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12500,16500,14500,12 Aug 2022
+351,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,11 Aug 2022
+352,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,10 Aug 2022
+353,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,14000,08 Aug 2022
+354,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,9000,14000,11000,06 Aug 2022
+355,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12000,05 Aug 2022
+356,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,04 Aug 2022
+357,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12500,16500,14500,03 Aug 2022
+358,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,10000,16000,13000,02 Aug 2022
+359,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16500,14500,01 Aug 2022
+360,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,17500,15000,30 Jul 2022
+361,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,17500,15000,29 Jul 2022
+362,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,28 Jul 2022
+363,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12500,16500,14500,27 Jul 2022
+364,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,26 Jul 2022
+365,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,25 Jul 2022
+366,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16500,14500,22 Jul 2022
+367,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16500,14500,21 Jul 2022
+368,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,20 Jul 2022
+369,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11500,15500,13500,19 Jul 2022
+370,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,18 Jul 2022
+371,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,16 Jul 2022
+372,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16500,14500,15 Jul 2022
+373,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12000,15000,13500,14 Jul 2022
+374,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,13 Jul 2022
+375,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10500,15000,13500,12 Jul 2022
+376,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,11 Jul 2022
+377,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16500,14500,08 Jul 2022
+378,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,07 Jul 2022
+379,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,06 Jul 2022
+380,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,05 Jul 2022
+381,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,14000,04 Jul 2022
+382,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,28 Jun 2022
+383,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,27 Jun 2022
+384,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,24 Jun 2022
+385,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10500,15000,13000,23 Jun 2022
+386,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,12000,11000,22 Jun 2022
+387,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,21 Jun 2022
+388,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,12000,11000,20 Jun 2022
+389,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10500,14500,13000,18 Jun 2022
+390,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,17 Jun 2022
+391,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,16 Jun 2022
+392,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,15 Jun 2022
+393,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,14 Jun 2022
+394,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,11000,15000,13000,10 Jun 2022
+395,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,09 Jun 2022
+396,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,08 Jun 2022
+397,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,15000,13800,07 Jun 2022
+398,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,06 Jun 2022
+399,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,04 Jun 2022
+400,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16500,14500,03 Jun 2022
+401,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,02 Jun 2022
+402,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16500,14500,27 May 2022
+403,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,26 May 2022
+404,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16500,14500,25 May 2022
+405,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16000,14000,24 May 2022
+406,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,16000,14000,23 May 2022
+407,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12500,16500,14500,20 May 2022
+408,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,18 May 2022
+409,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12500,17500,15000,17 May 2022
+410,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,10000,16000,13000,16 May 2022
+411,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,10000,16000,13000,13 May 2022
+412,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,12 May 2022
+413,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,16000,13000,11 May 2022
+414,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,10 May 2022
+415,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,09 May 2022
+416,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,18000,15000,07 May 2022
+417,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,06 May 2022
+418,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,18000,15000,05 May 2022
+419,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,04 May 2022
+420,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,15000,13500,30 Apr 2022
+421,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,7000,11000,9000,29 Apr 2022
+422,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,27 Apr 2022
+423,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,26 Apr 2022
+424,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,25 Apr 2022
+425,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,22 Apr 2022
+426,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,21 Apr 2022
+427,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,20 Apr 2022
+428,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,19 Apr 2022
+429,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,10000,14000,12000,18 Apr 2022
+430,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,9000,13000,11000,16 Apr 2022
+431,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,13 Apr 2022
+432,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,9000,13000,11000,12 Apr 2022
+433,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,14000,12500,08 Apr 2022
+434,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,9000,13000,11000,07 Apr 2022
+435,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,11000,13000,12000,06 Apr 2022
+436,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12000,15000,13500,05 Apr 2022
+437,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,15000,13500,04 Apr 2022
+438,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12000,15000,13500,01 Apr 2022
+439,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,31 Mar 2022
+440,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,13000,15000,14000,30 Mar 2022
+441,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,29 Mar 2022
+442,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,25 Mar 2022
+443,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,13000,15000,14000,24 Mar 2022
+444,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,14000,13000,23 Mar 2022
+445,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12000,16000,14000,22 Mar 2022
+446,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,21 Mar 2022
+447,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,19 Mar 2022
+448,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,18 Mar 2022
+449,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,17 Mar 2022
+450,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,16 Mar 2022
+451,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,15 Mar 2022
+452,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,18000,15000,14 Mar 2022
+453,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,18000,15000,11 Mar 2022
+454,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,10 Mar 2022
+455,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,18000,15000,09 Mar 2022
+456,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,14000,18000,16000,08 Mar 2022
+457,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,17000,14500,07 Mar 2022
+458,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,14000,18000,16000,05 Mar 2022
+459,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12000,17000,14500,04 Mar 2022
+460,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,03 Mar 2022
+461,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,14000,18000,16000,28 Feb 2022
+462,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,13000,17000,15000,25 Feb 2022
+463,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,24 Feb 2022
+464,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,23 Feb 2022
+465,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,22 Feb 2022
+466,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,14000,18000,16000,21 Feb 2022
+467,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,19 Feb 2022
+468,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,18 Feb 2022
+469,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,13000,17000,15000,17 Feb 2022
+470,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,16 Feb 2022
+471,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,15 Feb 2022
+472,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,14 Feb 2022
+473,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,11 Feb 2022
+474,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,10 Feb 2022
+475,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,09 Feb 2022
+476,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,08 Feb 2022
+477,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,07 Feb 2022
+478,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,05 Feb 2022
+479,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,04 Feb 2022
+480,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,13000,16000,14500,03 Feb 2022
+481,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,02 Feb 2022
+482,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,01 Feb 2022
+483,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,29 Jan 2022
+484,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,28 Jan 2022
+485,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,25 Jan 2022
+486,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,15000,13500,24 Jan 2022
+487,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,21 Jan 2022
+488,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,14000,13000,20 Jan 2022
+489,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,19 Jan 2022
+490,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12000,15000,13500,18 Jan 2022
+491,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,11000,15000,13000,17 Jan 2022
+492,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,14 Jan 2022
+493,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,13 Jan 2022
+494,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,12 Jan 2022
+495,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,1500,2500,2000,11 Jan 2022
+496,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,13000,17000,15000,10 Jan 2022
+497,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,07 Jan 2022
+498,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,06 Jan 2022
+499,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,05 Jan 2022
+500,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,04 Jan 2022
+501,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,11000,15000,13000,03 Jan 2022
+502,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,13000,16000,14500,01 Jan 2022
+503,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,12000,15000,13500,31 Dec 2021
+504,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,30 Dec 2021
+505,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,10000,15000,12500,29 Dec 2021
+506,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,13000,16000,14500,28 Dec 2021
+507,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,27 Dec 2021
+508,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,24 Dec 2021
+509,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,23 Dec 2021
+510,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,15000,13500,22 Dec 2021
+511,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,21 Dec 2021
+512,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,4000,5000,4500,20 Dec 2021
+513,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,18 Dec 2021
+514,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,FAQ,13000,15000,14000,17 Dec 2021
+515,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,16 Dec 2021
+516,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,13000,15000,14000,15 Dec 2021
+517,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,14000,12000,14 Dec 2021
+518,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,13000,15000,14000,13 Dec 2021
+519,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,13000,17000,15000,10 Dec 2021
+520,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,09 Dec 2021
+521,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,13000,17000,15000,08 Dec 2021
+522,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,07 Dec 2021
+523,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,06 Dec 2021
+524,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,10000,15000,12500,04 Dec 2021
+525,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,13000,17000,15000,03 Dec 2021
+526,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,02 Dec 2021
+527,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,13000,17000,15000,01 Dec 2021
+528,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,15000,13500,30 Nov 2021
+529,Bangalore,"Binny Mill (F&V), Bangalore",Pomegranate,Pomogranate,Large,12000,16000,14000,29 Nov 2021
+530,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4800,5500,5000,24 Nov 2023
+531,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5000,4800,23 Nov 2023
+532,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5000,4800,22 Nov 2023
+533,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5500,5000,21 Nov 2023
+534,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5200,4800,20 Nov 2023
+535,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4800,5500,5200,18 Nov 2023
+536,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4800,5500,5200,17 Nov 2023
+537,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5000,4800,16 Nov 2023
+538,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,15 Nov 2023
+539,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5000,4800,13 Nov 2023
+540,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4600,5000,4800,10 Nov 2023
+541,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5500,5000,09 Nov 2023
+542,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5000,4800,08 Nov 2023
+543,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4800,4500,07 Nov 2023
+544,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4800,4500,06 Nov 2023
+545,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5000,4800,04 Nov 2023
+546,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5500,5000,03 Nov 2023
+547,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,02 Nov 2023
+548,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4800,4500,31 Oct 2023
+549,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,30 Oct 2023
+550,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,27 Oct 2023
+551,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,26 Oct 2023
+552,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,25 Oct 2023
+553,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4500,4000,21 Oct 2023
+554,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5000,4800,20 Oct 2023
+555,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,19 Oct 2023
+556,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4200,4800,4500,18 Oct 2023
+557,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3800,4500,4200,17 Oct 2023
+558,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,16 Oct 2023
+559,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,13 Oct 2023
+560,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,12 Oct 2023
+561,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3800,4500,4000,11 Oct 2023
+562,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,10 Oct 2023
+563,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,09 Oct 2023
+564,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,07 Oct 2023
+565,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,06 Oct 2023
+566,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,05 Oct 2023
+567,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,04 Oct 2023
+568,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,03 Oct 2023
+569,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,30 Sep 2023
+570,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,29 Sep 2023
+571,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,27 Sep 2023
+572,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,26 Sep 2023
+573,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,25 Sep 2023
+574,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3800,4200,4000,22 Sep 2023
+575,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,21 Sep 2023
+576,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,20 Sep 2023
+577,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,19 Sep 2023
+578,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,16 Sep 2023
+579,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3800,3500,15 Sep 2023
+580,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,14 Sep 2023
+581,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,13 Sep 2023
+582,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,12 Sep 2023
+583,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2800,3500,3200,11 Sep 2023
+584,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,08 Sep 2023
+585,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,06 Sep 2023
+586,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,05 Sep 2023
+587,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,04 Sep 2023
+588,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,02 Sep 2023
+589,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,01 Sep 2023
+590,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,31 Aug 2023
+591,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4500,4000,30 Aug 2023
+592,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,29 Aug 2023
+593,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3800,3500,28 Aug 2023
+594,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,25 Aug 2023
+595,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,24 Aug 2023
+596,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,23 Aug 2023
+597,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3500,3000,22 Aug 2023
+598,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,21 Aug 2023
+599,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,19 Aug 2023
+600,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,18 Aug 2023
+601,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,17 Aug 2023
+602,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,16 Aug 2023
+603,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,14 Aug 2023
+604,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,11 Aug 2023
+605,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,10 Aug 2023
+606,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,09 Aug 2023
+607,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,08 Aug 2023
+608,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,07 Aug 2023
+609,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,05 Aug 2023
+610,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,04 Aug 2023
+611,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,03 Aug 2023
+612,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,01 Aug 2023
+613,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,31 Jul 2023
+614,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,28 Jul 2023
+615,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,27 Jul 2023
+616,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,26 Jul 2023
+617,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,25 Jul 2023
+618,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,24 Jul 2023
+619,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3700,21 Jul 2023
+620,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,20 Jul 2023
+621,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,18 Jul 2023
+622,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,17 Jul 2023
+623,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,15 Jul 2023
+624,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,14 Jul 2023
+625,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4200,4100,13 Jul 2023
+626,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,12 Jul 2023
+627,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,11 Jul 2023
+628,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,10 Jul 2023
+629,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,5000,4500,07 Jul 2023
+630,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,06 Jul 2023
+631,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,05 Jul 2023
+632,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,04 Jul 2023
+633,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,03 Jul 2023
+634,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,01 Jul 2023
+635,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,30 Jun 2023
+636,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,28 Jun 2023
+637,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,27 Jun 2023
+638,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,26 Jun 2023
+639,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,23 Jun 2023
+640,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,22 Jun 2023
+641,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,21 Jun 2023
+642,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,20 Jun 2023
+643,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,19 Jun 2023
+644,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,17 Jun 2023
+645,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,16 Jun 2023
+646,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,15 Jun 2023
+647,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,14 Jun 2023
+648,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,13 Jun 2023
+649,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,12 Jun 2023
+650,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,09 Jun 2023
+651,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,08 Jun 2023
+652,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,07 Jun 2023
+653,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,5000,4500,06 Jun 2023
+654,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,05 Jun 2023
+655,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,03 Jun 2023
+656,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,5000,4500,02 Jun 2023
+657,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4800,4500,01 Jun 2023
+658,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,31 May 2023
+659,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,30 May 2023
+660,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,5000,5500,5200,29 May 2023
+661,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,5000,6000,5500,26 May 2023
+662,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,5000,5500,5200,25 May 2023
+663,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,5000,5500,5200,24 May 2023
+664,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,5000,5600,5300,23 May 2023
+665,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,5000,5500,5200,22 May 2023
+666,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,5000,5500,5200,20 May 2023
+667,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5500,5000,19 May 2023
+668,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,5000,5500,5200,18 May 2023
+669,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,5000,6000,5500,17 May 2023
+670,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5000,4800,16 May 2023
+671,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,5000,6000,5500,15 May 2023
+672,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5000,4800,12 May 2023
+673,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5000,4800,11 May 2023
+674,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5000,4800,09 May 2023
+675,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5000,4800,08 May 2023
+676,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,06 May 2023
+677,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5000,4800,05 May 2023
+678,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5000,4800,04 May 2023
+679,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5000,4800,03 May 2023
+680,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,02 May 2023
+681,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,29 Apr 2023
+682,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,28 Apr 2023
+683,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,27 Apr 2023
+684,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,26 Apr 2023
+685,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,5000,4500,25 Apr 2023
+686,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,24 Apr 2023
+687,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,21 Apr 2023
+688,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4200,4800,4500,20 Apr 2023
+689,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,19 Apr 2023
+690,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,18 Apr 2023
+691,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4200,4100,17 Apr 2023
+692,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,15 Apr 2023
+693,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,13 Apr 2023
+694,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,12 Apr 2023
+695,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,11 Apr 2023
+696,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,10 Apr 2023
+697,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,06 Apr 2023
+698,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,05 Apr 2023
+699,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3800,4500,4200,03 Apr 2023
+700,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,5000,4500,01 Apr 2023
+701,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4500,5000,4800,31 Mar 2023
+702,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,30 Mar 2023
+703,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,29 Mar 2023
+704,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,28 Mar 2023
+705,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,27 Mar 2023
+706,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,24 Mar 2023
+707,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,23 Mar 2023
+708,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,21 Mar 2023
+709,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,20 Mar 2023
+710,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,18 Mar 2023
+711,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,17 Mar 2023
+712,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,16 Mar 2023
+713,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3800,4000,3900,15 Mar 2023
+714,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,14 Mar 2023
+715,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,13 Mar 2023
+716,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,10 Mar 2023
+717,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3700,09 Mar 2023
+718,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,08 Mar 2023
+719,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,07 Mar 2023
+720,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,06 Mar 2023
+721,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,3800,3600,04 Mar 2023
+722,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,03 Mar 2023
+723,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,02 Mar 2023
+724,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,28 Feb 2023
+725,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,27 Feb 2023
+726,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,24 Feb 2023
+727,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,23 Feb 2023
+728,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,22 Feb 2023
+729,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,21 Feb 2023
+730,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,20 Feb 2023
+731,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,5000,4500,17 Feb 2023
+732,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3800,4500,4200,15 Feb 2023
+733,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,14 Feb 2023
+734,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,13 Feb 2023
+735,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,10 Feb 2023
+736,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3700,09 Feb 2023
+737,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3700,08 Feb 2023
+738,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,07 Feb 2023
+739,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3700,06 Feb 2023
+740,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,3800,3600,04 Feb 2023
+741,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,03 Feb 2023
+742,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,02 Feb 2023
+743,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,01 Feb 2023
+744,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,31 Jan 2023
+745,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,30 Jan 2023
+746,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,27 Jan 2023
+747,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,25 Jan 2023
+748,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,24 Jan 2023
+749,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,23 Jan 2023
+750,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,3800,3600,21 Jan 2023
+751,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,20 Jan 2023
+752,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,19 Jan 2023
+753,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,18 Jan 2023
+754,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,17 Jan 2023
+755,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,16 Jan 2023
+756,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,13 Jan 2023
+757,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,12 Jan 2023
+758,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,11 Jan 2023
+759,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2800,10 Jan 2023
+760,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,09 Jan 2023
+761,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,07 Jan 2023
+762,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,06 Jan 2023
+763,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,05 Jan 2023
+764,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,04 Jan 2023
+765,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2200,03 Jan 2023
+766,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2200,02 Jan 2023
+767,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,31 Dec 2022
+768,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,30 Dec 2022
+769,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,29 Dec 2022
+770,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,28 Dec 2022
+771,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,26 Dec 2022
+772,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,23 Dec 2022
+773,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,22 Dec 2022
+774,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,5000,4500,21 Dec 2022
+775,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,20 Dec 2022
+776,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,19 Dec 2022
+777,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,17 Dec 2022
+778,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2800,16 Dec 2022
+779,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3200,3100,14 Dec 2022
+780,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2700,13 Dec 2022
+781,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,12 Dec 2022
+782,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3200,3100,09 Dec 2022
+783,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,08 Dec 2022
+784,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,07 Dec 2022
+785,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3200,3100,06 Dec 2022
+786,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,05 Dec 2022
+787,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,03 Dec 2022
+788,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,02 Dec 2022
+789,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,01 Dec 2022
+790,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2200,2600,2400,29 Nov 2022
+791,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2200,28 Nov 2022
+792,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,25 Nov 2022
+793,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,24 Nov 2022
+794,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,23 Nov 2022
+795,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,22 Nov 2022
+796,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,21 Nov 2022
+797,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2400,2200,19 Nov 2022
+798,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2200,17 Nov 2022
+799,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,16 Nov 2022
+800,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,15 Nov 2022
+801,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,14 Nov 2022
+802,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,10 Nov 2022
+803,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,09 Nov 2022
+804,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2800,08 Nov 2022
+805,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,07 Nov 2022
+806,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,05 Nov 2022
+807,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2200,04 Nov 2022
+808,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2200,03 Nov 2022
+809,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,02 Nov 2022
+810,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,31 Oct 2022
+811,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,29 Oct 2022
+812,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2800,28 Oct 2022
+813,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2300,27 Oct 2022
+814,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3500,3000,25 Oct 2022
+815,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,21 Oct 2022
+816,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,20 Oct 2022
+817,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2800,19 Oct 2022
+818,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2200,18 Oct 2022
+819,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2200,17 Oct 2022
+820,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2200,15 Oct 2022
+821,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2200,14 Oct 2022
+822,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,13 Oct 2022
+823,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2200,12 Oct 2022
+824,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2200,11 Oct 2022
+825,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2200,10 Oct 2022
+826,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2200,07 Oct 2022
+827,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2200,06 Oct 2022
+828,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,03 Oct 2022
+829,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,01 Oct 2022
+830,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2800,30 Sep 2022
+831,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,29 Sep 2022
+832,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,28 Sep 2022
+833,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2800,27 Sep 2022
+834,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2200,23 Sep 2022
+835,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,22 Sep 2022
+836,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,21 Sep 2022
+837,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,20 Sep 2022
+838,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,19 Sep 2022
+839,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2800,17 Sep 2022
+840,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,1500,2500,2000,16 Sep 2022
+841,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2200,15 Sep 2022
+842,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,1500,2000,1800,14 Sep 2022
+843,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,13 Sep 2022
+844,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,12 Sep 2022
+845,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,09 Sep 2022
+846,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,08 Sep 2022
+847,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,07 Sep 2022
+848,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,06 Sep 2022
+849,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,1500,2500,2000,05 Sep 2022
+850,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,1500,2000,1800,03 Sep 2022
+851,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2800,02 Sep 2022
+852,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,01 Sep 2022
+853,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,30 Aug 2022
+854,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2800,29 Aug 2022
+855,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2800,2400,26 Aug 2022
+856,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,25 Aug 2022
+857,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2200,24 Aug 2022
+858,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2800,23 Aug 2022
+859,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,22 Aug 2022
+860,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2200,20 Aug 2022
+861,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,19 Aug 2022
+862,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,18 Aug 2022
+863,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,17 Aug 2022
+864,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,16 Aug 2022
+865,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2800,12 Aug 2022
+866,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,11 Aug 2022
+867,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2500,2300,10 Aug 2022
+868,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2800,08 Aug 2022
+869,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2800,06 Aug 2022
+870,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,05 Aug 2022
+871,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3500,3000,04 Aug 2022
+872,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,03 Aug 2022
+873,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,01 Aug 2022
+874,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,30 Jul 2022
+875,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,29 Jul 2022
+876,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2800,2500,28 Jul 2022
+877,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2800,3500,3000,27 Jul 2022
+878,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,26 Jul 2022
+879,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3500,3000,25 Jul 2022
+880,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,22 Jul 2022
+881,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,2800,2500,21 Jul 2022
+882,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,20 Jul 2022
+883,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,19 Jul 2022
+884,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,18 Jul 2022
+885,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,16 Jul 2022
+886,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,15 Jul 2022
+887,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,14 Jul 2022
+888,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,13 Jul 2022
+889,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,12 Jul 2022
+890,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,11 Jul 2022
+891,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,08 Jul 2022
+892,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,07 Jul 2022
+893,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2800,06 Jul 2022
+894,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,05 Jul 2022
+895,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,04 Jul 2022
+896,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,02 Jul 2022
+897,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,30 Jun 2022
+898,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2000,3000,2500,29 Jun 2022
+899,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,5000,4500,28 Jun 2022
+900,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,27 Jun 2022
+901,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3200,4000,3500,24 Jun 2022
+902,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,23 Jun 2022
+903,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,22 Jun 2022
+904,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,21 Jun 2022
+905,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,20 Jun 2022
+906,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4500,4000,18 Jun 2022
+907,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,17 Jun 2022
+908,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,16 Jun 2022
+909,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,15 Jun 2022
+910,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,14 Jun 2022
+911,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,13 Jun 2022
+912,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,10 Jun 2022
+913,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,5000,4500,09 Jun 2022
+914,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,08 Jun 2022
+915,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,07 Jun 2022
+916,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,06 Jun 2022
+917,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,04 Jun 2022
+918,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3800,3500,03 Jun 2022
+919,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3800,4500,4000,02 Jun 2022
+920,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,31 May 2022
+921,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,30 May 2022
+922,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,27 May 2022
+923,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,26 May 2022
+924,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,25 May 2022
+925,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3800,3500,24 May 2022
+926,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,23 May 2022
+927,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3600,4000,3800,21 May 2022
+928,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,20 May 2022
+929,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,19 May 2022
+930,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,18 May 2022
+931,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,17 May 2022
+932,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,16 May 2022
+933,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,12 May 2022
+934,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,11 May 2022
+935,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,10 May 2022
+936,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,09 May 2022
+937,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,5000,4500,07 May 2022
+938,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,06 May 2022
+939,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,05 May 2022
+940,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,04 May 2022
+941,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,30 Apr 2022
+942,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,27 Apr 2022
+943,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,26 Apr 2022
+944,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,25 Apr 2022
+945,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,22 Apr 2022
+946,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,21 Apr 2022
+947,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,20 Apr 2022
+948,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,19 Apr 2022
+949,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3800,3500,18 Apr 2022
+950,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,16 Apr 2022
+951,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,13 Apr 2022
+952,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,12 Apr 2022
+953,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,11 Apr 2022
+954,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,08 Apr 2022
+955,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,07 Apr 2022
+956,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,5000,4500,06 Apr 2022
+957,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,5000,4500,05 Apr 2022
+958,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,5000,4500,04 Apr 2022
+959,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,5000,4500,01 Apr 2022
+960,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,5000,4500,31 Mar 2022
+961,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,30 Mar 2022
+962,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,29 Mar 2022
+963,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,25 Mar 2022
+964,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,24 Mar 2022
+965,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4500,4000,23 Mar 2022
+966,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,5000,5500,5200,22 Mar 2022
+967,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,21 Mar 2022
+968,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3700,19 Mar 2022
+969,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,18 Mar 2022
+970,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3700,17 Mar 2022
+971,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,14 Mar 2022
+972,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,11 Mar 2022
+973,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,10 Mar 2022
+974,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,8000,5000,09 Mar 2022
+975,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,08 Mar 2022
+976,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3500,3000,07 Mar 2022
+977,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,05 Mar 2022
+978,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3500,3000,04 Mar 2022
+979,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3300,03 Mar 2022
+980,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,02 Mar 2022
+981,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4500,4000,28 Feb 2022
+982,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,25 Feb 2022
+983,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3800,3500,24 Feb 2022
+984,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,23 Feb 2022
+985,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3800,3500,22 Feb 2022
+986,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3400,3000,21 Feb 2022
+987,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,19 Feb 2022
+988,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,18 Feb 2022
+989,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3800,3500,17 Feb 2022
+990,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3800,4200,4000,16 Feb 2022
+991,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3300,15 Feb 2022
+992,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,14 Feb 2022
+993,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,11 Feb 2022
+994,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,10 Feb 2022
+995,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3800,3500,09 Feb 2022
+996,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4200,3800,08 Feb 2022
+997,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3800,4000,3800,07 Feb 2022
+998,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,05 Feb 2022
+999,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4200,4000,04 Feb 2022
+1000,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3300,03 Feb 2022
+1001,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3800,4400,4000,02 Feb 2022
+1002,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3300,4000,3700,01 Feb 2022
+1003,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,31 Jan 2022
+1004,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3800,3500,29 Jan 2022
+1005,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,28 Jan 2022
+1006,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,27 Jan 2022
+1007,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3200,3800,3500,25 Jan 2022
+1008,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3600,3300,24 Jan 2022
+1009,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,21 Jan 2022
+1010,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,20 Jan 2022
+1011,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2800,3500,3000,19 Jan 2022
+1012,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3300,18 Jan 2022
+1013,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,17 Jan 2022
+1014,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4200,4100,14 Jan 2022
+1015,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,13 Jan 2022
+1016,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4800,4500,12 Jan 2022
+1017,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,3900,3700,11 Jan 2022
+1018,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3800,4000,3900,10 Jan 2022
+1019,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,07 Jan 2022
+1020,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3600,3800,3700,06 Jan 2022
+1021,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,4000,4500,4200,05 Jan 2022
+1022,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,04 Jan 2022
+1023,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,03 Jan 2022
+1024,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3700,01 Jan 2022
+1025,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,31 Dec 2021
+1026,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3600,4000,3700,30 Dec 2021
+1027,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3600,3800,3700,29 Dec 2021
+1028,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,28 Dec 2021
+1029,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,3800,3600,27 Dec 2021
+1030,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,24 Dec 2021
+1031,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,23 Dec 2021
+1032,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,22 Dec 2021
+1033,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,21 Dec 2021
+1034,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,3800,3600,20 Dec 2021
+1035,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3600,18 Dec 2021
+1036,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3800,4000,3900,17 Dec 2021
+1037,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3300,16 Dec 2021
+1038,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,3800,3600,15 Dec 2021
+1039,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,14 Dec 2021
+1040,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,13 Dec 2021
+1041,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,10 Dec 2021
+1042,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2600,09 Dec 2021
+1043,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,2500,3000,2800,08 Dec 2021
+1044,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3500,4000,3800,07 Dec 2021
+1045,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,06 Dec 2021
+1046,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,4000,3500,04 Dec 2021
+1047,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,03 Dec 2021
+1048,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3800,3500,02 Dec 2021
+1049,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3800,3500,01 Dec 2021
+1050,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3100,30 Nov 2021
+1051,Davangere,Davangere,Pomegranate,Pomogranate,FAQ,3000,3500,3200,29 Nov 2021
+1052,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3000,5000,4000,25 Nov 2023
+1053,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,5000,3500,20 Nov 2023
+1054,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3000,5000,4000,18 Nov 2023
+1055,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3000,4000,3500,15 Nov 2023
+1056,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3000,5000,4000,08 Nov 2023
+1057,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,6000,8000,7000,06 Nov 2023
+1058,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3000,6000,4500,04 Nov 2023
+1059,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,5000,4500,28 Oct 2023
+1060,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,6000,5000,25 Oct 2023
+1061,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,6000,5000,21 Oct 2023
+1062,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,6000,5000,18 Oct 2023
+1063,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,5000,7000,6000,11 Oct 2023
+1064,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,5000,7000,6000,07 Oct 2023
+1065,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,7000,5500,27 Sep 2023
+1066,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,5000,7000,6000,26 Sep 2023
+1067,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,6000,5000,13 Sep 2023
+1068,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,7000,5500,11 Sep 2023
+1069,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,7000,8000,7500,06 Sep 2023
+1070,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,7000,5500,30 Aug 2023
+1071,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,7000,8000,7500,28 Aug 2023
+1072,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,5000,7000,6000,23 Aug 2023
+1073,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,5000,8000,6500,09 Aug 2023
+1074,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,5000,3500,02 Aug 2023
+1075,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,5000,3500,01 Aug 2023
+1076,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,5000,8000,6500,28 Jul 2023
+1077,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,5000,8000,6500,27 Jul 2023
+1078,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,5000,6000,5500,25 Jul 2023
+1079,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,6000,5000,24 Jul 2023
+1080,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,5000,6000,5500,22 Jul 2023
+1081,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,6000,5000,19 Jul 2023
+1082,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,6000,5000,18 Jul 2023
+1083,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,5000,7000,6000,15 Jul 2023
+1084,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3000,5500,4200,14 Jul 2023
+1085,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,5000,7000,6000,13 Jul 2023
+1086,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,8000,6000,12 Jul 2023
+1087,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3000,4000,3500,11 Jul 2023
+1088,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3550,5500,4550,10 Jul 2023
+1089,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3000,6000,5000,08 Jul 2023
+1090,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,8000,6000,07 Jul 2023
+1091,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3560,5100,4420,06 Jul 2023
+1092,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,8000,6000,05 Jul 2023
+1093,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3000,6500,4800,04 Jul 2023
+1094,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,8000,6000,03 Jul 2023
+1095,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3500,6500,4558,01 Jul 2023
+1096,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,4500,3500,30 Jun 2023
+1097,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3000,7000,5000,28 Jun 2023
+1098,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3200,7500,4900,27 Jun 2023
+1099,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3000,3500,3200,26 Jun 2023
+1100,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,3500,2500,23 Jun 2023
+1101,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2500,4580,3550,22 Jun 2023
+1102,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3000,7000,5000,21 Jun 2023
+1103,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3000,7000,5000,20 Jun 2023
+1104,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3000,7000,5000,19 Jun 2023
+1105,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,3000,2500,17 Jun 2023
+1106,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3000,6500,4500,15 Jun 2023
+1107,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,8000,6000,14 Jun 2023
+1108,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,8000,6000,13 Jun 2023
+1109,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,8000,6000,12 Jun 2023
+1110,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,8000,6000,10 Jun 2023
+1111,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,5800,7800,6800,09 Jun 2023
+1112,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4100,8100,6100,02 Jun 2023
+1113,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,8000,6000,01 Jun 2023
+1114,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4200,8200,6200,31 May 2023
+1115,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,2500,1500,26 May 2023
+1116,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,4200,3000,25 May 2023
+1117,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,8000,6000,24 May 2023
+1118,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,1500,1200,20 May 2023
+1119,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,1550,1225,18 May 2023
+1120,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,2500,2200,17 May 2023
+1121,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1500,2500,1900,16 May 2023
+1122,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,1500,1200,15 May 2023
+1123,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,800,1200,1000,13 May 2023
+1124,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,800,1200,1000,06 May 2023
+1125,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,1500,1200,05 May 2023
+1126,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3500,8000,6500,03 May 2023
+1127,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,4200,3000,27 Apr 2023
+1128,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2500,3500,2900,24 Apr 2023
+1129,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3500,8000,6500,21 Apr 2023
+1130,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,4200,3250,18 Apr 2023
+1131,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,2500,1500,17 Apr 2023
+1132,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,3500,2500,15 Apr 2023
+1133,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3700,6700,5200,13 Apr 2023
+1134,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3500,8000,6500,12 Apr 2023
+1135,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2500,4200,3500,11 Apr 2023
+1136,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,3500,2500,10 Apr 2023
+1137,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,3560,2500,08 Apr 2023
+1138,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3500,8000,6500,05 Apr 2023
+1139,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3000,4000,3500,03 Apr 2023
+1140,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,4000,6000,5000,01 Apr 2023
+1141,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,1500,1200,31 Mar 2023
+1142,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1500,2500,1880,29 Mar 2023
+1143,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,1200,1100,28 Mar 2023
+1144,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1400,2500,1950,27 Mar 2023
+1145,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,2000,1500,24 Mar 2023
+1146,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,4000,3000,23 Mar 2023
+1147,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1500,3500,2200,20 Mar 2023
+1148,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,2000,1500,18 Mar 2023
+1149,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,800,1200,1000,17 Mar 2023
+1150,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,1500,1200,16 Mar 2023
+1151,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,800,1550,1200,15 Mar 2023
+1152,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,1500,1200,14 Mar 2023
+1153,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,800,2500,1500,13 Mar 2023
+1154,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1500,3500,1950,11 Mar 2023
+1155,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,2000,1500,10 Mar 2023
+1156,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,2500,2200,09 Mar 2023
+1157,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,3000,2500,06 Mar 2023
+1158,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,3000,2500,04 Mar 2023
+1159,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1500,3500,2100,03 Mar 2023
+1160,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,2500,2200,02 Mar 2023
+1161,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2300,4300,3300,01 Mar 2023
+1162,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2200,4200,3200,28 Feb 2023
+1163,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,3560,5600,4120,27 Feb 2023
+1164,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1100,1850,1420,24 Feb 2023
+1165,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,3000,2000,23 Feb 2023
+1166,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2200,4200,3200,22 Feb 2023
+1167,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,3000,2500,21 Feb 2023
+1168,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1500,2500,1900,17 Feb 2023
+1169,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,3000,2000,16 Feb 2023
+1170,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2200,4200,3200,15 Feb 2023
+1171,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1500,2500,1960,14 Feb 2023
+1172,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,1560,1250,13 Feb 2023
+1173,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,3000,2500,11 Feb 2023
+1174,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2200,3200,2800,10 Feb 2023
+1175,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,3000,2500,09 Feb 2023
+1176,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2200,4200,3200,08 Feb 2023
+1177,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,2000,1650,06 Feb 2023
+1178,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1200,1800,1500,04 Feb 2023
+1179,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,2000,1500,03 Feb 2023
+1180,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,3000,2500,31 Jan 2023
+1181,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1500,2500,1900,30 Jan 2023
+1182,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,3000,2500,27 Jan 2023
+1183,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,4000,3000,24 Jan 2023
+1184,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,1800,1400,17 Jan 2023
+1185,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,800,1500,1150,13 Jan 2023
+1186,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,500,900,750,12 Jan 2023
+1187,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,400,900,658,09 Jan 2023
+1188,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,500,700,600,07 Jan 2023
+1189,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,600,800,700,06 Jan 2023
+1190,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,600,900,756,02 Jan 2023
+1191,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,500,800,700,31 Dec 2022
+1192,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,800,1540,1100,17 Dec 2022
+1193,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,800,1200,1000,09 Dec 2022
+1194,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,400,1000,700,29 Nov 2022
+1195,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,800,1200,950,28 Nov 2022
+1196,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,650,985,780,25 Nov 2022
+1197,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,500,800,680,24 Nov 2022
+1198,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,600,1000,800,22 Nov 2022
+1199,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,700,1300,950,21 Nov 2022
+1200,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,600,1200,750,19 Nov 2022
+1201,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,500,1000,700,18 Nov 2022
+1202,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,700,980,850,28 Oct 2022
+1203,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,500,800,680,27 Oct 2022
+1204,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,900,1200,1100,21 Oct 2022
+1205,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,800,1400,1150,20 Oct 2022
+1206,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,750,1250,900,17 Oct 2022
+1207,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,600,900,780,15 Oct 2022
+1208,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,800,1200,950,27 Sep 2022
+1209,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,900,1200,1000,22 Sep 2022
+1210,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1400,2000,1650,19 Sep 2022
+1211,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1200,1800,1450,17 Sep 2022
+1212,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1400,2500,1750,13 Sep 2022
+1213,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,3000,2500,12 Sep 2022
+1214,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1800,2800,2300,10 Sep 2022
+1215,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1250,2600,1750,09 Sep 2022
+1216,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1400,1600,1500,06 Sep 2022
+1217,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1200,2000,1750,05 Sep 2022
+1218,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1500,2500,2000,03 Sep 2022
+1219,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1100,2000,1650,02 Sep 2022
+1220,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,900,1500,1100,23 Aug 2022
+1221,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2800,3600,3200,08 Jul 2022
+1222,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2400,3400,2900,07 Jul 2022
+1223,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2700,3300,3000,06 Jul 2022
+1224,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2500,3500,3000,05 Jul 2022
+1225,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2500,3500,3000,04 Jul 2022
+1226,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,850,950,900,11 Apr 2022
+1227,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,720,850,780,09 Apr 2022
+1228,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,950,1250,1050,08 Apr 2022
+1229,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,850,950,900,07 Apr 2022
+1230,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,700,850,750,05 Apr 2022
+1231,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,700,850,750,04 Apr 2022
+1232,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,600,750,650,31 Mar 2022
+1233,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,400,600,500,30 Mar 2022
+1234,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,2000,4500,3200,16 Mar 2022
+1235,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,5600,11000,8000,14 Mar 2022
+1236,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,7000,13300,9500,09 Mar 2022
+1237,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,800,1700,1200,23 Feb 2022
+1238,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,750,1500,1000,19 Feb 2022
+1239,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,750,1500,1000,16 Feb 2022
+1240,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,700,1200,1000,12 Feb 2022
+1241,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,750,1500,1000,09 Feb 2022
+1242,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,550,1100,900,02 Feb 2022
+1243,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,800,1600,1000,29 Jan 2022
+1244,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,800,1500,950,19 Jan 2022
+1245,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,600,1300,900,15 Jan 2022
+1246,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,1800,1500,12 Jan 2022
+1247,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1200,2000,1600,08 Jan 2022
+1248,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,1700,1500,05 Jan 2022
+1249,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,1700,1400,01 Jan 2022
+1250,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1200,1600,1400,29 Dec 2021
+1251,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,1500,1300,27 Dec 2021
+1252,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1000,2000,1500,22 Dec 2021
+1253,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1400,1900,1600,16 Dec 2021
+1254,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1400,2000,1700,15 Dec 2021
+1255,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1500,2000,1800,11 Dec 2021
+1256,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,200,300,250,10 Dec 2021
+1257,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1200,1800,1400,09 Dec 2021
+1258,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1200,2000,1600,08 Dec 2021
+1259,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,900,1800,1500,04 Dec 2021
+1260,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1500,2000,1800,01 Dec 2021
+1261,Gulbarga,Gulbarga,Pomegranate,Pomogranate,FAQ,1500,2200,1800,29 Nov 2021
+1262,Mangalore(Dakshin Kannad),Mangalore,Pomegranate,Pomogranate,FAQ,8000,11000,10000,08 Jun 2022
+1263,Mangalore(Dakshin Kannad),Mangalore,Pomegranate,Pomogranate,FAQ,8000,13000,11000,16 Mar 2022
+1264,Mangalore(Dakshin Kannad),Mangalore,Pomegranate,Pomogranate,FAQ,8000,13000,11000,11 Mar 2022
+1265,Mangalore(Dakshin Kannad),Mangalore,Pomegranate,Pomogranate,FAQ,8000,13000,10000,08 Mar 2022
+1266,Mangalore(Dakshin Kannad),Mangalore,Pomegranate,Pomogranate,FAQ,8000,13000,10000,05 Mar 2022
+1267,Mangalore(Dakshin Kannad),Mangalore,Pomegranate,Pomogranate,FAQ,9000,12500,10500,21 Feb 2022
+1268,Mangalore(Dakshin Kannad),Mangalore,Pomegranate,Pomogranate,FAQ,9000,13000,11000,27 Dec 2021
+1269,Mangalore(Dakshin Kannad),Mangalore,Pomegranate,Pomogranate,FAQ,9000,13000,11000,21 Dec 2021
+1270,Mangalore(Dakshin Kannad),Mangalore,Pomegranate,Pomogranate,FAQ,9000,13000,11000,16 Dec 2021
+1271,Mangalore(Dakshin Kannad),Mangalore,Pomegranate,Pomogranate,FAQ,8000,14000,12000,13 Dec 2021
+1272,Mangalore(Dakshin Kannad),Mangalore,Pomegranate,Pomogranate,FAQ,9000,13000,11000,09 Dec 2021
+1273,Mangalore(Dakshin Kannad),Mangalore,Pomegranate,Pomogranate,FAQ,10000,15000,13000,06 Dec 2021
+1274,Mangalore(Dakshin Kannad),Mangalore,Pomegranate,Pomogranate,FAQ,8000,12000,10000,04 Dec 2021
+1275,Mangalore(Dakshin Kannad),Mangalore,Pomegranate,Pomogranate,FAQ,8000,12000,10000,03 Dec 2021
+1276,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,6111,6000,22 Nov 2023
+1277,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,5000,5000,20 Nov 2023
+1278,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5357,5357,5357,18 Nov 2023
+1279,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,4000,4000,17 Oct 2023
+1280,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,4230,4000,04 Oct 2023
+1281,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4054,4054,4054,26 Sep 2023
+1282,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,4000,4000,22 Sep 2023
+1283,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3500,4117,3500,14 Sep 2023
+1284,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5230,7142,7142,11 Sep 2023
+1285,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3500,3500,3500,05 Sep 2023
+1286,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,5060,5060,04 Sep 2023
+1287,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,5000,5000,02 Sep 2023
+1288,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5060,5060,5060,30 Aug 2023
+1289,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3000,5000,3000,28 Aug 2023
+1290,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,5000,5000,23 Aug 2023
+1291,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6185,6185,6185,22 Aug 2023
+1292,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6185,6185,6185,21 Aug 2023
+1293,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,6185,6185,18 Aug 2023
+1294,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8333,8333,8333,01 Aug 2023
+1295,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4666,6181,5307,31 Jul 2023
+1296,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5230,5230,5230,28 Jul 2023
+1297,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,6000,5000,21 Jul 2023
+1298,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,7000,6000,15 Jul 2023
+1299,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,8000,7000,12 Jul 2023
+1300,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,8000,7000,11 Jul 2023
+1301,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3500,8000,7100,28 Jun 2023
+1302,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3500,8000,7000,27 Jun 2023
+1303,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,7500,7000,19 Jun 2023
+1304,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6250,6250,6250,17 Jun 2023
+1305,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6180,6180,6180,14 Jun 2023
+1306,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6187,7142,6187,13 Jun 2023
+1307,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7000,7000,7000,08 Jun 2023
+1308,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6100,6100,6100,05 Jun 2023
+1309,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3500,8000,7000,04 Jun 2023
+1310,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5600,6200,6100,03 Jun 2023
+1311,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6300,6300,6300,30 May 2023
+1312,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5663,6024,5800,22 May 2023
+1313,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,5384,5000,18 May 2023
+1314,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5666,5666,5666,17 May 2023
+1315,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4533,6181,5250,05 May 2023
+1316,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,5000,5000,03 May 2023
+1317,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,8000,7000,24 Apr 2023
+1318,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,8000,7000,20 Apr 2023
+1319,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,8000,6000,17 Apr 2023
+1320,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3500,8000,7000,15 Apr 2023
+1321,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3500,8000,7000,13 Apr 2023
+1322,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3500,8000,7500,12 Apr 2023
+1323,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3500,8000,7500,06 Apr 2023
+1324,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3500,8000,8000,05 Apr 2023
+1325,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6100,6100,6100,01 Apr 2023
+1326,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7000,7000,7000,31 Mar 2023
+1327,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6181,6181,6181,24 Mar 2023
+1328,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,1700,7000,6500,16 Mar 2023
+1329,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,6000,6000,10 Mar 2023
+1330,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4500,5000,4800,09 Mar 2023
+1331,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,1700,1700,1700,08 Mar 2023
+1332,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6181,6181,6181,07 Mar 2023
+1333,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6097,6097,6097,06 Mar 2023
+1334,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6185,6185,6185,03 Mar 2023
+1335,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3200,3200,3200,02 Mar 2023
+1336,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,5230,5111,27 Feb 2023
+1337,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4500,4500,4500,22 Feb 2023
+1338,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,4000,4000,21 Feb 2023
+1339,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,6043,6011,20 Feb 2023
+1340,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,8000,6000,16 Feb 2023
+1341,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,8000,7000,15 Feb 2023
+1342,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,8000,7000,10 Feb 2023
+1343,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,8000,6500,09 Feb 2023
+1344,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,8000,6000,08 Feb 2023
+1345,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,8000,7000,07 Feb 2023
+1346,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,8000,7000,06 Feb 2023
+1347,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,6100,6000,02 Feb 2023
+1348,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5600,5600,5600,01 Feb 2023
+1349,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3600,8550,8450,31 Jan 2023
+1350,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,6100,6000,25 Jan 2023
+1351,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,5000,5000,17 Jan 2023
+1352,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3500,4500,4000,16 Jan 2023
+1353,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,6000,6000,12 Jan 2023
+1354,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8611,8611,8611,07 Jan 2023
+1355,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,6100,6000,02 Jan 2023
+1356,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6111,6111,6111,31 Dec 2022
+1357,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4200,6153,4277,17 Dec 2022
+1358,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4857,4857,4857,16 Dec 2022
+1359,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3000,6181,3479,14 Dec 2022
+1360,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,4857,4450,09 Dec 2022
+1361,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4500,5666,5200,01 Dec 2022
+1362,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,2050,5000,4450,29 Nov 2022
+1363,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4600,5000,4600,21 Nov 2022
+1364,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,7000,4000,19 Nov 2022
+1365,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5400,5789,5650,10 Nov 2022
+1366,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4500,5000,4500,08 Nov 2022
+1367,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3500,3868,3700,03 Nov 2022
+1368,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4600,5000,4800,02 Nov 2022
+1369,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4857,6111,5500,28 Oct 2022
+1370,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,6000,6000,21 Oct 2022
+1371,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,6000,6000,20 Oct 2022
+1372,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3500,4000,3750,19 Oct 2022
+1373,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7555,7555,7555,18 Oct 2022
+1374,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,6000,5000,15 Oct 2022
+1375,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,6000,5000,13 Oct 2022
+1376,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,6000,5000,12 Oct 2022
+1377,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,5000,5000,14 Sep 2022
+1378,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,4000,4000,13 Sep 2022
+1379,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5200,5200,5200,07 Sep 2022
+1380,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5700,5800,5700,06 Sep 2022
+1381,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,5000,5000,05 Sep 2022
+1382,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,6000,5500,03 Sep 2022
+1383,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3300,5250,4500,30 Aug 2022
+1384,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,6181,4500,27 Aug 2022
+1385,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,5000,5000,24 Aug 2022
+1386,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,5777,4000,22 Aug 2022
+1387,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,6000,6000,20 Aug 2022
+1388,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,6000,6000,19 Aug 2022
+1389,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,3000,5153,4500,17 Aug 2022
+1390,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4500,4500,4500,16 Aug 2022
+1391,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,6000,5000,14 Aug 2022
+1392,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,6181,6100,13 Aug 2022
+1393,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6185,6538,6185,11 Aug 2022
+1394,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5500,5500,5500,10 Aug 2022
+1395,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4000,5000,5000,08 Aug 2022
+1396,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8000,8500,8000,22 Jul 2022
+1397,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,10000,10000,10000,21 Jul 2022
+1398,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8000,8500,8000,20 Jul 2022
+1399,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7000,7000,7000,15 Jul 2022
+1400,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7000,7000,7000,14 Jul 2022
+1401,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,10000,8100,13 Jul 2022
+1402,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,10000,8100,12 Jul 2022
+1403,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7000,7000,7000,11 Jul 2022
+1404,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8000,8500,8000,08 Jul 2022
+1405,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7000,7000,7000,05 Jul 2022
+1406,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8500,8500,8500,30 Jun 2022
+1407,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,10000,8100,25 Jun 2022
+1408,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7428,7428,7428,20 Jun 2022
+1409,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7217,8000,7500,18 Jun 2022
+1410,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,10000,10000,10000,15 Jun 2022
+1411,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8300,8300,8300,14 Jun 2022
+1412,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6800,6800,6800,13 Jun 2022
+1413,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,7000,6000,08 Jun 2022
+1414,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,8000,7000,07 Jun 2022
+1415,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,9000,8000,06 Jun 2022
+1416,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7000,9000,8500,04 Jun 2022
+1417,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7500,9000,8000,03 Jun 2022
+1418,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7000,9000,8000,01 Jun 2022
+1419,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,10000,8000,26 May 2022
+1420,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,10000,8000,25 May 2022
+1421,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,10000,8000,23 May 2022
+1422,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,10000,8000,21 May 2022
+1423,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,9700,9700,9700,14 May 2022
+1424,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8500,8500,8500,11 May 2022
+1425,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6250,6250,6250,09 May 2022
+1426,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8500,8500,8500,07 May 2022
+1427,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7555,8666,7560,30 Apr 2022
+1428,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8064,8064,8064,27 Apr 2022
+1429,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,9333,9333,9333,26 Apr 2022
+1430,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,9714,9714,9714,21 Apr 2022
+1431,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8333,8333,8333,18 Apr 2022
+1432,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8400,8400,8400,15 Apr 2022
+1433,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,9714,9714,9714,12 Apr 2022
+1434,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7636,8300,8000,11 Apr 2022
+1435,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8350,9166,9000,09 Apr 2022
+1436,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8375,8375,8375,04 Apr 2022
+1437,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,8000,7000,01 Apr 2022
+1438,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,8000,7000,31 Mar 2022
+1439,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,8000,7000,30 Mar 2022
+1440,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,8000,7000,29 Mar 2022
+1441,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7000,8000,7500,23 Mar 2022
+1442,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,8000,7000,21 Mar 2022
+1443,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,9000,8000,19 Mar 2022
+1444,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,9000,8000,18 Mar 2022
+1445,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,9000,8000,17 Mar 2022
+1446,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,9000,8000,14 Mar 2022
+1447,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,9000,8000,12 Mar 2022
+1448,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,9000,8000,09 Mar 2022
+1449,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,9000,8000,08 Mar 2022
+1450,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8700,11000,11000,03 Mar 2022
+1451,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8300,8300,8300,28 Feb 2022
+1452,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8375,8375,8375,25 Feb 2022
+1453,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6800,6800,6800,21 Feb 2022
+1454,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,10400,10400,10400,19 Feb 2022
+1455,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,9571,9600,9571,18 Feb 2022
+1456,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8375,8375,8375,17 Feb 2022
+1457,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8375,8500,8400,15 Feb 2022
+1458,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7857,7857,7857,14 Feb 2022
+1459,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7560,8400,8333,09 Feb 2022
+1460,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7000,7250,7200,08 Feb 2022
+1461,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8500,9000,8700,07 Feb 2022
+1462,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7857,7857,7857,05 Feb 2022
+1463,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8000,10000,9570,03 Feb 2022
+1464,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6296,6500,6300,01 Feb 2022
+1465,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5666,8750,7400,31 Jan 2022
+1466,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,9571,9571,9571,28 Jan 2022
+1467,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8400,9090,8900,27 Jan 2022
+1468,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5153,5153,5153,24 Jan 2022
+1469,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,7000,6500,20 Jan 2022
+1470,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,7000,6500,19 Jan 2022
+1471,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,7000,6500,18 Jan 2022
+1472,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6500,7000,6700,17 Jan 2022
+1473,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6500,7000,6600,13 Jan 2022
+1474,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,6500,6200,12 Jan 2022
+1475,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,7000,6200,11 Jan 2022
+1476,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,7000,6000,10 Jan 2022
+1477,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,8000,7000,05 Jan 2022
+1478,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,8000,7000,04 Jan 2022
+1479,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,8000,7000,31 Dec 2021
+1480,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,8000,7000,30 Dec 2021
+1481,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,8000,7000,29 Dec 2021
+1482,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,8000,7000,28 Dec 2021
+1483,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6000,9000,8200,27 Dec 2021
+1484,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8500,8500,8500,21 Dec 2021
+1485,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7142,7142,7142,16 Dec 2021
+1486,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,6000,5000,15 Dec 2021
+1487,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,5000,7000,5000,13 Dec 2021
+1488,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,8333,8333,8333,10 Dec 2021
+1489,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6800,7400,7200,09 Dec 2021
+1490,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,4100,7100,5000,07 Dec 2021
+1491,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,1810,3925,3500,06 Dec 2021
+1492,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6700,6700,6700,02 Dec 2021
+1493,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,6521,6521,6521,30 Nov 2021
+1494,Mysore,Mysore (Bandipalya),Pomegranate,Pomogranate,FAQ,7142,7217,7200,29 Nov 2021
+1495,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,15000,13000,24 Nov 2023
+1496,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,15000,13000,23 Nov 2023
+1497,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,15000,13000,22 Nov 2023
+1498,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,15000,16000,15500,21 Nov 2023
+1499,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,15000,16000,15500,20 Nov 2023
+1500,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,15000,16000,15500,18 Nov 2023
+1501,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,15000,16000,15500,17 Nov 2023
+1502,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,15000,16000,15500,16 Nov 2023
+1503,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,15000,16000,15500,15 Nov 2023
+1504,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,14000,17000,15000,10 Nov 2023
+1505,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,14000,17000,15000,09 Nov 2023
+1506,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,14000,17000,15000,07 Nov 2023
+1507,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,14000,17000,15000,04 Nov 2023
+1508,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,14000,17000,15000,03 Nov 2023
+1509,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,14000,17000,15000,02 Nov 2023
+1510,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,14900,15000,15000,31 Oct 2023
+1511,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,14900,15000,15000,30 Oct 2023
+1512,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,14900,15000,15000,27 Oct 2023
+1513,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,14900,15000,15000,26 Oct 2023
+1514,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,21 Oct 2023
+1515,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,20 Oct 2023
+1516,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,19 Oct 2023
+1517,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,17 Oct 2023
+1518,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,16 Oct 2023
+1519,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,13 Oct 2023
+1520,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,12 Oct 2023
+1521,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,10 Oct 2023
+1522,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,07 Oct 2023
+1523,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,06 Oct 2023
+1524,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,05 Oct 2023
+1525,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12500,11000,03 Oct 2023
+1526,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12500,11000,30 Sep 2023
+1527,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12500,11000,29 Sep 2023
+1528,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12500,11000,26 Sep 2023
+1529,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12500,11000,25 Sep 2023
+1530,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12500,11000,22 Sep 2023
+1531,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12500,11000,21 Sep 2023
+1532,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12500,11000,20 Sep 2023
+1533,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12500,11000,18 Sep 2023
+1534,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12500,11000,16 Sep 2023
+1535,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12500,11000,15 Sep 2023
+1536,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12500,11000,14 Sep 2023
+1537,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12500,11000,13 Sep 2023
+1538,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12500,11000,11 Sep 2023
+1539,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12500,11000,08 Sep 2023
+1540,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,05 Sep 2023
+1541,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,04 Sep 2023
+1542,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,02 Sep 2023
+1543,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,01 Sep 2023
+1544,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,31 Aug 2023
+1545,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,30 Aug 2023
+1546,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,29 Aug 2023
+1547,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,28 Aug 2023
+1548,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,25 Aug 2023
+1549,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,21 Aug 2023
+1550,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,19 Aug 2023
+1551,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,18 Aug 2023
+1552,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,14 Aug 2023
+1553,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,11 Aug 2023
+1554,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,10 Aug 2023
+1555,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,09 Aug 2023
+1556,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,08 Aug 2023
+1557,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,07 Aug 2023
+1558,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,05 Aug 2023
+1559,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,04 Aug 2023
+1560,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,02 Aug 2023
+1561,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,01 Aug 2023
+1562,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,31 Jul 2023
+1563,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,28 Jul 2023
+1564,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,27 Jul 2023
+1565,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,26 Jul 2023
+1566,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,25 Jul 2023
+1567,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,24 Jul 2023
+1568,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,21 Jul 2023
+1569,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,20 Jul 2023
+1570,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9900,10000,10000,19 Jul 2023
+1571,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,18 Jul 2023
+1572,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,17 Jul 2023
+1573,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,15 Jul 2023
+1574,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,14 Jul 2023
+1575,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,13 Jul 2023
+1576,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,12 Jul 2023
+1577,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,11 Jul 2023
+1578,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,10 Jul 2023
+1579,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,07 Jul 2023
+1580,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,06 Jul 2023
+1581,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,05 Jul 2023
+1582,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10900,11000,11000,04 Jul 2023
+1583,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10900,11000,11000,03 Jul 2023
+1584,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10900,11000,11000,01 Jul 2023
+1585,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10900,11000,11000,30 Jun 2023
+1586,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10900,11000,11000,28 Jun 2023
+1587,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,27 Jun 2023
+1588,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,26 Jun 2023
+1589,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,23 Jun 2023
+1590,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,22 Jun 2023
+1591,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,21 Jun 2023
+1592,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,20 Jun 2023
+1593,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,19 Jun 2023
+1594,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,17 Jun 2023
+1595,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,16 Jun 2023
+1596,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,15 Jun 2023
+1597,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,14 Jun 2023
+1598,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,13 Jun 2023
+1599,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,12 Jun 2023
+1600,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,09 Jun 2023
+1601,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,08 Jun 2023
+1602,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,07 Jun 2023
+1603,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,06 Jun 2023
+1604,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,05 Jun 2023
+1605,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,03 Jun 2023
+1606,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,02 Jun 2023
+1607,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,01 Jun 2023
+1608,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,31 May 2023
+1609,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,30 May 2023
+1610,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,29 May 2023
+1611,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,26 May 2023
+1612,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,25 May 2023
+1613,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,24 May 2023
+1614,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,23 May 2023
+1615,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,22 May 2023
+1616,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,20 May 2023
+1617,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,19 May 2023
+1618,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,18 May 2023
+1619,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,17 May 2023
+1620,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,16 May 2023
+1621,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,15 May 2023
+1622,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,12 May 2023
+1623,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,11 May 2023
+1624,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,08 May 2023
+1625,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,06 May 2023
+1626,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,05 May 2023
+1627,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,04 May 2023
+1628,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,03 May 2023
+1629,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,7500,10000,8500,02 May 2023
+1630,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,7500,10000,8500,29 Apr 2023
+1631,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,7500,10000,8500,28 Apr 2023
+1632,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,7500,10000,8500,27 Apr 2023
+1633,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,7500,10000,8500,26 Apr 2023
+1634,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10000,25 Apr 2023
+1635,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10000,24 Apr 2023
+1636,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10000,21 Apr 2023
+1637,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10000,20 Apr 2023
+1638,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10000,19 Apr 2023
+1639,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11000,12000,11500,18 Apr 2023
+1640,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11000,12000,11500,17 Apr 2023
+1641,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11000,12000,11500,15 Apr 2023
+1642,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11000,12000,11500,13 Apr 2023
+1643,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11000,12000,11500,12 Apr 2023
+1644,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,13000,14000,13500,11 Apr 2023
+1645,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,13000,14000,13500,10 Apr 2023
+1646,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,13000,14000,13500,06 Apr 2023
+1647,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,13000,14000,13500,05 Apr 2023
+1648,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12900,13000,13000,03 Apr 2023
+1649,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12900,13000,13000,01 Apr 2023
+1650,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12900,13000,13000,31 Mar 2023
+1651,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12900,13000,13000,30 Mar 2023
+1652,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12900,13000,13000,29 Mar 2023
+1653,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,13000,14000,13500,28 Mar 2023
+1654,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,13000,14000,13500,27 Mar 2023
+1655,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,13000,14000,13500,24 Mar 2023
+1656,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,13000,14000,13500,23 Mar 2023
+1657,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11900,12000,12000,20 Mar 2023
+1658,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11900,12000,12000,18 Mar 2023
+1659,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11900,12000,12000,17 Mar 2023
+1660,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11900,12000,12000,16 Mar 2023
+1661,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11900,12000,12000,15 Mar 2023
+1662,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12900,13000,13000,14 Mar 2023
+1663,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12900,13000,13000,13 Mar 2023
+1664,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12900,13000,13000,10 Mar 2023
+1665,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12900,13000,13000,09 Mar 2023
+1666,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12900,13000,13000,08 Mar 2023
+1667,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,13000,12000,07 Mar 2023
+1668,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,13000,12000,06 Mar 2023
+1669,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,13000,12000,04 Mar 2023
+1670,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,13000,12000,03 Mar 2023
+1671,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,13000,12000,02 Mar 2023
+1672,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,13000,12000,01 Mar 2023
+1673,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,13000,12000,28 Feb 2023
+1674,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,13000,12000,27 Feb 2023
+1675,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,13000,12000,24 Feb 2023
+1676,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,13000,12000,23 Feb 2023
+1677,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,13000,12000,22 Feb 2023
+1678,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,13000,11000,21 Feb 2023
+1679,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,13000,11000,20 Feb 2023
+1680,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,13000,11000,17 Feb 2023
+1681,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,13000,11000,16 Feb 2023
+1682,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,13000,11000,15 Feb 2023
+1683,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,13000,12500,14 Feb 2023
+1684,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,13000,12500,13 Feb 2023
+1685,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,13000,12500,10 Feb 2023
+1686,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,13000,12500,09 Feb 2023
+1687,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,13000,12500,08 Feb 2023
+1688,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,13000,12500,07 Feb 2023
+1689,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,13000,12500,06 Feb 2023
+1690,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,13000,12500,04 Feb 2023
+1691,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,13000,12500,03 Feb 2023
+1692,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,13000,12500,02 Feb 2023
+1693,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,13000,12500,01 Feb 2023
+1694,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11000,14000,12000,31 Jan 2023
+1695,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11000,14000,12000,30 Jan 2023
+1696,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11000,14000,12000,27 Jan 2023
+1697,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11000,14000,12000,25 Jan 2023
+1698,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,6500,12000,10000,24 Jan 2023
+1699,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,6500,12000,10000,23 Jan 2023
+1700,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,6500,12000,10000,21 Jan 2023
+1701,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,6500,12000,10000,20 Jan 2023
+1702,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,6500,12000,10000,19 Jan 2023
+1703,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,6500,12000,10000,18 Jan 2023
+1704,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,6500,12000,11000,17 Jan 2023
+1705,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,6500,12000,10000,16 Jan 2023
+1706,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,6500,12000,10000,13 Jan 2023
+1707,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,6500,12000,10000,12 Jan 2023
+1708,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,6500,12000,10000,11 Jan 2023
+1709,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,6500,12000,10000,10 Jan 2023
+1710,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,6500,12000,10000,09 Jan 2023
+1711,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,6500,12000,10000,07 Jan 2023
+1712,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,6500,12000,10000,06 Jan 2023
+1713,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,6500,12000,10000,05 Jan 2023
+1714,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,6500,12000,10000,04 Jan 2023
+1715,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,03 Jan 2023
+1716,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,02 Jan 2023
+1717,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,31 Dec 2022
+1718,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,30 Dec 2022
+1719,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,29 Dec 2022
+1720,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,28 Dec 2022
+1721,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11900,12000,12000,27 Dec 2022
+1722,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11900,12000,12000,26 Dec 2022
+1723,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11900,12000,12000,23 Dec 2022
+1724,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11900,12000,12000,22 Dec 2022
+1725,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11900,12000,12000,21 Dec 2022
+1726,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,5000,10000,8000,19 Dec 2022
+1727,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,5000,10000,8000,17 Dec 2022
+1728,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,5000,10000,8000,16 Dec 2022
+1729,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,5000,10000,8000,15 Dec 2022
+1730,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,5000,10000,8000,12 Dec 2022
+1731,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,5000,10000,8000,09 Dec 2022
+1732,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,5000,10000,8000,08 Dec 2022
+1733,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,5000,10000,8000,07 Dec 2022
+1734,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,06 Dec 2022
+1735,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,05 Dec 2022
+1736,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,03 Dec 2022
+1737,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,02 Dec 2022
+1738,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,01 Dec 2022
+1739,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,30 Nov 2022
+1740,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11900,12000,12000,28 Nov 2022
+1741,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11900,12000,12000,25 Nov 2022
+1742,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11900,12000,12000,24 Nov 2022
+1743,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11900,12000,12000,23 Nov 2022
+1744,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,22 Nov 2022
+1745,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,21 Nov 2022
+1746,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,19 Nov 2022
+1747,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,17 Nov 2022
+1748,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,16 Nov 2022
+1749,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,15 Nov 2022
+1750,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,14 Nov 2022
+1751,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,10 Nov 2022
+1752,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,09 Nov 2022
+1753,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10500,08 Nov 2022
+1754,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10500,07 Nov 2022
+1755,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10500,05 Nov 2022
+1756,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10500,04 Nov 2022
+1757,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10500,03 Nov 2022
+1758,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10500,02 Nov 2022
+1759,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10500,31 Oct 2022
+1760,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10500,29 Oct 2022
+1761,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10500,28 Oct 2022
+1762,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10500,27 Oct 2022
+1763,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,25 Oct 2022
+1764,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,21 Oct 2022
+1765,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,20 Oct 2022
+1766,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,19 Oct 2022
+1767,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,18 Oct 2022
+1768,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,17 Oct 2022
+1769,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,15 Oct 2022
+1770,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,14 Oct 2022
+1771,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,13 Oct 2022
+1772,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,12 Oct 2022
+1773,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,11 Oct 2022
+1774,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,10 Oct 2022
+1775,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,07 Oct 2022
+1776,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,06 Oct 2022
+1777,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,03 Oct 2022
+1778,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,01 Oct 2022
+1779,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,30 Sep 2022
+1780,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,29 Sep 2022
+1781,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,28 Sep 2022
+1782,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,27 Sep 2022
+1783,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,26 Sep 2022
+1784,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,23 Sep 2022
+1785,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,22 Sep 2022
+1786,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,21 Sep 2022
+1787,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,1000,11000,10500,20 Sep 2022
+1788,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,19 Sep 2022
+1789,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,16 Sep 2022
+1790,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,15 Sep 2022
+1791,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,14 Sep 2022
+1792,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,13 Sep 2022
+1793,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,12 Sep 2022
+1794,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,09 Sep 2022
+1795,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,08 Sep 2022
+1796,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,05 Sep 2022
+1797,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,03 Sep 2022
+1798,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,02 Sep 2022
+1799,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,01 Sep 2022
+1800,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,30 Aug 2022
+1801,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,29 Aug 2022
+1802,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,26 Aug 2022
+1803,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,25 Aug 2022
+1804,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,24 Aug 2022
+1805,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,23 Aug 2022
+1806,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,22 Aug 2022
+1807,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,20 Aug 2022
+1808,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,19 Aug 2022
+1809,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,18 Aug 2022
+1810,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,17 Aug 2022
+1811,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,16 Aug 2022
+1812,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,12 Aug 2022
+1813,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,11 Aug 2022
+1814,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,10 Aug 2022
+1815,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,08 Aug 2022
+1816,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,06 Aug 2022
+1817,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,05 Aug 2022
+1818,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,04 Aug 2022
+1819,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,03 Aug 2022
+1820,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,02 Aug 2022
+1821,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,01 Aug 2022
+1822,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,30 Jul 2022
+1823,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,29 Jul 2022
+1824,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,28 Jul 2022
+1825,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,27 Jul 2022
+1826,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,26 Jul 2022
+1827,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,25 Jul 2022
+1828,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,22 Jul 2022
+1829,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,21 Jul 2022
+1830,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,20 Jul 2022
+1831,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9500,10000,9800,19 Jul 2022
+1832,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9500,10000,9800,18 Jul 2022
+1833,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9500,10000,9800,16 Jul 2022
+1834,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9500,10000,9800,15 Jul 2022
+1835,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9500,10000,9800,14 Jul 2022
+1836,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9500,10000,9800,13 Jul 2022
+1837,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,12 Jul 2022
+1838,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,11 Jul 2022
+1839,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,07 Jul 2022
+1840,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,06 Jul 2022
+1841,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,05 Jul 2022
+1842,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,04 Jul 2022
+1843,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,01 Jul 2022
+1844,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,30 Jun 2022
+1845,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,27 Jun 2022
+1846,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,24 Jun 2022
+1847,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,23 Jun 2022
+1848,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,1000,11000,10500,22 Jun 2022
+1849,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9500,11000,10000,20 Jun 2022
+1850,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9500,11000,10000,17 Jun 2022
+1851,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9500,11000,10000,16 Jun 2022
+1852,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9500,11000,10000,15 Jun 2022
+1853,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10000,13 Jun 2022
+1854,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10000,10 Jun 2022
+1855,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10000,09 Jun 2022
+1856,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,11000,10000,08 Jun 2022
+1857,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,06 Jun 2022
+1858,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,04 Jun 2022
+1859,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,03 Jun 2022
+1860,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,02 Jun 2022
+1861,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,30 May 2022
+1862,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,1000,11000,10500,27 May 2022
+1863,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,1000,11000,10500,26 May 2022
+1864,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,1000,11000,10500,25 May 2022
+1865,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,1000,12000,11000,24 May 2022
+1866,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,23 May 2022
+1867,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,21 May 2022
+1868,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,1000,12000,11000,20 May 2022
+1869,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,19 May 2022
+1870,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,18 May 2022
+1871,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11500,17 May 2022
+1872,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11500,16 May 2022
+1873,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11500,13 May 2022
+1874,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11500,12 May 2022
+1875,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11500,11 May 2022
+1876,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,14000,13000,09 May 2022
+1877,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,14000,13000,06 May 2022
+1878,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,14000,13000,05 May 2022
+1879,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,14000,13000,04 May 2022
+1880,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10500,11000,10800,28 Apr 2022
+1881,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10500,11000,10800,27 Apr 2022
+1882,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,25 Apr 2022
+1883,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,22 Apr 2022
+1884,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,21 Apr 2022
+1885,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,20 Apr 2022
+1886,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,18 Apr 2022
+1887,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,16 Apr 2022
+1888,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,13 Apr 2022
+1889,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,11 Apr 2022
+1890,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,08 Apr 2022
+1891,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,07 Apr 2022
+1892,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,06 Apr 2022
+1893,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,8500,9000,8800,04 Apr 2022
+1894,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,8500,9000,8800,01 Apr 2022
+1895,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,8500,9000,8800,31 Mar 2022
+1896,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,8500,9000,8800,30 Mar 2022
+1897,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,7000,7500,7200,28 Mar 2022
+1898,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,7000,7500,7200,25 Mar 2022
+1899,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,7000,7500,7200,24 Mar 2022
+1900,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,7000,7500,7200,23 Mar 2022
+1901,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,21 Mar 2022
+1902,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,19 Mar 2022
+1903,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,18 Mar 2022
+1904,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,17 Mar 2022
+1905,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,16 Mar 2022
+1906,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,15 Mar 2022
+1907,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,14 Mar 2022
+1908,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,11 Mar 2022
+1909,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,10 Mar 2022
+1910,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,12000,11000,09 Mar 2022
+1911,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,14000,13000,07 Mar 2022
+1912,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,14000,13000,04 Mar 2022
+1913,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,14000,13000,03 Mar 2022
+1914,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,14000,13000,02 Mar 2022
+1915,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,17000,15000,28 Feb 2022
+1916,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,17000,15000,25 Feb 2022
+1917,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,17000,15000,24 Feb 2022
+1918,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,17000,15000,23 Feb 2022
+1919,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,14000,12000,22 Feb 2022
+1920,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,14000,12000,21 Feb 2022
+1921,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,14000,12000,19 Feb 2022
+1922,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,14000,12000,18 Feb 2022
+1923,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,14000,12000,17 Feb 2022
+1924,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,14000,12000,16 Feb 2022
+1925,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,15 Feb 2022
+1926,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,14 Feb 2022
+1927,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,11 Feb 2022
+1928,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,10 Feb 2022
+1929,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,09 Feb 2022
+1930,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,08 Feb 2022
+1931,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,07 Feb 2022
+1932,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,05 Feb 2022
+1933,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,04 Feb 2022
+1934,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,7000,7500,7200,03 Feb 2022
+1935,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,02 Feb 2022
+1936,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,31 Jan 2022
+1937,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,29 Jan 2022
+1938,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,28 Jan 2022
+1939,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,27 Jan 2022
+1940,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,12500,12200,25 Jan 2022
+1941,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,12500,12200,24 Jan 2022
+1942,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,12500,12200,21 Jan 2022
+1943,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,12500,12200,20 Jan 2022
+1944,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,12000,12500,12200,19 Jan 2022
+1945,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,17 Jan 2022
+1946,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,14 Jan 2022
+1947,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,13 Jan 2022
+1948,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,12 Jan 2022
+1949,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11000,11500,11200,10 Jan 2022
+1950,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11000,11500,11200,07 Jan 2022
+1951,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11000,11500,11200,06 Jan 2022
+1952,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,11000,11500,11200,05 Jan 2022
+1953,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,03 Jan 2022
+1954,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,31 Dec 2021
+1955,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,30 Dec 2021
+1956,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,29 Dec 2021
+1957,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,28 Dec 2021
+1958,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,10000,11000,10500,27 Dec 2021
+1959,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9500,10000,9800,20 Dec 2021
+1960,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9500,10000,9800,18 Dec 2021
+1961,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9500,10000,9800,17 Dec 2021
+1962,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9500,10000,9800,16 Dec 2021
+1963,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9500,10000,9800,15 Dec 2021
+1964,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,13 Dec 2021
+1965,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,10 Dec 2021
+1966,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,09 Dec 2021
+1967,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,9000,10000,9500,08 Dec 2021
+1968,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,8000,9000,8500,07 Dec 2021
+1969,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,8000,9000,8500,06 Dec 2021
+1970,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,8000,9000,8500,04 Dec 2021
+1971,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,8000,9000,8500,03 Dec 2021
+1972,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,8000,9000,8500,02 Dec 2021
+1973,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,8000,9000,8500,01 Dec 2021
+1974,Udupi,Udupi,Pomegranate,Pomogranate,FAQ,8500,10000,9500,29 Nov 2021

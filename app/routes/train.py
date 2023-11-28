@@ -34,7 +34,7 @@ def display():
     # grade_list = df['Grade'].unique().tolist()
 
 
-    return render_template("price.html")
+    return render_template("sample.html")
     # return render_template("price.html",message=message,complete=complete,district_list=district_list,market_list=market_list,commodity_list=commodity_list,variety_list=variety_list,grade_list=grade_list)
 
 
@@ -53,7 +53,8 @@ def train_model():
     
 
     message='Please wait while we are training the model for you'
-    dir = response_data['dataset_loc'] 
+    # dir = response_data['dataset_loc'] 
+    dir=r'dataset\KK_16_22-Nov-2022_22-Oct-2023.csv'
     df = pd.read_csv(dir)
 
     message='Dataset Loaded'
@@ -115,8 +116,7 @@ def train_model():
     X_test_min=X_test.drop(columns=['Modal Price (Rs./Quintal)','Max Price (Rs./Quintal)','Min Price (Rs./Quintal)'], axis=1,)
     y_test_min=y_test['Min Price (Rs./Quintal)']
     y_train_min=y_train['Min Price (Rs./Quintal)']
-    sample=X_train_min.loc[1]
-    sample=sample.to_dict()
+    
 
     RF = RandomForestRegressor().fit(X_train_min,y_train_min)
     print('Train set accuracy: %f'%RF.score(X_train_min,y_train_min))
@@ -155,13 +155,10 @@ def train_model():
     y1_mod=RF2.predict(X_test_mod)
     message='Third Model Trained'
     complete=1
-    
+    message='Final Accuracy: '+str(RF2.score(X_test_mod,y_test_mod)*100)+'%'
     
     return jsonify(message="SUCCESSFUL",complete=complete)
-# @train.route('/price', methods=['POST', 'GET'])
-# def price():
 
-#     return render_template("price.html")
 @train.route('/predict_price', methods=['POST', 'GET'])
 def predict_price():
     global message
@@ -178,4 +175,5 @@ def predict_price():
 
     complete=0
     message='Please wait while we are predicting the price for you'
+
     

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Training Page</title>
+</head>
+<body>
+
+    <h2 id="status">Status: Waiting for Action</h2>
+
+    <button id="getstatus" >Get status</button>
+    <button id="trainButton">Train</button>
+
+    <h2 id="data"></h2>
+    <script>
+        const trainButton = document.querySelector("#trainButton");
+        const statusButton = document.querySelector("#getstatus");
+        const status = document.getElementById("status");
+        
+        let intervalId;
+
+        statusButton.addEventListener("click", () => {
+            clearInterval(intervalId);
+            fetchDataAndUpdateStatus();
+            intervalId = setInterval(fetchDataAndUpdateStatus, 500);
+            trainButton.style.display = "inline-block";
+        });
+
+        function fetchDataAndUpdateStatus() {
+            fetch('/train_status', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+                })
+                .then(response => response.json())
+                .then(data => {
+                status.textContent = data.message;
+                if (data.complete === 1) {
+                    clearInterval(intervalId);
+                }
+                })
+                .catch(() => {
+                status.textContent = "Error fetching data from API";
+                });
+        };
+
+        trainButton.addEventListener("click", () => {
+            fetch('/train', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+                })
+                .then(response => response.json())
+                .then(data => {
+                document.getElementById("data").textContent = data.message;
+                })
+                .catch(() => {
+                console.error("Error fetching market data from API");
+                });
+        });
+
+        
+    </script>
+
+</body>
+</html>

@@ -12,6 +12,7 @@ from selenium.webdriver.support.ui import Select
 
 dataset_message='Please Click the Get Data Button'
 select='none'
+years=0
 complete=0
 marketdata = Blueprint('marketdata', __name__)
 
@@ -25,19 +26,29 @@ def get_status():
 def market():
     global select
     global dataset_message
-    if request.method == 'POST':
-        select=request.form['state']
+    global years
+    return render_template("dataset.html",response_data=response_data,dataset_message=dataset_message)
+
+@marketdata.route('/input', methods=['POST', 'GET'])
+def input():
+    global select
+    global dataset_message
+    global years
+    
+    select=request.form['state']
+    years=request.form['years']
     
     return render_template("dataset.html",response_data=response_data,dataset_message=dataset_message)
+
 @marketdata.route('/marketdata',methods=['POST','GET'])
 def market_data():
 
     global complete
     global select
     global dataset_message
+    global years
     complete=0
     dataset_message='Please wait while we are fetching the dataset for you'
-    
     
     maincrop=response_data['main_crop']
     df=pd.read_csv("dataset/sys/output.csv")
@@ -46,7 +57,7 @@ def market_data():
     value=result[0]['value']
     print(value)
 
-
+    print("selcwvm====",select)
 
     commodity_value=value#banana
     if select!='none':
@@ -54,8 +65,8 @@ def market_data():
     else:
         state=response_data['state_code']
     
-
-
+    yea=int(years)
+    print('years========',yea)
 
     current_directory = os.getcwd()
     parent_directory = os.path.dirname(current_directory)
@@ -66,7 +77,7 @@ def market_data():
     url ="https://agmarknet.gov.in/Default.aspx"
 
     today = date.today()
-    d1 = today.replace(year=today.year-1).strftime("%d-%b-%Y")
+    d1 = today.replace(year=today.year-int(yea)).strftime("%d-%b-%Y")
     d2 = today.replace(month=today.month-1).strftime("%d-%b-%Y")
     frame = "from date :"+d1,"to date:"+d2
     print(state,frame)
@@ -125,7 +136,7 @@ def market_data():
     dataset_message = 'Dataset Aquired set to Download'
     time.sleep(10)
 
-    driver.close()
+    driver.minimize_window()
     dataset_message = 'Driver Teminated'
     xls_file = target_directory + "\Agmarknet_Price_Report.xls"
     raw = pd.read_html(xls_file)
