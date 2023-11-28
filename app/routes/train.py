@@ -7,7 +7,7 @@ import pickle
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
-
+from routes.crop import response_data
 message='Please Click the Train Button'
 complete=0
 pre={}
@@ -22,19 +22,20 @@ def display():
     global complete
     global pre
     # get the dataset ready
-    dir = response_data['dataset_loc']
-    df=pd.read_csv(dir)
+    # dir = response_data['dataset_loc']
+    # der=r'app\dataset\KK_16_22-Nov-2022_22-Oct-2023.csv'
+    # df=pd.read_csv(dir)
 
-    # get a list of all unique of all the columns
-    district_list = df['District Name'].unique().tolist()
-    market_list = df['Market Name'].unique().tolist()
-    commodity_list = df['Commodity'].unique().tolist()
-    variety_list = df['Variety'].unique().tolist()
-    grade_list = df['Grade'].unique().tolist()
+    # # get a list of all unique of all the columns
+    # district_list = df['District Name'].unique().tolist()
+    # market_list = df['Market Name'].unique().tolist()
+    # commodity_list = df['Commodity'].unique().tolist()
+    # variety_list = df['Variety'].unique().tolist()
+    # grade_list = df['Grade'].unique().tolist()
 
 
-
-    return render_template("price.html",message=message,complete=complete,district_list=district_list,market_list=market_list,commodity_list=commodity_list,variety_list=variety_list,grade_list=grade_list)
+    return render_template("price.html")
+    # return render_template("price.html",message=message,complete=complete,district_list=district_list,market_list=market_list,commodity_list=commodity_list,variety_list=variety_list,grade_list=grade_list)
 
 
 @train.route('/train_status', methods=['POST', 'GET'])
