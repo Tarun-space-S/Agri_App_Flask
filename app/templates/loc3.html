@@ -38,64 +38,79 @@
         #result {
             margin-top: 20px;
         }
+        
     </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/ashwathy.css') }}">
 </head>
 <body>
 
 <div class="container">
     <h1 id="statusDisplay"></h1>
 
-    <form id="pincodeForm">
+    <form id="pincodeForm" action="/loc3" method="post">
         <label for="pincode">Enter Pincode:</label>
         <input type="text" id="pincode" name="pincode" required>
         <button type="button" onclick="getLocationDetails()">Get Location Details</button>
-        
-
+        <div id="locationd"></div>
     </form>
-    <div id="result"></div>
-<button style="display: none; align-self: center;" class="lbutton" id="proceedButton">Proceed</button>
-
 </div>
-<h1 id="statusDisplay"></h1>
-<h2>hello</h2>
+
 <script>
     function getLocationDetails() {
-    const pincode = document.getElementById("pincode").value;
-    const resultDiv = document.getElementById("result");
-    const proceedButton = document.getElementById("proceedButton");
+        const pincode = document.getElementById("pincode").value;
+        const resultDiv = document.getElementById("result");
+      
+        const locationd = document.getElementById("locationd");
+        const apiKey = 'e0020e8a39f64f6eaf50f342473b0a6d';
+        const url = `https://api.opencagedata.com/geocode/v1/json?q=${pincode}&key=${apiKey}`;
 
-    const apiKey = 'e0020e8a39f64f6eaf50f342473b0a6d';
-    const url = `https://api.opencagedata.com/geocode/v1/json?q=${pincode}&key=${apiKey}`;
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                const results = data.results[0];
+                const { geometry, components } = results;
 
-    fetch(url)
-        .then(response => response.json())
-        .then(data => {
-            const results = data.results[0];
-            const { geometry, components } = results;
+                const latitude = geometry.lat;
+                const longitude = geometry.lng;
+                const state = components.state;
+                const country = components.country;
 
-            const latitude = geometry.lat;
-            const longitude = geometry.lng;
-            const state = components.state;
-            const country = components.country;
-            
-            const list = ["kkkk", "kkkk", "kkk", "kkkk", "kkkk", state, "kkkk", country];
-            const address = list.join(", ");
+                const list = ["kkkk", "kkkk", "kkk", "kkkk", "kkkk", state, "kkkk", country];
+                const address = list.join(", ");
+                const locationS = `Latitude: ${latitude}, Longitude: ${longitude}, state: ${state},country:${country}`;
+                locationd.innerHTML = locationS;
 
-            const locationDetails = `
-            <p>Latitude: ${latitude}</p>
-                <p>Longitude: ${longitude}</p>
-                <p>State: ${state}</p>
-                <p>Country: ${country}</p>
-                
-            `;
-
-            resultDiv.innerHTML = locationDetails;
-
-         } )
-}
-
+                fetch('/get_location', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ latitude, longitude, address })
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById("res").innerHTML = data.message+' '+data.status;
+                        if (data.status =='1') {
+                            const button = document.getElementById("proceedButton");
+                            button.innerHTML = "Proceed";
+                            button.style.display = "block";  
+                            button.onclick = function () {
+                                window.location.href = '/weather';
+                            };
+                        }
+                    })
+                    .catch(() => {
+                        resultDiv.textContent = "Error fetching data from API";
+                    });
+            })
+            .catch(() => {
+                resultDiv.textContent = "Error getting location data";
+            });
+    }
 </script>
+
 <h1 id="res" style="text-decoration-color: chartreuse;align-self: center;"></h1>
+<div id="result"></div>
+    <button style="display: none; align-self: center;" class="lbutton" id="proceedButton">Proceed</button>
 </body>
 </html>
-
