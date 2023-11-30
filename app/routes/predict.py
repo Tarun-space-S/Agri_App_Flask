@@ -5,9 +5,9 @@ import pickle
 
 
 
-final_model = pickle.load(open('models/model_to_put_to_app.pkl','rb'))
-ss  = pickle.load(open('models/standscaler.pkl','rb'))
-ms = pickle.load(open('models/minmaxscaler.pkl','rb'))
+final_model = pickle.load(open('models/main/model_to_put_to_app.pkl','rb'))
+ss  = pickle.load(open('models/main/standscaler.pkl','rb'))
+ms = pickle.load(open('models/main/minmaxscaler.pkl','rb'))
 
 
 prediction = Blueprint('prediction', __name__)

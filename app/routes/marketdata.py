@@ -12,7 +12,7 @@ from selenium.webdriver.support.ui import Select
 
 dataset_message='Please Click the Get Data Button'
 select='none'
-years=0
+years=1
 complete=0
 marketdata = Blueprint('marketdata', __name__)
 
@@ -153,8 +153,9 @@ def market_data():
     else:
         print(f"File '{file_path}' does not exist.")
 
-    complete = 1
     dataset_message = "Dataset retrived successfully for " + state + " " + str(commodity_value) + " " + d1 + " " + d2 + " as csv with name" + data_name_format
+    response_data.update({'dataset_loc':target_directory + f"\{data_name_format}"})
+    complete = 1
         # return render_template("dataset.html",dataset_message=dataset_message,response_data=response_data)
     return jsonify(message="SUCCESSFUL",response_data=response_data)
 
