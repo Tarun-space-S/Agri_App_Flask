@@ -18,16 +18,16 @@ function checkPhValue() {
 
     if (isNaN(pHValue)) {
         pHAlert.textContent = "Please enter a valid pH value.";
-        getRecommendationButton.disabled = true; // Disable the button
+        getRecommendationButton.disabled = true; 
     } else if (pHValue < 0 || pHValue > 14) {
         pHAlert.textContent = "pH value must be between 0 and 14.";
         getRecommendationButton.disabled = true; // Disable the button
     } else {
-        pHAlert.textContent = ""; // Clear the alert message
+        pHAlert.textContent = ""; 
         getRecommendationButton.disabled = false; // Enable the button
     }
 }
-function checkPotassiumValue() {
+function checkPotassiumValue()/*205*/ {
     var PotInput = document.getElementById("Potassium");
     var PotAlert = document.getElementById("PotAlert");
     var PotValue = parseFloat(PotInput.value);
@@ -35,12 +35,12 @@ function checkPotassiumValue() {
 
     if (isNaN(PotValue)) {
         PotAlert.textContent = "Please enter a valid potassium value.";
-        getRecommendationButton.disabled = true; // Disable the button
-    } else if (PotValue < 0 || PotValue > 10000) {
-        PotAlert.textContent = "Potassium value must be between 0 and 10000.";
+        getRecommendationButton.disabled = true; 
+    } else if (PotValue < 0 || PotValue > 300) {
+        PotAlert.textContent = "Potassium value must be between 0 and 300.";
         getRecommendationButton.disabled = true; // Disable the button
     } else {
-        PotAlert.textContent = ""; // Clear the alert message
+        PotAlert.textContent = ""; 
         getRecommendationButton.disabled = false; // Enable the button
     }
 }
@@ -53,8 +53,8 @@ function checkNitrogenValue() {
         if (isNaN(NitrogenValue)) {
             NitrogenAlert.textContent = "Please enter a valid nitrogen value.";
             getRecommendationButton.disabled = true;
-        } else if (NitrogenValue < 0 || NitrogenValue > 10000) {
-            NitrogenAlert.textContent = "Nitrogen value must be between 0 and 10000.";
+        } else if (NitrogenValue < 0 || NitrogenValue > 200) {/*140*/
+            NitrogenAlert.textContent = "Nitrogen value must be between 0 and 200.";
             getRecommendationButton.disabled = true;
         } else {
             NitrogenAlert.textContent = "";
@@ -62,7 +62,7 @@ function checkNitrogenValue() {
         }
     }
 
-    function checkPhosphorusValue() {
+    function checkPhosphorusValue() /*145*/{
         var PhosphorusInput = document.getElementById("Phosphorus");
         var PhosphorusAlert = document.getElementById("PhosphorusAlert");
         var PhosphorusValue = parseFloat(PhosphorusInput.value);
@@ -71,8 +71,8 @@ function checkNitrogenValue() {
         if (isNaN(PhosphorusValue)) {
             PhosphorusAlert.textContent = "Please enter a valid phosphorus value.";
             getRecommendationButton.disabled = true;
-        } else if (PhosphorusValue < 0 || PhosphorusValue > 5000) {
-            PhosphorusAlert.textContent = "Phosphorus value must be between 0 and 5000.";
+        } else if (PhosphorusValue < 0 || PhosphorusValue > 200) {
+            PhosphorusAlert.textContent = "Phosphorus value must be between 0 and 200.";
             getRecommendationButton.disabled = true;
         } else {
             PhosphorusAlert.textContent = "";
