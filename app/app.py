@@ -28,3 +28,6 @@ def about():
 @app.route('/loc2')
 def loc2():
     return render_template('loc2.html')
+@app.route('/loc3')
+def loc3():
+    return render_template('loc3.html')

@@ -621,3 +621,36 @@ footer .copyright {
   margin: 20px 0;
 }
 /*MARKET*/
+/*LOC2*/
+#l2body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 50px auto;
+  align-items: center;
+}
+#lform {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(44, 187, 99, 0.35);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease; /* Add a transition for a smooth effect */
+}
+
+#lform:hover {
+  transform: scale(1.05); /* Scale up the form on hover */
+}
+#locationd {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+#locationd p {
+  margin: 0;
+}

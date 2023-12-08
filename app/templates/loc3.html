@@ -27,39 +27,48 @@
             margin-bottom: 16px;
             box-sizing: border-box;
         }
-        button {
-            background-color: #4caf50;
-            color: #fff;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
         #result {
             margin-top: 20px;
         }
     </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/ashwathy.css') }}">
 </head>
+{% extends 'base.html' %}
+{% block content %}
 <body>
-
+<div id="l2body">
 <div class="container">
-    <h2>Pincode to Location</h2>
-    <form id="pincodeForm">
+    <h1 id="statusDisplay"></h1>
+
+    <form id="lform" action="/loc3" method="post">
         <label for="pincode">Enter Pincode:</label>
         <input type="text" id="pincode" name="pincode" required>
-        <button type="button" onclick="getLocationDetails()">Get Location Details</button>
+        <button type="button" onclick="getLocationDetails()" class="Iprimary">Get Location Details</button>
+        <div id="locationd"></div>
     </form>
-    <div id="result"></div>
 </div>
 
 <script>
     function getLocationDetails() {
-        const pincode = document.getElementById("pincode").value;
+        const pincodeInput = document.getElementById("pincode");
+        const pincode = pincodeInput.value;
         const resultDiv = document.getElementById("result");
 
-        
-        const apiKey = 'e0020e8a39f64f6eaf50f342473b0a6d';
+        // Regular expression for pin code validation
+        const pinRegex = /^[1-9]\d{5}$/;
 
+        if (!pinRegex.test(pincode)) {
+            resultDiv.textContent = "Invalid Pincode. Please enter a valid 6-digit pincode.";
+            resultDiv.style.color = "red";
+            return;
+        } else {
+            // Clear the error message when a valid pin code is entered
+            resultDiv.textContent = "";
+        }
+
+        // If the pin code is valid, proceed with location fetching
+        const locationd = document.getElementById("locationd");
+        const apiKey = 'e0020e8a39f64f6eaf50f342473b0a6d';
         const url = `https://api.opencagedata.com/geocode/v1/json?q=${pincode}&key=${apiKey}`;
 
         fetch(url)
@@ -73,21 +82,48 @@
                 const state = components.state;
                 const country = components.country;
 
-                const locationDetails = `
-                    <p>Latitude: ${latitude}</p>
-                    <p>Longitude: ${longitude}</p>
-                    <p>State: ${state}</p>
-                    <p>Country: ${country}</p>
-                `;
+                const list = ["kkkk", "kkkk", "kkk", "kkkk", "kkkk", state, "kkkk", country];
+                const address = list.join(", ");
+                const locationS = `Latitude: ${latitude}, 
+                Longitude: ${longitude}, 
+                state: ${state},
+                country:${country}`;
+                locationd.innerHTML = locationS;
 
-                resultDiv.innerHTML = locationDetails;
+                fetch('/get_location', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ latitude, longitude, address })
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById("res").innerHTML = data.message+' '+data.status;
+                        if (data.status =='1') {
+                            const button = document.getElementById("proceedButton");
+                            button.innerHTML = "Proceed";
+                            button.style.display = "block";  
+                            button.onclick = function () {
+                                window.location.href = '/weather';
+                            };
+                        }
+                    })
+                    .catch(() => {
+                        resultDiv.textContent = "Error fetching data from API";
+                    });
             })
-            .catch(error => {
-                console.error("Error fetching location details:", error);
-                resultDiv.innerHTML = "<p>Error fetching location details. Please try again.</p>";
+            .catch(() => {
+                resultDiv.textContent = "Error getting location data";
             });
     }
 </script>
 
+
+<h1 id="res" style="text-decoration-color: chartreuse;align-self: center;"></h1>
+<div id="result"></div>
+    <button  class="Iprimary" style="display: none; align-self: center;margin-top: 20px;" id="proceedButton">Proceed</button>
+</div>
 </body>
+{% endblock %}
 </html>
