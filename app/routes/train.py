@@ -46,8 +46,8 @@ def train_model():
     acc={'layer1':0,'layer2':0,'layer3':0}
     complete=0
     message='Please wait while we are training the model for you'
-    # dir = response_data['dataset_loc'] 
-    dir=r'dataset\KK_19_08-Dec-2022_08-Nov-2023.csv'
+    dir = response_data['dataset_loc'] 
+    # dir=r'dataset\KK_19_08-Dec-2022_08-Nov-2023.csv'
     df = pd.read_csv(dir)
     data=df.copy()
     message='Dataset Loaded'

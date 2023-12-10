@@ -34,9 +34,12 @@ def inpp():
     global select
     global dataset_message
     global years
-    select=request.form.get('state')
-    years=request.form.get('years')
-    return render_template("dataset.html",response_data=response_data,dataset_message=dataset_message)
+
+    proceed=1
+    select=request.form['in_state']
+    years=request.form['in_years']
+    print(select,years)
+    return render_template("dataset.html",response_data=response_data,dataset_message=dataset_message,proceed=proceed)
 
 @marketdata.route('/marketdata',methods=['POST','GET'])
 def market_data():
@@ -88,7 +91,7 @@ def market_data():
     dateFrom = today.replace(year=today.year-int(years)).strftime("%d-%b-%Y")
     dateTo = today.replace(month=today.month-1).strftime("%d-%b-%Y")
     frame = "from date :"+dateFrom,"to date:"+dateTo
-    
+    print(commodity,state,dateFrom,dateTo,commodity_name,state_name)
 
 
     options = Options()

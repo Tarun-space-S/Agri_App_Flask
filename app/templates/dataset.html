@@ -18,10 +18,11 @@
     <div id="mbody">
   <form action="/input" method="POST">
     <label for="years">Number of Years data</label>
-    <input type="number" id="years" name="years" min="1" max="3"><br><br>
-    <label for="state">Select State</label>
+    <input type="number" id="in_years" name="in_years" min="1" max="3"><br><br>
 
-    <select id="state" name="state" >
+
+    <label for="state">Select State</label>
+    <select id="in_state" name="in_state" >
       <option value="{{response_data['state_code']}}">{{response_data['state']}}</option>
       <option value="AP">Andhra Pradesh</option>
       <option value="AR">Arunachal Pradesh</option>
@@ -61,7 +62,9 @@
   </select>
   <button type="submit" class="Mprimary">Submit</button>
   </form>
+  
   <button id="get_data" class="Mprimary" style="display: none;">Get Data</button>
+  
   <br>
   <br>
   <h2 id="status" style="text-align: center;"></h2>
@@ -80,10 +83,10 @@
     const form = document.querySelector("form");
     let intervalId;
 
-    form.addEventListener("submit", function(event) {
-      event.preventDefault(); // Prevent the default form submission behavior
-      button.style.display = "block"; // Show the "Get Data" button
-    });
+    {% if proceed == 1 %}
+      button.style.display = "block";
+    {% endif %}
+    
     button.addEventListener("click", () => {
       clearInterval(intervalId);
       fetchDataAndUpdateStatus();
