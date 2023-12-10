@@ -61,8 +61,6 @@
   </select>
   <button type="submit" class="Mprimary">Submit</button>
   </form>
-  <button id="get_status" class="Mprimary">Status</button>
-  <!-- Initially hide the "Get Data" button -->
   <button id="get_data" class="Mprimary" style="display: none;">Get Data</button>
   <br>
   <br>
@@ -77,18 +75,20 @@
     <a href="/display"><button>Train Model</button></a>
   {% endif %}
   <script>
-    const button = document.querySelector("#get_status");
+    const button = document.querySelector("#get_data");
     const status = document.getElementById("status");
-    const getdata = document.querySelector("#get_data");
+    const form = document.querySelector("form");
     let intervalId;
 
+    form.addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent the default form submission behavior
+      button.style.display = "block"; // Show the "Get Data" button
+    });
     button.addEventListener("click", () => {
       clearInterval(intervalId);
       fetchDataAndUpdateStatus();
       intervalId = setInterval(fetchDataAndUpdateStatus, 500);
-      
-      // Show the "Get Data" button when the "Status" button is clicked
-      getdata.style.display = "inline-block";
+      dataget();
     });
 
     function fetchDataAndUpdateStatus() {
@@ -121,7 +121,7 @@
         });
     };
 
-    getdata.addEventListener("click", () => {
+    function dataget(){
       fetch('/marketdata', {
           method: 'GET',
           headers: {
@@ -135,7 +135,7 @@
         .catch(() => {
           console.error("Error fetching market data from API");
         });
-    });
+    };
   </script>
 </body>
 {% endblock %}

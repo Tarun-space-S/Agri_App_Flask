@@ -58,8 +58,8 @@
         <h2 id="min_price">Minimum Price: {{response_data['min_price']}} (Rs./Quintal)</h2>
         <h2 id="max_price">Maximum Price: {{response_data['max_price']}} (Rs./Quintal)</h2>
         <h2 id="modal_price">Modal Price: {{response_data['mod_price']}} (Rs./Quintal)</h2>
-        <h2>The market trend of crop: {{response_data['main_crop']}}</h2>
-        <img src="data:image/png;base64,{{ graph }}" alt="plot">
+        
+        <img src="data:image/png;base64,{{response_data['graph']}}" alt="plot">
 
     </div>
 </body>

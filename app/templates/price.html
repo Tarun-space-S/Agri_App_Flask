@@ -1,108 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Dataset</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/price.css') }}">
+<title>Get Price</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/price.css') }}">
 </head>
 <body >
+<h1>Get Price</h1>
 <div id="pbody">
-    <button id="train_data" class="Mprimary">Start Train</button>
-    <h3 id="status"></h3>
-    <button id="predict" class="Mprimary">Get Data</button>
-    <h2 id="data"></h2>
-
-  <form action="/" method="post">
+  <form action="/predict_price" method="POST" onsubmit="return validateForm()">
     <label for="district">Select District</label>
     <select id="district" name="district" >
       {% for district in district_list %}
       <option value="{{district}}">{{district}}</option>
       {% endfor %}
-
     </select>
+
     <label for="market">Select Market</label>
     <select id="market" name="market" >
-      <option value="{{response_data['state_code']}}">{{response_data['state']}}</option>
-      <option value="AP">Andhra Pradesh</option>
-      <option value="AR">Arunachal Pradesh</option>
-      <option value="AS">Assam</option>
-
+      {% for market in market_list%}
+      <option value="{{market}}">{{market}}</option>
+      {% endfor %}
     </select>
-    <label for="Commodity">Select Commodity</label>
-    <select id="Commodity" name="Commodity" >
-      <option value="{{response_data['state_code']}}">{{response_data['state']}}</option>
-      <option value="AP">Andhra Pradesh</option>
-      <option value="AR">Arunachal Pradesh</option>
-      <option value="AS">Assam</option>
-    </select>
-
-    <label for="Variety">Select Variety</label>
-    <select id="Variety" name="Variety" >
-      <option value="{{response_data['state_code']}}">{{response_data['state']}}</option>
-      <option value="AP">Andhra Pradesh</option>
-      <option value="AR">Arunachal Pradesh</option>
-      <option value="AS">Assam</option> 
-    </select>
-    <label for="Grade">Select Grade</label>
-    <select id="Grade" name="Grade" >
-      <option value="{{response_data['state_code']}}">{{response_data['state']}}</option>
-      <option value="AP">Andhra Pradesh</option>
-      <option value="AR">Arunachal Pradesh</option>
-      <option value="AS">Assam</option>
-    </select>
-
-  </form> 
-</div>
-  <script>
-  const predict = document.querySelector("#predict");
-  const button = document.querySelector("#train_data");
-  const status = document.getElementById("status"); // Get the status div
-  let intervalId;
-
-  button.addEventListener("click", () => {
-    clearInterval(intervalId);
-    fetchDataAndUpdateStatus();
-    intervalId = setInterval(fetchDataAndUpdateStatus, 500);
     
-    // Show the "Get Data" button when the "Status" button is clicked
-    getdata.style.display = "inline-block";
-  });
+    <label for="commodity">Select Commodity</label>
+    <select id="commodity" name="commodity" >
+      {% for comm in commodity_list%}
+      <option value="{{comm}}">{{comm}}</option>
+      {% endfor %}
+    </select>
 
-  function fetchDataAndUpdateStatus() {
-    fetch('/train_status', {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      })
-      .then(response => response.json())
-      .then(data => {
-        status.textContent = data.status;
+    <label for="variety">Select Variety</label>
+    <select id="variety" name="variety" >
+      {% for var in variety_list%}
+      <option value="{{var}}">{{var}}</option>
+      {% endfor %}
+    </select>
+    <label for="grade">Select Grade</label>
+    <select id="grade" name="grade" >
+      {% for grade in grade_list%}
+      <option value="{{grade}}">{{grade}}</option>
+      {% endfor %}
+    </select>
+    <label for="date">Select a date:</label>
+    <input type="date" id="date" name="date" min="{{today_date}}" >
 
-        if (data.complete === 1) {
-          clearInterval(intervalId);
-        }
-      })
-      .catch(() => {
-        status.textContent = "Error fetching data from API";
-      });
-  };
+    <br>
+    <br>
+    <button type="submit" class="Mprimary" id="getRecommendationButton" href="">Get Price</button>
+  </form>
+  <script>
+    function validateForm() {
+        var inputDate = document.getElementById("date").value;// Set time to 00:00:00 to ignore time part
 
-  predict.addEventListener("click", () => {
-    fetch('/train', {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json'
+        // Check if the date is not entered
+        if (inputDate === '') {
+            alert("Please enter a date.");
+            return false;
         }
-      })
-      .then(response => response.json())
-      .then(data => {
-        document.getElementById("data").textContent = data.message;
-      })
-      .catch(() => {
-        console.error("Error fetching market data from API");
-      });
-      });
+
+        return true;
+    }
   </script>
-
+</div>
 </body>
 </html>
