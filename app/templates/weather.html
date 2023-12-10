@@ -2,7 +2,6 @@
 <html>
 <head>
 <style>
-
 /* Add some basic styling for the table */
 table {
   border-collapse: collapse;
@@ -41,10 +40,13 @@ caption {
   color: #555;
 }
 </style>
-<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/weather_style.css')}}">
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/ashwathy.css')}}">
 </head>
-<body style="background-image: url('../static/images/weather1.jpg');">
-
+<body>
+ 
+  <div id="wbody">
+    {% extends 'base.html' %}
+    {% block content %}
 <table>
   <caption>Info Gathered</caption>
   {% for key, value in response_data.items() %}
@@ -54,8 +56,13 @@ caption {
     </tr>
   {%endfor%}
 </table>
-<button><a href="/model">Proceed</a></button>
-<button><a href="/location">Go Back</a></button>
-<button><a href="/">Go to Home</a></button>
+<button class="wbutton"><a href="/model">Proceed</a></button>
+<button class="wbutton"><a href="/location">Go Back</a></button>
+<button class="wbutton"><a href="/">Go to Home</a></button>
+</div>
+
+{% endblock %}
+
+
 </body>
 </html>

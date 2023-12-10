@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommended Crop Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #4CAF50;
+        }
+        #main_crop, #min_price, #max_price, #modal_price {
+            color: #333;
+            margin-bottom: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        table tr:nth-child(even){background-color: #f2f2f2;}
+        table tr:hover {background-color: #ddd;}
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .plot-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>The Most Recommended Crop</h1>
+        <h2 id="main_crop">{{response_data['main_crop']}}</h2>
+        <h3 id="h3s">The Best Sub_crops compatible with {{response_data['main_crop']}} RANKED are</h3>
+        <table>
+            {% for key in response_data['sub_crops'] %}
+                <tr>
+                    <td>{{key[0]}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        <h2>The predicted price of crop by {{response_data['price_date']}}</h2>
+        <h2 id="min_price">Minimum Price: {{response_data['min_price']}} (Rs./Quintal)</h2>
+        <h2 id="max_price">Maximum Price: {{response_data['max_price']}} (Rs./Quintal)</h2>
+        <h2 id="modal_price">Modal Price: {{response_data['mod_price']}} (Rs./Quintal)</h2>
+        
+        <img src="data:image/png;base64,{{response_data['graph']}}" alt="plot">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dataset</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/market.css') }}">
+  <style>
+  #get_status,
+  #get_data {
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px;
+  }
+</style>
+</head>
+{% extends 'base.html' %}
+{% block content %}
+<body>
+    <div id="mbody">
+  <form action="/input" method="POST">
+    <label for="years">Number of Years data</label>
+    <input type="number" id="years" name="years" min="1" max="3"><br><br>
+    <label for="state">Select State</label>
+
+    <select id="state" name="state" >
+      <option value="{{response_data['state_code']}}">{{response_data['state']}}</option>
+      <option value="AP">Andhra Pradesh</option>
+      <option value="AR">Arunachal Pradesh</option>
+      <option value="AS">Assam</option>
+      <option value="BR">Bihar</option>
+      <option value="CH">Chandigarh</option>
+      <option value="CT">Chhattisgarh</option>
+      <option value="DN">Dadra and Nagar Haveli</option>
+      <option value="DD">Daman and Diu</option>
+      <option value="GA">Goa</option>
+      <option value="GJ">Gujarat</option>
+      <option value="HR">Haryana</option>
+      <option value="HP">Himachal Pradesh</option>
+      <option value="JK">Jammu and Kashmir</option>
+      <option value="JH">Jharkhand</option>
+      <option value="KA">Karnataka</option>
+      <option value="KL">Kerala</option>
+      <option value="LD">Lakshadweep</option>
+      <option value="MP">Madhya Pradesh</option>
+      <option value="MH">Maharashtra</option>
+      <option value="MN">Manipur</option>
+      <option value="ML">Meghalaya</option>
+      <option value="MZ">Mizoram</option>
+      <option value="NL">Nagaland</option>
+      <option value="DL">NCT of Delhi</option>
+      <option value="OR">Odisha</option>
+      <option value="PY">Pondicherry</option>
+      <option value="PB">Punjab</option>
+      <option value="RJ">Rajasthan</option>
+      <option value="SK">Sikkim</option>
+      <option value="TN">Tamil Nadu</option>
+      <option value="TG">Telangana</option>
+      <option value="TR">Tripura</option>
+      <option value="UP">Uttar Pradesh</option>
+      <option value="UK">Uttarakhand</option>
+      <option value="WB">West Bengal</option>
+  </select>
+  <button type="submit" class="Mprimary">Submit</button>
+  </form>
+  <button id="get_data" class="Mprimary" style="display: none;">Get Data</button>
+  <br>
+  <br>
+  <h2 id="status" style="text-align: center;"></h2>
+  <h2 id="data"></h2>
+    
+</div>
+<h2 id="data"></h2>
+  
+  {% if complete == 1 %}
+    <!-- Show the "Train Model" button when the condition is met -->
+    <a href="/display"><button>Train Model</button></a>
+  {% endif %}
+  <script>
+    const button = document.querySelector("#get_data");
+    const status = document.getElementById("status");
+    const form = document.querySelector("form");
+    let intervalId;
+
+    form.addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent the default form submission behavior
+      button.style.display = "block"; // Show the "Get Data" button
+    });
+    button.addEventListener("click", () => {
+      clearInterval(intervalId);
+      fetchDataAndUpdateStatus();
+      intervalId = setInterval(fetchDataAndUpdateStatus, 500);
+      dataget();
+    });
+
+    function fetchDataAndUpdateStatus() {
+      fetch('/get_status', {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        })
+        .then(response => response.json())
+        .then(data => {
+          status.textContent = data.status;
+
+          if (data.complete === 1) {
+            clearInterval(intervalId);
+            const myButton = document.createElement('a');
+
+            // Set the href attribute to "/hello"
+            myButton.href = "/display";
+    
+            // Set the button text
+            myButton.textContent = "Proceed to Train";
+            const bd=document.getElementById("mbody");
+            // Append the button to the body or any other container
+            bd.appendChild(myButton);
+          }
+        })
+        .catch(() => {
+          status.textContent = "Error fetching data from API";
+        });
+    };
+
+    function dataget(){
+      fetch('/marketdata', {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        })
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById("data").textContent = data.message;
+        })
+        .catch(() => {
+          console.error("Error fetching market data from API");
+        });
+    };
+  </script>
+</body>
+{% endblock %}
+</html>

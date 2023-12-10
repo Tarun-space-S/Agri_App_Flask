@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Get Price</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/price.css') }}">
+</head>
+<body >
+<h1>Get Price</h1>
+<div id="pbody">
+  <form action="/predict_price" method="POST" onsubmit="return validateForm()">
+    <label for="district">Select District</label>
+    <select id="district" name="district" >
+      {% for district in district_list %}
+      <option value="{{district}}">{{district}}</option>
+      {% endfor %}
+    </select>
+
+    <label for="market">Select Market</label>
+    <select id="market" name="market" >
+      {% for market in market_list%}
+      <option value="{{market}}">{{market}}</option>
+      {% endfor %}
+    </select>
+    
+    <label for="commodity">Select Commodity</label>
+    <select id="commodity" name="commodity" >
+      {% for comm in commodity_list%}
+      <option value="{{comm}}">{{comm}}</option>
+      {% endfor %}
+    </select>
+
+    <label for="variety">Select Variety</label>
+    <select id="variety" name="variety" >
+      {% for var in variety_list%}
+      <option value="{{var}}">{{var}}</option>
+      {% endfor %}
+    </select>
+    <label for="grade">Select Grade</label>
+    <select id="grade" name="grade" >
+      {% for grade in grade_list%}
+      <option value="{{grade}}">{{grade}}</option>
+      {% endfor %}
+    </select>
+    <label for="date">Select a date:</label>
+    <input type="date" id="date" name="date" min="{{today_date}}" >
+
+    <br>
+    <br>
+    <button type="submit" class="Mprimary" id="getRecommendationButton" href="">Get Price</button>
+  </form>
+  <script>
+    function validateForm() {
+        var inputDate = document.getElementById("date").value;// Set time to 00:00:00 to ignore time part
+
+        // Check if the date is not entered
+        if (inputDate === '') {
+            alert("Please enter a date.");
+            return false;
+        }
+
+        return true;
+    }
+  </script>
+</div>
+</body>
+</html>

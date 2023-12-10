@@ -3,7 +3,7 @@ from io import StringIO
 from routes.crop import response_data
 import requests
 import csv
-
+import pandas as pd
 
 location=Blueprint('location',__name__)
 
@@ -11,16 +11,25 @@ location=Blueprint('location',__name__)
 def weather():
     return render_template("location.html")
 
+@location.route('/loc3', methods=['GET', 'POST'])
+def weather_loc3():
+    return render_template("loc3.html")
 
 @location.route('/get_location', methods=['POST', 'GET'])
 def get_location():
     # Retrieve latitude and longitude from the JSON data
+    status=0
     data = request.get_json()
     latitude = data.get('latitude')
     longitude = data.get('longitude')
     address=data.get('address')
-    api_key = 'ANG7KD72UDXLEX2RJJZFZ4J4R'
+    # api_key = 'ANG7KD72UDXLEX2RJJZFZ4J4R'
+    
+    api_key = 'B4M75WHYNBJLHJMNCBEBMDHGQ'
+
     url = f'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{latitude},{longitude}/last30days?unitGroup=metric&include=days&key={api_key}&contentType=csv'
+
+
 
     response = requests.get(url)
 
@@ -64,5 +73,14 @@ def get_location():
         print(f"Error: Unable to retrieve weather data. Status code: {response.status_code}")
     # Process the data (e.g., store it in a database, perform computations, etc.)
     # Return a response (optional)
-    response_data.update({'message': 'Location data received', 'latitude': latitude, 'longitude': longitude,'address':address})
-    return jsonify(response_data)
+    city=address.split(',')[-6]
+    state=address.split(',')[-3]
+    country=address.split(',')[-1]
+    state=state.strip()
+    df = pd.read_csv("dataset/sys/state.csv")
+    df = df[df['state'] == state]
+    code = df['code'].values[0]
+
+    response_data.update({'latitude': latitude, 'longitude': longitude,'city':city,'state':state,'state_code':code,'country':country,'address':address})
+    status=1
+    return jsonify(message='Weather data retrieved',status='1')

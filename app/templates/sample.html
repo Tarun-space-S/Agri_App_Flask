@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Training Page</title>
+</head>
+<body>
+
+    <h2 id="status">Status: Waiting for Action</h2>
+    <button id="trainButton">Train</button>
+    <div id="bod">
+        <h2>Accuracy</h2>
+        <h2 id="l1"></h2>
+        <h2 id="l2"></h2>
+        <h2 id="l3"></h2>
+    </div>
+    <h2 id="data"></h2>
+    <button id="trainAgainButton" style="display: none;">Train Again</button>
+    <a href="/price_input"><button id="nextButton" style="display: none;" >Next</button></a>
+    
+    <script>
+        const trainButton = document.querySelector("#trainButton");
+        const status = document.getElementById("status");
+        const l1 = document.getElementById("l1");
+        const l2 = document.getElementById("l2");   
+        const l3 = document.getElementById("l3");
+        const trainAgainButton = document.getElementById("trainAgainButton");
+        const nextButton = document.getElementById("nextButton");
+
+        let intervalId;
+        function fetchDataAndUpdateStatus() {
+            fetch('/train_status', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+                })
+                .then(response => response.json())
+                .then(data => {
+                status.textContent = data.status;
+                l1.textContent = "Layer 1:"+data.acc['layer1'];
+                l2.textContent = "Layer 2:"+data.acc['layer2'];
+                l3.textContent = "Layer 3:"+data.acc['layer3'];
+                if (data.complete === 1) {
+                    clearInterval(intervalId);
+                    trainButton.style.display = "none"; // Hide train button
+                    trainAgainButton.style.display = "inline-block"; // Display train again button
+                    nextButton.style.display = "inline-block"; // Display next button
+                }
+                })
+                .catch(() => {
+                status.textContent = "Error fetching data from API";
+                });
+        };
+
+        trainButton.addEventListener("click", () => {
+            clearInterval(intervalId);
+            fetchDataAndUpdateStatus();
+            intervalId = setInterval(fetchDataAndUpdateStatus, 500);
+            train();
+        });
+
+        function train(){fetch('/train', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+            })
+            .then(response => response.json())
+            .then(data => {
+            document.getElementById("data").textContent = data.message;
+            })
+            .catch(() => {
+            console.error("Error fetching market data from API");
+        });}
+
+        // Event listener for Train Again button
+        trainAgainButton.addEventListener("click", () => {
+            train();
+            clearInterval(intervalId);
+            fetchDataAndUpdateStatus();
+            intervalId = setInterval(fetchDataAndUpdateStatus, 500);
+        });
+
+        
+
+
+
+        
+    </script>
+
+</body>
+</html>

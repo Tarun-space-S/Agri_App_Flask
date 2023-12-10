@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geolocation App</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/loc.css') }}">
-
 </head>
-<body style="background-image: url('../static/images/img2.jpg');">
-    <button id="myButton">Get Location</button>
+<body>
+    {% extends 'base.html' %}
+    {% block content %}
+    <div id="locbody" style="background-image: url('../static/images/img2.jpg');">
+    <button id="myButton" class="lbutton">Get Location</button>
     <div id="locationData"></div> 
     <div id="weatherData"></div> 
     <script>
         const button = document.querySelector("#myButton");
         const locationDataDiv = document.getElementById("locationData"); // Get the location data div
         const weatherDataDiv = document.getElementById("weatherData"); // Get the weather data div
-
+        const status=0;
+          // Replace with your actual API key
         button.addEventListener("click", () => {
             navigator.geolocation.getCurrentPosition(position => {
                 const latitude = position.coords.latitude;
@@ -38,22 +41,22 @@
                             headers: {
                                 'Content-Type': 'application/json'
                             },
-                            body: JSON.stringify({ latitude, longitude,address })
+                            body: JSON.stringify({ latitude,longitude,address })
                         })
                             .then(response => response.json())
-                            // .then(data => {
-                            //     if (data.error) {
-                            //         weatherDataDiv.textContent = data.error;
-                            //     } else {
-                            //         const weatherLocation = data.location;
-                            //         const weatherInfo = data.weather_data.map(item => `${item.date}: Max Temp ${item.temp_max}°C, Min Temp ${item.temp_min}°C`).join('<br>');
-                            //         weatherDataDiv.innerHTML = `<strong>Weather for ${weatherLocation}:</strong><br>${weatherInfo}`;
-                            //     }
-                            // })
-                            // .catch(() => {
-                            //     weatherDataDiv.textContent = "Error fetching weather data";
-                            // });
-                    })
+                            .then(data => {
+                                document.getElementById("res").innerHTML = data.message;
+                                if(data.status=='1'){
+                                    const button = document.getElementById("proceedButton");
+                                    const button2 = document.getElementById("manualEntryButton");
+                                    button.innerHTML = "Proceed";
+                                    button2.innerHTML = "Enter Manually";
+                                    button.onclick = function() {
+                                        location.href='/weather';
+                                    };
+                                }
+                            })
+                            })
                     .catch(() => {
                         locationDataDiv.textContent = "Error fetching data from API";
                     });
@@ -61,10 +64,21 @@
                 locationDataDiv.textContent = "Error getting location data";
             });
         });
+      
     </script>
-    <div class="container">
+    <h1 id="res" style="text-decoration-color: chartreuse;align-self: center;"></h1>
+    <div  id="result" class="container">
         <!-- <button class="btn btn-primary" onclick="location.href='/';">Home</button> -->
-        <button class="btn btn-primary" onclick="location.href='/weather';">Proceed</button>
+        <button style="align-self: center;" class="lbutton" id="proceedButton"></button>
+        <div class="divider" style="margin-right: 20px;"><span style="color: black;"></span></div>
+        <button id="manualEntryButton" class="lbutton"></button>
     </div>
+</div>
+<script>
+     manualEntryButton.addEventListener("click", () => {
+            window.location.href = '/loc3';
+            });
+</script>
 </body>
+{% endblock %}
 </html>
